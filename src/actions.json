@@ -1,0 +1,608 @@
+[
+	{
+		"swedish": "äta",
+		"characters": "食",
+		"pinyin": "sik6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "dricka",
+		"characters": "饮",
+		"pinyin": "jam2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sova",
+		"characters": "瞓觉",
+		"pinyin": "fan3 gaau3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "gå",
+		"characters": "行",
+		"pinyin": "haang4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "springa",
+		"characters": "跑",
+		"pinyin": "paau2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "hoppa",
+		"characters": "跳",
+		"pinyin": "tiu3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sitta",
+		"characters": "坐",
+		"pinyin": "co5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "stå",
+		"characters": "企",
+		"pinyin": "kei5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "tala",
+		"characters": "讲",
+		"pinyin": "gong2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "lyssna",
+		"characters": "听",
+		"pinyin": "teng1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "se",
+		"characters": "睇",
+		"pinyin": "tai2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "läsa",
+		"characters": "读",
+		"pinyin": "duk6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "skriva",
+		"characters": "写",
+		"pinyin": "se2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "öppna",
+		"characters": "开",
+		"pinyin": "hoi1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "stänga",
+		"characters": "闂",
+		"pinyin": "saan1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "komma",
+		"characters": "嚟",
+		"pinyin": "lei4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "gå bort",
+		"characters": "走",
+		"pinyin": "zau2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "arbeta",
+		"characters": "做嘢",
+		"pinyin": "zou6 je5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "studera",
+		"characters": "读书",
+		"pinyin": "duk6 syu1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "köpa",
+		"characters": "买",
+		"pinyin": "maai5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sälja",
+		"characters": "卖",
+		"pinyin": "maai6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "betala",
+		"characters": "畀钱",
+		"pinyin": "bei2 cin2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "laga mat",
+		"characters": "煮饭",
+		"pinyin": "zyu2 faan6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "städa",
+		"characters": "清洁",
+		"pinyin": "ceng1 git3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "tvätta",
+		"characters": "洗",
+		"pinyin": "sai2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "simma",
+		"characters": "游水",
+		"pinyin": "jau4 seoi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "cykla",
+		"characters": "踩单车",
+		"pinyin": "caai2 daan1 ce1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "köra",
+		"characters": "揸车",
+		"pinyin": "zaa1 ce1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "resa",
+		"characters": "旅行",
+		"pinyin": "leoi5 haang4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sjunga",
+		"characters": "唱歌",
+		"pinyin": "coeng3 go1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dansa",
+		"characters": "跳舞",
+		"pinyin": "tiu3 mou5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "spela",
+		"characters": "玩",
+		"pinyin": "waan2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "titta",
+		"characters": "睇住",
+		"pinyin": "tai2 zyu6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vänta",
+		"characters": "等",
+		"pinyin": "dang2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "hjälpa",
+		"characters": "帮手",
+		"pinyin": "bong1 sau2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "lära",
+		"characters": "学",
+		"pinyin": "hok6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "undervisa",
+		"characters": "教",
+		"pinyin": "gaau3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "förklara",
+		"characters": "解释",
+		"pinyin": "gaai2 sik1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "diskutera",
+		"characters": "讨论",
+		"pinyin": "tou2 leon6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "förhandla",
+		"characters": "谈判",
+		"pinyin": "taam4 pun3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "presentera",
+		"characters": "介绍",
+		"pinyin": "gaai3 siu6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "organisera",
+		"characters": "组织",
+		"pinyin": "zou2 zik1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "planera",
+		"characters": "计划",
+		"pinyin": "gai3 waak6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "förberede",
+		"characters": "准备",
+		"pinyin": "zeon2 bei6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "genomföra",
+		"characters": "执行",
+		"pinyin": "zap1 haang4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "utvärdera",
+		"characters": "评估",
+		"pinyin": "ping4 gu2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "analysera",
+		"characters": "分析",
+		"pinyin": "fan1 sik1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "designa",
+		"characters": "设计",
+		"pinyin": "cit3 gai3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "utveckla",
+		"characters": "开发",
+		"pinyin": "hoi1 faat3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "konstruera",
+		"characters": "建造",
+		"pinyin": "gin3 zou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "hoppa",
+		"characters": "跳",
+		"pinyin": "tiu3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "klättra",
+		"characters": "爬",
+		"pinyin": "paa4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "krypa",
+		"characters": "爬行",
+		"pinyin": "paa4 haang4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "rulla",
+		"characters": "滚",
+		"pinyin": "gwan2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "glida",
+		"characters": "滑",
+		"pinyin": "waat6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "falla",
+		"characters": "跌",
+		"pinyin": "dit3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "resa sig",
+		"characters": "起身",
+		"pinyin": "hei2 san1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "lägga sig",
+		"characters": "躺下",
+		"pinyin": "tong2 haa5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vända",
+		"characters": "转",
+		"pinyin": "zyun3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "böja",
+		"characters": "弯",
+		"pinyin": "waan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sträcka",
+		"characters": "伸",
+		"pinyin": "san1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "peka",
+		"characters": "指",
+		"pinyin": "zi2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "nudda",
+		"characters": "碰",
+		"pinyin": "pung3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ta",
+		"characters": "拿",
+		"pinyin": "naa4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ge",
+		"characters": "给",
+		"pinyin": "kap1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kasta",
+		"characters": "扔",
+		"pinyin": "jing4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "fånga",
+		"characters": "接",
+		"pinyin": "zip3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "hålla",
+		"characters": "拿住",
+		"pinyin": "naa4 zyu6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "släppa",
+		"characters": "放开",
+		"pinyin": "fong3 hoi1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dra",
+		"characters": "拉",
+		"pinyin": "laai1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "skjuta",
+		"characters": "推",
+		"pinyin": "teoi1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "lyfta",
+		"characters": "举起",
+		"pinyin": "geoi2 hei2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "bära",
+		"characters": "拿着",
+		"pinyin": "naa4 zyu6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "gömma",
+		"characters": "藏",
+		"pinyin": "cong4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "hitta",
+		"characters": "找到",
+		"pinyin": "zaau2 dou3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "söka",
+		"characters": "寻找",
+		"pinyin": "cam4 zaau2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "förlora",
+		"characters": "丢失",
+		"pinyin": "diu1 sat1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vinna",
+		"characters": "赢",
+		"pinyin": "jeng4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "förlora (tävling)",
+		"characters": "输",
+		"pinyin": "syu1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "tävla",
+		"characters": "比赛",
+		"pinyin": "bei2 coi3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "träna",
+		"characters": "训练",
+		"pinyin": "fan3 lin6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "öva",
+		"characters": "练习",
+		"pinyin": "lin6 zaap6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "repetera",
+		"characters": "重复",
+		"pinyin": "cung4 fuk1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "memorera",
+		"characters": "记住",
+		"pinyin": "gei3 zyu6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "glömma",
+		"characters": "忘记",
+		"pinyin": "mong4 gei3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "komma ihåg",
+		"characters": "记得",
+		"pinyin": "gei3 dak1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "tänka",
+		"characters": "想",
+		"pinyin": "soeng2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "förstå",
+		"characters": "明白",
+		"pinyin": "ming4 baak6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "veta",
+		"characters": "知道",
+		"pinyin": "zi1 dou3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "lära sig",
+		"characters": "学会",
+		"pinyin": "hok6 wui5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "känna",
+		"characters": "感觉",
+		"pinyin": "gam2 gok3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "lukta",
+		"characters": "闻",
+		"pinyin": "man4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "smaka",
+		"characters": "尝",
+		"pinyin": "soeng4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "röra",
+		"characters": "触摸",
+		"pinyin": "cuk1 mo2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vakna",
+		"characters": "醒来",
+		"pinyin": "seng2 loi4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "somna",
+		"characters": "入睡",
+		"pinyin": "jap6 seoi6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "drömma",
+		"characters": "做梦",
+		"pinyin": "zou6 mung6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "andas",
+		"characters": "呼吸",
+		"pinyin": "fu1 kap1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "hosta",
+		"characters": "咳嗽",
+		"pinyin": "kat1 sau3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "nysa",
+		"characters": "打喷嚏",
+		"pinyin": "daa2 pan3 tai3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "gäspa",
+		"characters": "打呵欠",
+		"pinyin": "daa2 ho1 him3",
+		"difficulty": 2
+	}
+]

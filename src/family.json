@@ -1,0 +1,602 @@
+[
+	{
+		"swedish": "familj",
+		"characters": "家庭",
+		"pinyin": "gaa1 ting4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "pappa",
+		"characters": "爸爸",
+		"pinyin": "baa4 baa1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "mamma",
+		"characters": "妈妈",
+		"pinyin": "maa4 maa1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "son",
+		"characters": "儿子",
+		"pinyin": "ji4 zi2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "dotter",
+		"characters": "女儿",
+		"pinyin": "neoi5 ji4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "bror",
+		"characters": "哥哥",
+		"pinyin": "go4 go1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "syster",
+		"characters": "姐姐",
+		"pinyin": "ze2 ze1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "morfar",
+		"characters": "外公",
+		"pinyin": "ngoi6 gung1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "mormor",
+		"characters": "外婆",
+		"pinyin": "ngoi6 po4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "farfar",
+		"characters": "爷爷",
+		"pinyin": "je4 je1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "farmor",
+		"characters": "嫲嫲",
+		"pinyin": "maa4 maa1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "farbror",
+		"characters": "叔叔",
+		"pinyin": "suk1 suk1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "faster",
+		"characters": "姑姑",
+		"pinyin": "gu1 gu1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "morbror",
+		"characters": "舅舅",
+		"pinyin": "kau5 kau1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "moster",
+		"characters": "姨妈",
+		"pinyin": "ji4 maa1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kusin",
+		"characters": "表兄弟",
+		"pinyin": "biu2 hing1 dai6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kusiner",
+		"characters": "表姐妹",
+		"pinyin": "biu2 ze2 mui6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "make",
+		"characters": "丈夫",
+		"pinyin": "zoeng6 fu1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "hustru",
+		"characters": "妻子",
+		"pinyin": "cai1 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svärmor",
+		"characters": "奶奶",
+		"pinyin": "naai5 naai1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svärfar",
+		"characters": "老爷",
+		"pinyin": "lou5 je4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svåger",
+		"characters": "姐夫",
+		"pinyin": "ze2 fu1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svägerska",
+		"characters": "嫂嫂",
+		"pinyin": "sou2 sou1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sonson",
+		"characters": "孙子",
+		"pinyin": "syun1 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sondotter",
+		"characters": "孙女",
+		"pinyin": "syun1 neoi5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "barnbarn",
+		"characters": "孙儿",
+		"pinyin": "syun1 ji4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "barn",
+		"characters": "小孩",
+		"pinyin": "siu2 haai4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "baby",
+		"characters": "婴儿",
+		"pinyin": "jing1 ji4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "tonåring",
+		"characters": "青少年",
+		"pinyin": "ceng1 siu2 nin4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vuxen",
+		"characters": "成人",
+		"pinyin": "sing4 jan4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "äldre",
+		"characters": "长者",
+		"pinyin": "coeng4 ze2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "fru",
+		"characters": "太太",
+		"pinyin": "taai3 taai2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "man",
+		"characters": "先生",
+		"pinyin": "sin1 saang1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "pojke",
+		"characters": "男孩",
+		"pinyin": "naam4 haai4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "flicka",
+		"characters": "女孩",
+		"pinyin": "neoi5 haai4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "föräldrar",
+		"characters": "父母",
+		"pinyin": "fu6 mou5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "fästman",
+		"characters": "未婚夫",
+		"pinyin": "mei6 fan1 fu1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "fästmö",
+		"characters": "未婚妻",
+		"pinyin": "mei6 fan1 cai1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "styvfar",
+		"characters": "继父",
+		"pinyin": "gai3 fu6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "styvmor",
+		"characters": "继母",
+		"pinyin": "gai3 mou5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "halvbror",
+		"characters": "同父异母兄弟",
+		"pinyin": "tung4 fu6 ji6 mou5 hing1 dai6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "halvsyster",
+		"characters": "同父异母姐妹",
+		"pinyin": "tung4 fu6 ji6 mou5 ze2 mui6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "adoptivbarn",
+		"characters": "养子",
+		"pinyin": "joeng5 zi2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "plebarn",
+		"characters": "继子",
+		"pinyin": "gai3 zi2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "ensamstående",
+		"characters": "单身",
+		"pinyin": "daan1 san1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "änka",
+		"characters": "寡妇",
+		"pinyin": "gwaa2 fu5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "änkling",
+		"characters": "鳏夫",
+		"pinyin": "gwaan1 fu1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tvillingar",
+		"characters": "双胞胎",
+		"pinyin": "soeng1 baau1 toi1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "trillingar",
+		"characters": "三胞胎",
+		"pinyin": "saam1 baau1 toi1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "släktingar",
+		"characters": "亲戚",
+		"pinyin": "can1 cik1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "mormors syster",
+		"characters": "姨婆",
+		"pinyin": "ji4 po4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "morfars bror",
+		"characters": "舅公",
+		"pinyin": "kau5 gung1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "farmors syster",
+		"characters": "姑婆",
+		"pinyin": "gu1 po4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "farfars bror",
+		"characters": "伯公",
+		"pinyin": "baak3 gung1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "brorsdotter",
+		"characters": "侄女",
+		"pinyin": "zat6 neoi5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "brorsson",
+		"characters": "侄子",
+		"pinyin": "zat6 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "systersdotter",
+		"characters": "外甥女",
+		"pinyin": "ngoi6 saang1 neoi5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "systerson",
+		"characters": "外甥",
+		"pinyin": "ngoi6 saang1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "systerdotter",
+		"characters": "姐妹女",
+		"pinyin": "ze2 mui6 neoi5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "systerson",
+		"characters": "姐妹子",
+		"pinyin": "ze2 mui6 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kusin (manlig)",
+		"characters": "堂兄弟",
+		"pinyin": "tong4 hing1 dai6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kusin (kvinnlig)",
+		"characters": "堂姐妹",
+		"pinyin": "tong4 ze2 mui6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "äldre bror",
+		"characters": "哥哥",
+		"pinyin": "go4 go1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "yngre bror",
+		"characters": "弟弟",
+		"pinyin": "dai6 dai1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "äldre syster",
+		"characters": "姐姐",
+		"pinyin": "ze2 ze1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "yngre syster",
+		"characters": "妹妹",
+		"pinyin": "mui6 mui1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "svärmor",
+		"characters": "奶奶",
+		"pinyin": "naai5 naai1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svägerskan",
+		"characters": "嫂子",
+		"pinyin": "sou2 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sväger",
+		"characters": "姐夫",
+		"pinyin": "ze2 fu1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "brors fru",
+		"characters": "弟媳",
+		"pinyin": "dai6 sam6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "systers man",
+		"characters": "妹夫",
+		"pinyin": "mui6 fu1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "svärmors mor",
+		"characters": "太婆",
+		"pinyin": "taai3 po4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "svärmors far",
+		"characters": "太公",
+		"pinyin": "taai3 gung1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "barnbarnsbarn",
+		"characters": "曾孙",
+		"pinyin": "zang1 syun1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "familjemedlem",
+		"characters": "家人",
+		"pinyin": "gaa1 jan4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "förälder",
+		"characters": "父母",
+		"pinyin": "fu6 mou5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "mor- och farföräldrar",
+		"characters": "祖父母",
+		"pinyin": "zou2 fu6 mou5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "generation",
+		"characters": "一代",
+		"pinyin": "jat1 doi6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "blodsband",
+		"characters": "血缘",
+		"pinyin": "hyut3 jyun4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "efternamn",
+		"characters": "姓",
+		"pinyin": "sing3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "förnamn",
+		"characters": "名",
+		"pinyin": "ming4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "familjenamn",
+		"characters": "家族姓氏",
+		"pinyin": "gaa1 zuk6 sing3 si6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "familjetradition",
+		"characters": "家族传统",
+		"pinyin": "gaa1 zuk6 cyun4 tung2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "familjeträd",
+		"characters": "族谱",
+		"pinyin": "zuk6 pou2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "arv",
+		"characters": "遗产",
+		"pinyin": "wai4 caan2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "arvtagare",
+		"characters": "继承人",
+		"pinyin": "gai3 sing4 jan4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "familjeföretag",
+		"characters": "家族企业",
+		"pinyin": "gaa1 zuk6 kei5 jip6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "barnbarn (allmänt)",
+		"characters": "孙辈",
+		"pinyin": "syun1 bui3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "barn (allmänt)",
+		"characters": "子女",
+		"pinyin": "zi2 neoi5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "vuxna barn",
+		"characters": "成年子女",
+		"pinyin": "sing4 nin4 zi2 neoi5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "minderåriga barn",
+		"characters": "未成年子女",
+		"pinyin": "mei6 sing4 nin4 zi2 neoi5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "ensamstående förälder",
+		"characters": "单亲家长",
+		"pinyin": "daan1 can1 gaa1 zoeng2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "adoptivföräldrar",
+		"characters": "养父母",
+		"pinyin": "joeng5 fu6 mou5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "biologiska föräldrar",
+		"characters": "亲生父母",
+		"pinyin": "can1 sang1 fu6 mou5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "storfamilj",
+		"characters": "大家庭",
+		"pinyin": "daai6 gaa1 ting4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kärnfamilj",
+		"characters": "核心家庭",
+		"pinyin": "hat6 sam1 gaa1 ting4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "familjesammankomst",
+		"characters": "家庭聚会",
+		"pinyin": "gaa1 ting4 zeoi6 wui6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "familjemiddag",
+		"characters": "家庭晚餐",
+		"pinyin": "gaa1 ting4 maan5 caan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "familjesemester",
+		"characters": "家庭度假",
+		"pinyin": "gaa1 ting4 dou6 gaa3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "familjeporträtt",
+		"characters": "全家福",
+		"pinyin": "cyun4 gaa1 fuk1",
+		"difficulty": 2
+	}
+]

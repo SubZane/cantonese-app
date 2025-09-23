@@ -1,0 +1,608 @@
+[
+	{
+		"swedish": "ris",
+		"characters": "米饭",
+		"pinyin": "mai5 faan6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "nudlar",
+		"characters": "面条",
+		"pinyin": "min6 tiu4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "bröd",
+		"characters": "面包",
+		"pinyin": "min6 baau1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "äpple",
+		"characters": "苹果",
+		"pinyin": "ping4 gwo2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "banan",
+		"characters": "香蕉",
+		"pinyin": "hoeng1 ziu1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "apelsin",
+		"characters": "橙",
+		"pinyin": "caang2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "vatten",
+		"characters": "水",
+		"pinyin": "seoi2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "mjölk",
+		"characters": "牛奶",
+		"pinyin": "ngau4 naai5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "te",
+		"characters": "茶",
+		"pinyin": "caa4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kaffe",
+		"characters": "咖啡",
+		"pinyin": "gaa3 fe1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "socker",
+		"characters": "糖",
+		"pinyin": "tong2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "salt",
+		"characters": "盐",
+		"pinyin": "jim4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kött",
+		"characters": "肉",
+		"pinyin": "juk6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kyckling",
+		"characters": "鸡肉",
+		"pinyin": "gai1 juk6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "fläsk",
+		"characters": "猪肉",
+		"pinyin": "zyu1 juk6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "nötkött",
+		"characters": "牛肉",
+		"pinyin": "ngau4 juk6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "tomat",
+		"characters": "番茄",
+		"pinyin": "faan1 ke2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "gurka",
+		"characters": "青瓜",
+		"pinyin": "ceng1 gwaa1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "morot",
+		"characters": "红萝卜",
+		"pinyin": "hung4 lo4 baak6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "potatis",
+		"characters": "薯仔",
+		"pinyin": "syu4 zai2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "lök",
+		"characters": "洋葱",
+		"pinyin": "joeng4 cung1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vitlök",
+		"characters": "蒜",
+		"pinyin": "syun3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "ingefära",
+		"characters": "姜",
+		"pinyin": "goeng1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "broccoli",
+		"characters": "西兰花",
+		"pinyin": "sai1 laan4 faa1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vitkål",
+		"characters": "椰菜",
+		"pinyin": "je4 coi3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "spenat",
+		"characters": "菠菜",
+		"pinyin": "bo1 coi3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sallad",
+		"characters": "生菜",
+		"pinyin": "saang1 coi3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "druvor",
+		"characters": "葡萄",
+		"pinyin": "pou4 tou4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "jordgubbar",
+		"characters": "士多啤梨",
+		"pinyin": "si6 do1 be1 lei4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "persika",
+		"characters": "桃",
+		"pinyin": "tou4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "ananas",
+		"characters": "菠萝",
+		"pinyin": "bo1 lo4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "citron",
+		"characters": "柠檬",
+		"pinyin": "ning4 mung1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vattenmelon",
+		"characters": "西瓜",
+		"pinyin": "sai1 gwaa1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "mango",
+		"characters": "芒果",
+		"pinyin": "mong1 gwo2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kokosnöt",
+		"characters": "椰子",
+		"pinyin": "je4 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "honung",
+		"characters": "蜂蜜",
+		"pinyin": "fung1 mat6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "glass",
+		"characters": "雪糕",
+		"pinyin": "syut3 gou1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "choklad",
+		"characters": "朱古力",
+		"pinyin": "zyu1 gu2 lik6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kaka",
+		"characters": "蛋糕",
+		"pinyin": "daan6 gou1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tårta",
+		"characters": "忌廉蛋糕",
+		"pinyin": "gei6 lim1 daan6 gou1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kakor",
+		"characters": "曲奇",
+		"pinyin": "kuk1 kei4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kräfta",
+		"characters": "龙虾",
+		"pinyin": "lung4 haa1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "krabba",
+		"characters": "蟹",
+		"pinyin": "haai5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "ostron",
+		"characters": "蚝",
+		"pinyin": "hou4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "mussla",
+		"characters": "青口",
+		"pinyin": "ceng1 hau2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kaviar",
+		"characters": "鱼子酱",
+		"pinyin": "jyu4 zi2 zoeng3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tryffel",
+		"characters": "松露",
+		"pinyin": "cung4 lou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "sparris",
+		"characters": "芦笋",
+		"pinyin": "lou4 seon2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "artskocka",
+		"characters": "朝鲜蓟",
+		"pinyin": "ciu4 sin1 gei6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "quinoa",
+		"characters": "奎奴亚",
+		"pinyin": "fui1 nou4 aa3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "soppa",
+		"characters": "汤",
+		"pinyin": "tong1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sallad",
+		"characters": "沙拉",
+		"pinyin": "saa1 laai1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sandwich",
+		"characters": "三明治",
+		"pinyin": "saam1 ming4 zi6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "pizza",
+		"characters": "披萨",
+		"pinyin": "pei1 saat3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "hamburgare",
+		"characters": "汉堡",
+		"pinyin": "hon3 bou2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "pommes frites",
+		"characters": "薯条",
+		"pinyin": "syu4 tiu4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kex",
+		"characters": "饼干",
+		"pinyin": "beng2 gon1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "chips",
+		"characters": "薯片",
+		"pinyin": "syu4 pin3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "popcorn",
+		"characters": "爆米花",
+		"pinyin": "baau3 mai5 faa1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "nötter",
+		"characters": "坚果",
+		"pinyin": "gin1 gwo2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "mandel",
+		"characters": "杏仁",
+		"pinyin": "haang6 jan4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "jordnötter",
+		"characters": "花生",
+		"pinyin": "faa1 sang1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "cashewnötter",
+		"characters": "腰果",
+		"pinyin": "jiu1 gwo2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "valnötter",
+		"characters": "核桃",
+		"pinyin": "hat6 tou4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "russin",
+		"characters": "葡萄干",
+		"pinyin": "pou4 tou4 gon1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dadlar",
+		"characters": "椰枣",
+		"pinyin": "je4 zou2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "fikon",
+		"characters": "无花果",
+		"pinyin": "mou4 faa1 gwo2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "avokado",
+		"characters": "牛油果",
+		"pinyin": "ngau4 jau4 gwo2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kiwi",
+		"characters": "奇异果",
+		"pinyin": "kei4 ji6 gwo2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "blåbär",
+		"characters": "蓝莓",
+		"pinyin": "laam4 mui4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "hallon",
+		"characters": "覆盆子",
+		"pinyin": "fuk1 pun4 zi2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "björnbär",
+		"characters": "黑莓",
+		"pinyin": "hak1 mui4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "körsbär",
+		"characters": "樱桃",
+		"pinyin": "jing1 tou4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "plommon",
+		"characters": "李子",
+		"pinyin": "lei5 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "aprikos",
+		"characters": "杏",
+		"pinyin": "haang6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "melon",
+		"characters": "甜瓜",
+		"pinyin": "tim4 gwaa1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "päron",
+		"characters": "梨",
+		"pinyin": "lei4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "lime",
+		"characters": "青柠",
+		"pinyin": "ceng1 ning4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "grapefrukt",
+		"characters": "柚子",
+		"pinyin": "jau2 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "pomegranate",
+		"characters": "石榴",
+		"pinyin": "sek6 lau4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "yoghurt",
+		"characters": "酸奶",
+		"pinyin": "syun1 naai5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ost",
+		"characters": "奶酪",
+		"pinyin": "naai5 lok3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "smör",
+		"characters": "黄油",
+		"pinyin": "wong4 jau4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ägg",
+		"characters": "鸡蛋",
+		"pinyin": "gai1 daan6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "stekt ägg",
+		"characters": "煎蛋",
+		"pinyin": "zin1 daan6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kokt ägg",
+		"characters": "水煮蛋",
+		"pinyin": "seoi2 zyu2 daan6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "omelett",
+		"characters": "煎蛋卷",
+		"pinyin": "zin1 daan6 gyun2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "fisk",
+		"characters": "鱼",
+		"pinyin": "jyu2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "lax",
+		"characters": "三文鱼",
+		"pinyin": "saam1 man4 jyu2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "tonfisk",
+		"characters": "金枪鱼",
+		"pinyin": "gam1 coeng1 jyu2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "räkor",
+		"characters": "虾",
+		"pinyin": "haa1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ramen",
+		"characters": "拉面",
+		"pinyin": "laai1 min6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sushi",
+		"characters": "寿司",
+		"pinyin": "sau6 si1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dumpling",
+		"characters": "饺子",
+		"pinyin": "gaau2 zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "nudelsoppa",
+		"characters": "面汤",
+		"pinyin": "min6 tong1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "stuvad ris",
+		"characters": "炒饭",
+		"pinyin": "caau2 faan6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "grillad kyckling",
+		"characters": "烤鸡",
+		"pinyin": "haau1 gai1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "grillat nötkött",
+		"characters": "烤牛肉",
+		"pinyin": "haau1 ngau4 juk6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kött och potatis",
+		"characters": "肉和土豆",
+		"pinyin": "juk6 wo4 tou2 dau6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "grönkål",
+		"characters": "羽衣甘蓝",
+		"pinyin": "jyu5 ji1 gam1 laam4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "avocadotoast",
+		"characters": "牛油果吐司",
+		"pinyin": "ngau4 jau4 gwo2 tou3 si1",
+		"difficulty": 3
+	}
+]
