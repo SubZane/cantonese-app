@@ -1,0 +1,668 @@
+[
+	{
+		"swedish": "morgon",
+		"characters": "朝早",
+		"pinyin": "ziu1 zou2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "kväll",
+		"characters": "晚上",
+		"pinyin": "maan5 soeng6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "nu",
+		"characters": "而家",
+		"pinyin": "ji4 gaa1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "senare",
+		"characters": "等陣",
+		"pinyin": "dang2 zan6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "igår",
+		"characters": "尋日",
+		"pinyin": "cam4 jat6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "idag",
+		"characters": "今日",
+		"pinyin": "gam1 jat6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "imorgon",
+		"characters": "聽日",
+		"pinyin": "ting1 jat6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "tid",
+		"characters": "時間",
+		"pinyin": "si4 gaan3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "dag",
+		"characters": "日",
+		"pinyin": "jat6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "vecka",
+		"characters": "星期",
+		"pinyin": "sing1 kei4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "månad",
+		"characters": "月",
+		"pinyin": "jyut6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "år",
+		"characters": "年",
+		"pinyin": "nin4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "timme",
+		"characters": "鐘頭",
+		"pinyin": "zung1 tau4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "minut",
+		"characters": "分鐘",
+		"pinyin": "fan1 zung1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sekund",
+		"characters": "秒",
+		"pinyin": "miu5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "klocka",
+		"characters": "鐘",
+		"pinyin": "zung1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "vinter",
+		"characters": "冬天",
+		"pinyin": "dung1 tin1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "vår",
+		"characters": "春天",
+		"pinyin": "ceon1 tin1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sommar",
+		"characters": "夏天",
+		"pinyin": "haa6 tin1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "höst",
+		"characters": "秋天",
+		"pinyin": "cau1 tin1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "tidigt",
+		"characters": "早",
+		"pinyin": "zou2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sent",
+		"characters": "遲",
+		"pinyin": "ci4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "snabbt",
+		"characters": "快",
+		"pinyin": "faai3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sakta",
+		"characters": "慢",
+		"pinyin": "maan6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "första",
+		"characters": "第一",
+		"pinyin": "dai6 jat1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sista",
+		"characters": "最後",
+		"pinyin": "zeoi3 hau6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "måndag",
+		"characters": "星期一",
+		"pinyin": "sing1 kei4 jat1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "tisdag",
+		"characters": "星期二",
+		"pinyin": "sing1 kei4 ji6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "onsdag",
+		"characters": "星期三",
+		"pinyin": "sing1 kei4 saam1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "torsdag",
+		"characters": "星期四",
+		"pinyin": "sing1 kei4 sei3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "fredag",
+		"characters": "星期五",
+		"pinyin": "sing1 kei4 ng5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "lördag",
+		"characters": "星期六",
+		"pinyin": "sing1 kei4 luk6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "söndag",
+		"characters": "星期日",
+		"pinyin": "sing1 kei4 jat6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "januari",
+		"characters": "一月",
+		"pinyin": "jat1 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "februari",
+		"characters": "二月",
+		"pinyin": "ji6 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "mars",
+		"characters": "三月",
+		"pinyin": "saam1 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "april",
+		"characters": "四月",
+		"pinyin": "sei3 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "maj",
+		"characters": "五月",
+		"pinyin": "ng5 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "juni",
+		"characters": "六月",
+		"pinyin": "luk6 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "juli",
+		"characters": "七月",
+		"pinyin": "cat1 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "augusti",
+		"characters": "八月",
+		"pinyin": "baat3 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "september",
+		"characters": "九月",
+		"pinyin": "gau2 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "oktober",
+		"characters": "十月",
+		"pinyin": "sap6 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "november",
+		"characters": "十一月",
+		"pinyin": "sap6 jat1 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "december",
+		"characters": "十二月",
+		"pinyin": "sap6 ji6 jyut6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "middag",
+		"characters": "中午",
+		"pinyin": "zung1 ng5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "eftermiddag",
+		"characters": "下晝",
+		"pinyin": "haa6 zau3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "natt",
+		"characters": "夜晚",
+		"pinyin": "je6 maan5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "midnatt",
+		"characters": "半夜",
+		"pinyin": "bun3 je6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "gryning",
+		"characters": "天光",
+		"pinyin": "tin1 gwong1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "skymning",
+		"characters": "黃昏",
+		"pinyin": "wong4 fan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "helg",
+		"characters": "假期",
+		"pinyin": "gaa3 kei4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vardag",
+		"characters": "平日",
+		"pinyin": "ping4 jat6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vakna",
+		"characters": "起身",
+		"pinyin": "hei2 san1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sova",
+		"characters": "瞓覺",
+		"pinyin": "fan3 gaau3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "frukost",
+		"characters": "早餐",
+		"pinyin": "zou2 caan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "lunch",
+		"characters": "午餐",
+		"pinyin": "ng5 caan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "middag",
+		"characters": "晚餐",
+		"pinyin": "maan5 caan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dusch",
+		"characters": "沖涼",
+		"pinyin": "cung1 loeng4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "borsta tänder",
+		"characters": "刷牙",
+		"pinyin": "caat3 ngaa4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "klockan ett",
+		"characters": "一點鐘",
+		"pinyin": "jat1 dim2 zung1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "halv två",
+		"characters": "一點半",
+		"pinyin": "jat1 dim2 bun3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kvart över",
+		"characters": "一刻",
+		"pinyin": "jat1 hak1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kvart i",
+		"characters": "差一刻",
+		"pinyin": "caa1 jat1 hak1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "arbetstid",
+		"characters": "工作時間",
+		"pinyin": "gung1 zok3 si4 gaan3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "ledighet",
+		"characters": "放假",
+		"pinyin": "fong3 gaa3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "nyår",
+		"characters": "新年",
+		"pinyin": "san1 nin4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "jul",
+		"characters": "聖誕節",
+		"pinyin": "sing3 daan3 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "påsk",
+		"characters": "復活節",
+		"pinyin": "fuk6 wut6 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "midsommar",
+		"characters": "仲夏節",
+		"pinyin": "zung6 haa6 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "lucia",
+		"characters": "露西亞節",
+		"pinyin": "lou6 sai1 aa3 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "valborg",
+		"characters": "春季慶典",
+		"pinyin": "ceon1 gwai3 hing3 din2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "första maj",
+		"characters": "勞動節",
+		"pinyin": "lou6 dung6 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "nationaldagen",
+		"characters": "國慶日",
+		"pinyin": "gwok3 hing3 jat6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "månfestival",
+		"characters": "中秋節",
+		"pinyin": "zung1 cau1 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "kinesiskt nyår",
+		"characters": "農曆新年",
+		"pinyin": "nung4 lik6 san1 nin4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "drakbåtsfestival",
+		"characters": "端午節",
+		"pinyin": "dyun1 ng5 zit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "årtionde",
+		"characters": "十年",
+		"pinyin": "sap6 nin4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "århundrade",
+		"characters": "世紀",
+		"pinyin": "sai3 gei2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "årtusende",
+		"characters": "千年",
+		"pinyin": "cin1 nin4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "evighet",
+		"characters": "永恆",
+		"pinyin": "wing5 hang4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "millisekund",
+		"characters": "毫秒",
+		"pinyin": "hou4 miu5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "mikrosekund",
+		"characters": "微秒",
+		"pinyin": "mei4 miu5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "nanosekund",
+		"characters": "納秒",
+		"pinyin": "naap6 miu5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "skottår",
+		"characters": "閏年",
+		"pinyin": "jeon6 nin4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tidszon",
+		"characters": "時區",
+		"pinyin": "si4 keoi1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "sommartid",
+		"characters": "夏令時間",
+		"pinyin": "haa6 ling6 si4 gaan3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "vintertid",
+		"characters": "冬令時間",
+		"pinyin": "dung1 ling6 si4 gaan3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "jetlag",
+		"characters": "時差反應",
+		"pinyin": "si4 caa1 faan2 jing3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kronologi",
+		"characters": "年代學",
+		"pinyin": "nin4 doi6 hok6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "synkronisera",
+		"characters": "同步",
+		"pinyin": "tung4 bou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "asynkron",
+		"characters": "異步",
+		"pinyin": "ji6 bou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "periodisk",
+		"characters": "週期性",
+		"pinyin": "zau1 kei4 sing3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "intermittent",
+		"characters": "間歇性",
+		"pinyin": "gaan3 hit3 sing3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "simultant",
+		"characters": "同時",
+		"pinyin": "tung4 si4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "sekventiell",
+		"characters": "順序",
+		"pinyin": "seon6 zeoi6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "retrospektiv",
+		"characters": "回顧",
+		"pinyin": "wui4 gu3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "prospektiv",
+		"characters": "前瞻",
+		"pinyin": "cin4 zim1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tidslinje",
+		"characters": "時間軸",
+		"pinyin": "si4 gaan3 zuk6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "deadline",
+		"characters": "截止日期",
+		"pinyin": "zit6 zi2 jat6 kei4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "solståndet",
+		"characters": "至點",
+		"pinyin": "zi3 dim2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "dagjämning",
+		"characters": "春分",
+		"pinyin": "ceon1 fan1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "måncykel",
+		"characters": "月相",
+		"pinyin": "jyut6 soeng3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "biorhythm",
+		"characters": "生理節律",
+		"pinyin": "saang1 lei5 zit3 leot6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kvartal",
+		"characters": "季度",
+		"pinyin": "gwai3 dou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "varannan dag",
+		"characters": "隔日",
+		"pinyin": "gaak3 jat6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "klarsyntafestival",
+		"characters": "清明節",
+		"pinyin": "cing1 ming4 zit3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "lanternfestival",
+		"characters": "元宵節",
+		"pinyin": "jyun4 siu1 zit3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "dubbelniafestival",
+		"characters": "重陽節",
+		"pinyin": "cung4 joeng4 zit3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "spökfestival",
+		"characters": "鬼節",
+		"pinyin": "gwai2 zit3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "qixi-festival",
+		"characters": "七夕節",
+		"pinyin": "cat1 zik6 zit3",
+		"difficulty": 3
+	}
+]

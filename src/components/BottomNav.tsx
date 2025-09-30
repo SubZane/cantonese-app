@@ -1,8 +1,8 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Box, Typography } from "@mui/joy";
 
 import { useT } from "../translations";
 
@@ -19,37 +19,48 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView }) => {
 	];
 
 	return (
-		<Navbar
-			fixed="bottom"
-			className="bg-white border-top shadow-sm"
-			style={{
+		<Box
+			sx={{
+				position: "relative",
+				backgroundColor: "var(--bg-color)",
+				borderTop: "1px solid",
+				borderColor: "var(--border-color)",
+				boxShadow: "sm",
 				zIndex: 1000,
 				height: "70px",
-				paddingTop: "6px",
-				paddingBottom: "8px",
+				py: "6px",
+				px: 1,
+				display: "flex",
+				justifyContent: "space-around",
+				alignItems: "center",
 			}}
 		>
-			<Nav className="w-100 justify-content-around">
-				{navItems.map((item) => (
-					<Nav.Link
-						key={item.key}
-						as={Link}
-						to={item.path}
-						className={`text-center px-2 ${currentView === item.key ? "text-primary" : "text-muted"}`}
-						style={{
-							minWidth: "auto",
-							fontSize: "0.75rem",
+			{navItems.map((item) => (
+				<Box
+					key={item.key}
+					component={Link}
+					to={item.path}
+					sx={{
+						display: "flex",
+						flexDirection: "column",
+						alignItems: "center",
+						textAlign: "center",
+						px: 2,
+						textDecoration: "none",
+						color: currentView === item.key ? "primary.500" : "text.secondary",
+						"&:hover": {
 							textDecoration: "none",
-						}}
-					>
-						<div style={{ fontSize: "1.2rem", marginBottom: "2px" }}>
-							<FontAwesomeIcon icon={item.icon as any} />
-						</div>
-						<div>{item.label}</div>
-					</Nav.Link>
-				))}
-			</Nav>
-		</Navbar>
+							color: currentView === item.key ? "primary.600" : "text.primary",
+						},
+					}}
+				>
+					<Box sx={{ fontSize: "1.2rem", mb: "2px" }}>
+						<FontAwesomeIcon icon={item.icon as any} />
+					</Box>
+					<Typography fontSize="xs">{item.label}</Typography>
+				</Box>
+			))}
+		</Box>
 	);
 };
 

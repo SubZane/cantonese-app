@@ -1,16 +1,21 @@
-import "./Quiz.scss";
+import "../styles/components/Quiz.scss";
 
 import React, { useEffect, useState } from "react";
-import { Button, Form, ProgressBar } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Box, Button, FormControl, FormLabel, LinearProgress, Option, Select, Sheet, Table, Typography } from "@mui/joy";
 
-import actionsData from "../actions.json";
-import animalsData from "../animals.json";
-import familyData from "../family.json";
-import foodData from "../food.json";
-import itemsData from "../items.json";
+import actionsData from "../data/actions.json";
+import animalsData from "../data/animals.json";
+import familyData from "../data/family.json";
+import foodData from "../data/food.json";
+import funPlayData from "../data/fun-play.json";
+import itemsData from "../data/items.json";
+import movementDirectionsData from "../data/movement-directions.json";
+import timeData from "../data/time.json";
 import { useT } from "../translations";
+import DifficultyRadio from "./form/DifficultyRadio";
+import IconsRadio from "./form/IconsRadio";
 
 interface VocabularyItem {
 	swedish: string;
@@ -68,8 +73,20 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	const [quizResults, setQuizResults] = useState<QuizResult[]>([]);
 	const [usedWords, setUsedWords] = useState<Set<string>>(new Set());
 	const [isRestoring, setIsRestoring] = useState(false);
-
 	const { t, translate } = useT();
+
+	// Category options with icons
+	const categoryOptions = [
+		{ value: "all", label: t.filters.category.all, icon: "globe" },
+		{ value: "animals", label: t.filters.category.animals, icon: "dog" },
+		{ value: "food", label: t.filters.category.food, icon: "utensils" },
+		{ value: "family", label: t.filters.category.family, icon: "users" },
+		{ value: "actions", label: t.filters.category.actions, icon: "running" },
+		{ value: "items", label: t.filters.category.items, icon: "cube" },
+		{ value: "fun-play", label: t.filters.category.funPlay, icon: "gamepad" },
+		{ value: "time", label: t.filters.category.time, icon: "clock" },
+		{ value: "movement-directions", label: t.filters.category.movementDirections, icon: "compass" },
+	];
 
 	// Save settings to localStorage
 	const saveSetting = (key: string, value: any) => {
@@ -148,7 +165,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 
 		// Add vocabulary based on selected category
 		if (category === "all") {
-			vocabulary = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData];
+			vocabulary = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData, ...movementDirectionsData];
 		} else {
 			switch (category) {
 				case "animals":
@@ -166,8 +183,17 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 				case "items":
 					vocabulary = [...itemsData];
 					break;
+				case "fun-play":
+					vocabulary = [...funPlayData];
+					break;
+				case "time":
+					vocabulary = [...timeData];
+					break;
+				case "movement-directions":
+					vocabulary = [...movementDirectionsData];
+					break;
 				default:
-					vocabulary = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData];
+					vocabulary = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData, ...movementDirectionsData];
 			}
 		}
 
@@ -178,10 +204,10 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 					vocabulary = vocabulary.filter((item) => item.difficulty === 1);
 					break;
 				case "medium":
-					vocabulary = vocabulary.filter((item) => item.difficulty >= 2 && item.difficulty <= 3);
+					vocabulary = vocabulary.filter((item) => item.difficulty === 2);
 					break;
 				case "hard":
-					vocabulary = vocabulary.filter((item) => item.difficulty >= 4 && item.difficulty <= 5);
+					vocabulary = vocabulary.filter((item) => item.difficulty === 3);
 					break;
 			}
 		}
@@ -222,7 +248,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 			.slice(0, 2);
 
 		// If we don't have enough wrong answers, pad with items from all vocabulary
-		const allItems = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData];
+		const allItems = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData];
 		const additionalWrong = allItems
 			.filter((item) => item.characters !== correctItem.characters && !wrongItems.some((wrong) => wrong.characters === item.characters))
 			.sort(() => Math.random() - 0.5)
@@ -259,12 +285,9 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		}
 	}, [quizStarted, currentQuestion, score, questionNumber, selectedAnswer, showResult, quizComplete, showDetailedResults, quizResults, usedWords, isRestoring]); // eslint-disable-line react-hooks/exhaustive-deps
 
-	// Clear saved state when quiz is completed
-	useEffect(() => {
-		if (quizComplete) {
-			clearQuizState();
-		}
-	}, [quizComplete]);
+	// Clear saved state only when starting a new quiz (not when just completing one)
+	// We want to preserve the results view even after refresh
+	// State will be cleared when user starts a new quiz
 
 	// Initialize first question
 	useEffect(() => {
@@ -337,6 +360,8 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	};
 
 	const startQuiz = () => {
+		// Clear any previous quiz state when starting a new quiz
+		clearQuizState();
 		// Save current settings to localStorage
 		saveSetting("difficulty", difficulty);
 		saveSetting("category", category);
@@ -362,8 +387,8 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 							? "Not enough vocabulary items match your selected filters. Please try different settings."
 							: "Loading vocabulary..."}
 					</p>
-					<Button variant="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="chevron-left" className="me-2" />
+					<Button variant="solid" color="primary" onClick={resetQuiz}>
+						<FontAwesomeIcon icon="chevron-left" style={{ marginRight: "8px" }} />
 						Back to Setup
 					</Button>
 				</div>
@@ -380,58 +405,61 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 					<p className="text-muted mb-4">{t.quiz.setup.description}</p>
 				</div>
 
-				<div className="setup-form-container">
+				<Box sx={{ display: "flex", flexDirection: "column", gap: 3, maxWidth: 700, margin: "0 auto" }}>
 					{/* Category selector */}
-					<Form.Group>
-						<Form.Label>{t.quiz.setup.category}</Form.Label>
-						<Form.Select value={category} onChange={(e) => setCategory(e.target.value)}>
-							<option value="all">{t.filters.category.all}</option>
-							<option value="animals">{t.filters.category.animals}</option>
-							<option value="food">{t.filters.category.food}</option>
-							<option value="family">{t.filters.category.family}</option>
-							<option value="actions">{t.filters.category.actions}</option>
-							<option value="items">{t.filters.category.items}</option>
-						</Form.Select>
-					</Form.Group>
+					<FormControl>
+						<FormLabel>{t.quiz.setup.category}</FormLabel>
+						<IconsRadio value={category} onChange={setCategory} options={categoryOptions} />
+					</FormControl>
 
 					{/* Difficulty selector */}
-					<Form.Group>
-						<Form.Label>{t.quiz.setup.difficulty}</Form.Label>
-						<Form.Select value={difficulty} onChange={(e) => setDifficulty(e.target.value)}>
-							<option value="all">{t.filters.difficulty.all}</option>
-							<option value="easy">{t.filters.difficulty.easy}</option>
-							<option value="medium">{t.filters.difficulty.medium}</option>
-							<option value="hard">{t.filters.difficulty.hard}</option>
-						</Form.Select>
-					</Form.Group>
+					<DifficultyRadio
+						value={difficulty}
+						onChange={setDifficulty}
+						labels={{
+							title: t.quiz.setup.difficulty,
+							all: t.filters.difficulty.all,
+							easy: t.filters.difficulty.easy,
+							medium: t.filters.difficulty.medium,
+							hard: t.filters.difficulty.hard,
+						}}
+					/>
 
 					{/* Question count selector */}
-					<Form.Group>
-						<Form.Label>{t.quiz.setup.questionCount}</Form.Label>
-						<Form.Select value={questionCount} onChange={(e) => setQuestionCount(Number(e.target.value))}>
+					<FormControl>
+						<FormLabel>{t.quiz.setup.questionCount}</FormLabel>
+						<Select value={questionCount} onChange={(_, newValue) => setQuestionCount(Number(newValue) || 5)}>
 							{[5, 10, 15, 20].map((count) => (
-								<option key={count} value={count}>
+								<Option key={count} value={count}>
 									{count} {t.quiz.setup.questionPlural}
-								</option>
+								</Option>
 							))}
-						</Form.Select>
-					</Form.Group>
+						</Select>
+					</FormControl>
 
 					{/* Warning if not enough vocabulary */}
 					{allVocabulary.length < questionCount && (
-						<div className="warning-box">
-							<small>
-								<FontAwesomeIcon icon="times" className="text-warning me-1" />
+						<Box
+							sx={{
+								p: 2,
+								backgroundColor: "warning.50",
+								border: "1px solid",
+								borderColor: "warning.300",
+								borderRadius: "sm",
+							}}
+						>
+							<Typography fontSize="sm" color="warning">
+								<FontAwesomeIcon icon="times" style={{ marginRight: "8px" }} />
 								Not enough unique words available. Found {allVocabulary.length} words but need {questionCount}. Please select fewer questions or change your filters.
-							</small>
-						</div>
+							</Typography>
+						</Box>
 					)}
 
-					<Button className="start-button" variant="primary" onClick={startQuiz} disabled={allVocabulary.length < questionCount}>
-						<FontAwesomeIcon icon="play" className="me-2" />
+					<Button variant="solid" color="primary" onClick={startQuiz} disabled={allVocabulary.length < questionCount}>
+						<FontAwesomeIcon icon="play" style={{ marginRight: "8px" }} />
 						{t.quiz.setup.startButton}
 					</Button>
-				</div>
+				</Box>
 			</div>
 		);
 	}
@@ -453,42 +481,52 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 					</h5>
 				</div>
 
-				<div className="mb-4">
-					{quizResults.map((result, index) => (
-						<div key={index} className={`result-item ${result.isCorrect ? "result-correct" : "result-incorrect"}`}>
-							<h6 className="result-question">
-								{index + 1}. {result.question}
-							</h6>
-
-							<div className="result-answers">
-								<div>
-									<small className="text-muted">{t.quiz.results.yourAnswer}:</small>
-									<p className="mb-1">
-										{result.userAnswer}
-										{showPinyin && result.userPinyin && ` (${result.userPinyin.toLowerCase()})`}
-									</p>
-								</div>
-
-								<div>
-									<small className="text-muted">{t.quiz.results.correctAnswer}:</small>
-									<p className="mb-1">
-										{result.correctAnswer}
-										{showPinyin && ` (${result.correctPinyin.toLowerCase()})`}
-									</p>
-								</div>
-							</div>
-
-							<small className={`result-status ${result.isCorrect ? "status-correct" : "status-incorrect"}`}>
-								<FontAwesomeIcon icon={result.isCorrect ? "check" : "times"} className="me-1" />
-								{result.isCorrect ? t.quiz.results.correct : t.quiz.results.incorrect}
-							</small>
-						</div>
-					))}
-				</div>
+				<Sheet variant="outlined" sx={{ borderRadius: "sm", overflow: "auto", mb: 2 }}>
+					<Table size="sm" hoverRow>
+						<thead>
+							<tr>
+								<th style={{ width: "8%", textAlign: "center" }}>#</th>
+								<th style={{ width: "25%" }}>Question</th>
+								<th style={{ width: "28%" }}>{t.quiz.results.yourAnswer}</th>
+								<th style={{ width: "28%" }}>{t.quiz.results.correctAnswer}</th>
+								<th style={{ width: "11%", textAlign: "center" }}>Result</th>
+							</tr>
+						</thead>
+						<tbody>
+							{quizResults.map((result, index) => (
+								<tr key={index} className={result.isCorrect ? "table-row-correct" : "table-row-incorrect"}>
+									<td style={{ textAlign: "center", fontWeight: "bold" }}>{index + 1}</td>
+									<td style={{ fontWeight: "500", fontSize: "0.9rem" }}>{result.question}</td>
+									<td style={{ fontSize: "0.85rem" }}>
+										<div>
+											{result.userAnswer}
+											{showPinyin && result.userPinyin && <div style={{ fontSize: "0.75rem", fontStyle: "italic", color: "#666" }}>{result.userPinyin.toLowerCase()}</div>}
+										</div>
+									</td>
+									<td style={{ fontSize: "0.85rem" }}>
+										<div>
+											{result.correctAnswer}
+											{showPinyin && <div style={{ fontSize: "0.75rem", fontStyle: "italic", color: "#666" }}>{result.correctPinyin.toLowerCase()}</div>}
+										</div>
+									</td>
+									<td style={{ textAlign: "center" }}>
+										<FontAwesomeIcon
+											icon={result.isCorrect ? "check" : "times"}
+											style={{
+												color: result.isCorrect ? "var(--correct-color)" : "var(--incorrect-color)",
+												fontSize: "1.1rem",
+											}}
+										/>
+									</td>
+								</tr>
+							))}
+						</tbody>
+					</Table>
+				</Sheet>
 
 				<div className="text-center">
-					<Button variant="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="rotate-right" className="me-2" />
+					<Button variant="solid" color="primary" onClick={resetQuiz}>
+						<FontAwesomeIcon icon="rotate-right" style={{ marginRight: "8px" }} />
 						{t.quiz.complete.restartButton}
 					</Button>
 				</div>
@@ -510,12 +548,12 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 				<h5 className="completion-score">{translate(t.quiz.complete.score, { score: score.toString(), total: questionCount.toString() })}</h5>
 				<p className="completion-message">{getScoreMessage()}</p>
 				<div className="completion-actions">
-					<Button variant="outline-primary" onClick={showResults}>
-						<FontAwesomeIcon icon="eye" className="me-2" />
+					<Button variant="outlined" color="primary" onClick={showResults}>
+						<FontAwesomeIcon icon="eye" style={{ marginRight: "8px" }} />
 						{t.quiz.results.title}
 					</Button>
-					<Button variant="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="rotate-right" className="me-2" />
+					<Button variant="solid" color="primary" onClick={resetQuiz}>
+						<FontAwesomeIcon icon="rotate-right" style={{ marginRight: "8px" }} />
 						{t.quiz.complete.restartButton}
 					</Button>
 				</div>
@@ -531,13 +569,57 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		);
 	}
 
+	// Get category display name
+	const getCategoryDisplayName = () => {
+		switch (category) {
+			case "all":
+				return t.filters.category.all;
+			case "animals":
+				return t.filters.category.animals;
+			case "food":
+				return t.filters.category.food;
+			case "family":
+				return t.filters.category.family;
+			case "actions":
+				return t.filters.category.actions;
+			case "items":
+				return t.filters.category.items;
+			case "fun-play":
+				return t.filters.category.funPlay;
+			case "time":
+				return t.filters.category.time;
+			case "movement-directions":
+				return t.filters.category.movementDirections;
+			default:
+				return t.filters.category.all;
+		}
+	};
+
 	return (
 		<div className="quiz-container">
-			{/* Progress bar */}
-			<div className="progress-section">
-				<small className="mb-2 d-block">{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}</small>
-				<ProgressBar now={(questionNumber / questionCount) * 100} />
+			{/* Category title */}
+			<div className="quiz-header">
+				<h2 className="category-title">{getCategoryDisplayName()}</h2>
+				<p className="difficulty-display">
+					{difficulty === "all"
+						? t.filters.difficulty.all
+						: difficulty === "easy"
+						? t.filters.difficulty.easy
+						: difficulty === "medium"
+						? t.filters.difficulty.medium
+						: difficulty === "hard"
+						? t.filters.difficulty.hard
+						: t.filters.difficulty.all}
+				</p>
 			</div>
+
+			{/* Progress bar */}
+			<Box sx={{ marginBottom: 2 }}>
+				<Typography level="body-sm" sx={{ marginBottom: 1 }}>
+					{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
+				</Typography>
+				<LinearProgress determinate value={(questionNumber / questionCount) * 100} sx={{ borderRadius: "4px", height: "8px" }} />
+			</Box>
 
 			{/* Score */}
 			<h5 className="score-display">
@@ -558,14 +640,15 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 						const isCorrectAnswer = option === currentQuestion.correctAnswer;
 						const optionPinyin = currentQuestion.optionsPinyin[index];
 
-						let buttonClasses = "answer-button";
-						if (isSelected) buttonClasses += " btn-primary";
-						if (showResult && isCorrectAnswer) buttonClasses += " correct";
+						let buttonClasses = `answer-button option-${index + 1}`;
+						if (isSelected) buttonClasses += " btn-primary selected";
+						if (showResult && isCorrectAnswer) buttonClasses += " correct correct-answer";
 						if (showResult && !isCorrectAnswer) buttonClasses += " incorrect";
+						if (showResult && isSelected && !isCorrectAnswer) buttonClasses += " selected-incorrect";
 
 						return (
 							<div key={index} className="button-wrapper">
-								<Button variant={isSelected ? "primary" : "outline-secondary"} className={buttonClasses} onClick={() => handleAnswerSelect(option)} disabled={showResult}>
+								<Button variant={isSelected ? "solid" : "outlined"} color="primary" className={buttonClasses} onClick={() => handleAnswerSelect(option)} disabled={showResult}>
 									<span className="main-text">{option}</span>
 									<span className="pinyin-text">{showPinyin ? `(${optionPinyin.toLowerCase()})` : ""}</span>
 								</Button>
@@ -578,7 +661,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 			{/* Next button */}
 			{showResult && (
 				<div className="next-button-container">
-					<Button variant="primary" onClick={handleNextQuestion}>
+					<Button variant="solid" color="primary" onClick={handleNextQuestion}>
 						{questionNumber >= questionCount ? t.quiz.viewResults : t.quiz.nextQuestion}
 					</Button>
 				</div>

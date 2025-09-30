@@ -1,7 +1,7 @@
 import React from "react";
-import { Form, Navbar } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Box, FormControl, FormLabel, Switch, Typography } from "@mui/joy";
 
 import { useT } from "../translations";
 
@@ -15,17 +15,28 @@ const Header: React.FC<HeaderProps> = ({ showPinyin = false, onPinyinToggle, sho
 	const { t } = useT();
 
 	return (
-		<Navbar variant="dark" className="px-3" style={{ backgroundColor: "#333" }}>
-			<Navbar.Brand className="d-flex align-items-center">
-				<FontAwesomeIcon icon="language" className="me-2" />
-				{t.appName}
-			</Navbar.Brand>
+		<Box
+			sx={{
+				display: "flex",
+				alignItems: "center",
+				justifyContent: "space-between",
+				px: 3,
+				py: 2,
+			}}
+		>
+			<Box sx={{ display: "flex", alignItems: "center" }}>
+				<FontAwesomeIcon icon="language" style={{ marginRight: "8px", color: "white" }} />
+				<Typography level="h4" sx={{ color: "white", fontWeight: "bold" }}>
+					{t.appName}
+				</Typography>
+			</Box>
 			{showToggle && onPinyinToggle && (
-				<div className="ms-auto d-flex align-items-center">
-					<Form.Check type="switch" id="pinyin-switch" label={t.showPinyin} checked={showPinyin} onChange={onPinyinToggle} className="text-white mb-0" style={{ fontSize: "0.9rem" }} />
-				</div>
+				<FormControl orientation="horizontal" sx={{ gap: 1 }}>
+					<FormLabel sx={{ color: "white", fontSize: "0.9rem", mb: 0 }}>{t.showPinyin}</FormLabel>
+					<Switch checked={showPinyin} onChange={onPinyinToggle} />
+				</FormControl>
 			)}
-		</Navbar>
+		</Box>
 	);
 };
 

@@ -46,6 +46,9 @@ export const sv = {
 			family: "Familj",
 			actions: "Handlingar",
 			items: "Föremål",
+			funPlay: "Lek & Roligt",
+			time: "Tid",
+			movementDirections: "Rörelse & Riktningar",
 		},
 	},
 
@@ -53,9 +56,9 @@ export const sv = {
 	filters: {
 		difficulty: {
 			all: "Alla nivåer",
-			easy: "Lätt (1)",
-			medium: "Medel (2-3)",
-			hard: "Svår (4-5)",
+			easy: "Lätt",
+			medium: "Medel",
+			hard: "Svår",
 		},
 		category: {
 			all: "Alla kategorier",
@@ -64,6 +67,9 @@ export const sv = {
 			family: "Familj",
 			actions: "Handlingar",
 			items: "Föremål",
+			funPlay: "Lek & Roligt",
+			time: "Tid",
+			movementDirections: "Rörelse & Riktningar",
 		},
 	},
 

@@ -46,6 +46,9 @@ export const en = {
 			family: "Family",
 			actions: "Actions",
 			items: "Items",
+			funPlay: "Fun & Play",
+			time: "Time",
+			movementDirections: "Movement & Directions",
 		},
 	},
 
@@ -64,6 +67,9 @@ export const en = {
 			family: "Family",
 			actions: "Actions",
 			items: "Items",
+			funPlay: "Fun & Play",
+			time: "Time",
+			movementDirections: "Movement & Directions",
 		},
 	},
 

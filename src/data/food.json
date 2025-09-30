@@ -604,5 +604,71 @@
 		"characters": "牛油果吐司",
 		"pinyin": "ngau4 jau4 gwo2 tou3 si1",
 		"difficulty": 3
+	},
+	{
+		"swedish": "hummus",
+		"characters": "鷹嘴豆泥",
+		"pinyin": "jing1 zeoi2 dau6 nai4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "quinoa",
+		"characters": "藜麥",
+		"pinyin": "lai4 mak6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kimchi",
+		"characters": "泡菜",
+		"pinyin": "paau3 coi3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tempura",
+		"characters": "天婦羅",
+		"pinyin": "tin1 fu5 lo4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "risotto",
+		"characters": "意式燴飯",
+		"pinyin": "ji3 sik1 wui6 faan6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "gazpacho",
+		"characters": "冷湯",
+		"pinyin": "laang5 tong1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "paella",
+		"characters": "海鮮飯",
+		"pinyin": "hoi2 sin1 faan6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "ceviche",
+		"characters": "酸橘魚",
+		"pinyin": "syun1 gwat1 jyu4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "falafel",
+		"characters": "鷹嘴豆丸",
+		"pinyin": "jing1 zeoi2 dau6 jyun4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "churros",
+		"characters": "吉拿棒",
+		"pinyin": "gat1 naa4 paang5",
+		"difficulty": 3
+	},
+	{
+		"swedish": "baklava",
+		"characters": "果仁蜜餅",
+		"pinyin": "gwo2 jan4 mat6 beng2",
+		"difficulty": 3
 	}
 ]

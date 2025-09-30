@@ -1,0 +1,23 @@
+:root {
+	/* Quiz Answer Colors */
+	--correct-color: #c7e1a7;
+	--incorrect-color: #e8786e;
+}
+
+/* Sticky Header */
+.sticky-header {
+	position: sticky;
+	top: 0;
+	z-index: 1001;
+	background-color: #292a37;
+}
+
+/* Fixed Bottom Navigation */
+.bottom-nav-fixed {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1002;
+}

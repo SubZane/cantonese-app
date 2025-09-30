@@ -1,8 +1,8 @@
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Box, Button, Card, Container, Typography } from "@mui/joy";
 
 import { useT } from "../translations";
 
@@ -15,32 +15,45 @@ const Home: React.FC = () => {
 	};
 
 	return (
-		<Container className="py-4" style={{ maxWidth: "800px" }}>
-			<div className="text-center mb-4">
-				<h1 className="mb-3">{t.home.welcome}</h1>
-				<p className="text-muted">{t.home.subtitle}</p>
-			</div>
+		<Container sx={{ py: 4, maxWidth: "800px" }}>
+			<Box sx={{ textAlign: "center", mb: 4 }}>
+				<Typography level="h1" sx={{ mb: 3 }}>
+					{t.home.welcome}
+				</Typography>
+				<Typography color="neutral" sx={{ color: "text.secondary" }}>
+					{t.home.subtitle}
+				</Typography>
+			</Box>
 
-			<Row className="g-4 mb-4">
+			<Box sx={{ display: "flex", justifyContent: "center", mb: 4 }}>
 				{/* Quick Quiz Card */}
-				<Col xs={12} md={6} className="mx-auto">
-					<Card className="h-100 d-flex flex-column">
-						<Card.Body className="flex-grow-1 text-center">
-							<div className="text-primary mb-3" style={{ fontSize: "3rem" }}>
+				<Box sx={{ width: { xs: "100%", md: "50%" } }}>
+					<Card
+						sx={{
+							height: "100%",
+							display: "flex",
+							flexDirection: "column",
+							textAlign: "center",
+						}}
+					>
+						<Box sx={{ flexGrow: 1, p: 3 }}>
+							<Box sx={{ color: "primary.500", mb: 3, fontSize: "3rem" }}>
 								<FontAwesomeIcon icon="clipboard-question" />
-							</div>
-							<Card.Title as="h5">{t.home.quickQuiz.title}</Card.Title>
-							<Card.Text className="text-muted">{t.home.quickQuiz.description}</Card.Text>
-						</Card.Body>
-						<div className="text-center pb-3">
-							<Button variant="primary" onClick={handleNavigateToQuiz}>
-								<FontAwesomeIcon icon="clipboard-question" className="me-2" />
+							</Box>
+							<Typography level="title-lg" sx={{ mb: 2 }}>
+								{t.home.quickQuiz.title}
+							</Typography>
+							<Typography color="neutral">{t.home.quickQuiz.description}</Typography>
+						</Box>
+						<Box sx={{ p: 3, pt: 0 }}>
+							<Button variant="solid" color="primary" onClick={handleNavigateToQuiz}>
+								<FontAwesomeIcon icon="clipboard-question" style={{ marginRight: "8px" }} />
 								{t.home.quickQuiz.button}
 							</Button>
-						</div>
+						</Box>
 					</Card>
-				</Col>
-			</Row>
+				</Box>
+			</Box>
 		</Container>
 	);
 };

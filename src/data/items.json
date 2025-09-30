@@ -604,5 +604,95 @@
 		"characters": "凉鞋",
 		"pinyin": "loeng4 haai4",
 		"difficulty": 2
+	},
+	{
+		"swedish": "barometer",
+		"characters": "氣壓計",
+		"pinyin": "hei3 aat3 gai3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "seismograf",
+		"characters": "地震儀",
+		"pinyin": "dei6 zan3 ji4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "stethoskop",
+		"characters": "聽診器",
+		"pinyin": "ting1 can2 hei3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "mikroskop",
+		"characters": "顯微鏡",
+		"pinyin": "hin2 mei4 geng3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "teleskop",
+		"characters": "望遠鏡",
+		"pinyin": "mong6 jyun5 geng3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kaleidoskop",
+		"characters": "萬花筒",
+		"pinyin": "maan6 faa1 tung2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kikarsikte",
+		"characters": "瞄準鏡",
+		"pinyin": "miu4 zeon2 geng3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "metronom",
+		"characters": "節拍器",
+		"pinyin": "zit3 paak3 hei3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "tuningaffel",
+		"characters": "音叉",
+		"pinyin": "jam1 caa1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "astrolabium",
+		"characters": "星盤",
+		"pinyin": "sing1 pun4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kompass",
+		"characters": "指南針",
+		"pinyin": "zi2 naam4 zam1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "sextant",
+		"characters": "六分儀",
+		"pinyin": "luk6 fan1 ji4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "altimeter",
+		"characters": "高度計",
+		"pinyin": "gou1 dou6 gai3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "anemometer",
+		"characters": "風速計",
+		"pinyin": "fung1 cuk1 gai3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "hydrometer",
+		"characters": "比重計",
+		"pinyin": "bei2 zung6 gai3",
+		"difficulty": 3
 	}
 ]

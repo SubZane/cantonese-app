@@ -1,0 +1,596 @@
+[
+	{
+		"swedish": "gå",
+		"characters": "行",
+		"pinyin": "haang4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "springa",
+		"characters": "跑",
+		"pinyin": "paau2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "stå",
+		"characters": "企",
+		"pinyin": "kei5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "sitta",
+		"characters": "坐",
+		"pinyin": "co5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ligga",
+		"characters": "瞓",
+		"pinyin": "fan3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "hoppa",
+		"characters": "跳",
+		"pinyin": "tiu3",
+		"difficulty": 1
+	},
+	{
+		"swedish": "komma",
+		"characters": "嚟",
+		"pinyin": "lai4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "gå bort",
+		"characters": "走",
+		"pinyin": "zau2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "stopp",
+		"characters": "停",
+		"pinyin": "ting4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "höger",
+		"characters": "右",
+		"pinyin": "jau6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "vänster",
+		"characters": "左",
+		"pinyin": "zo2",
+		"difficulty": 1
+	},
+	{
+		"swedish": "upp",
+		"characters": "上",
+		"pinyin": "soeng5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ner",
+		"characters": "落",
+		"pinyin": "lok6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "framåt",
+		"characters": "前",
+		"pinyin": "cin4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "bakåt",
+		"characters": "後",
+		"pinyin": "hau6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "här",
+		"characters": "呢度",
+		"pinyin": "ni1 dou6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "där",
+		"characters": "嗰度",
+		"pinyin": "go2 dou6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "nära",
+		"characters": "近",
+		"pinyin": "gan6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "långt bort",
+		"characters": "遠",
+		"pinyin": "jyun5",
+		"difficulty": 1
+	},
+	{
+		"swedish": "inne",
+		"characters": "入面",
+		"pinyin": "jap6 min6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "ute",
+		"characters": "出面",
+		"pinyin": "ceot1 min6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "på",
+		"characters": "喺度",
+		"pinyin": "hai2 dou6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "under",
+		"characters": "底下",
+		"pinyin": "dai2 haa6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "över",
+		"characters": "上面",
+		"pinyin": "soeng6 min6",
+		"difficulty": 1
+	},
+	{
+		"swedish": "bredvid",
+		"characters": "隔籬",
+		"pinyin": "gaak3 lei4",
+		"difficulty": 1
+	},
+	{
+		"swedish": "mellan",
+		"characters": "之間",
+		"pinyin": "zi1 gaan1",
+		"difficulty": 1
+	},
+	{
+		"swedish": "rakt fram",
+		"characters": "直行",
+		"pinyin": "zik6 haang4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svänga höger",
+		"characters": "轉右",
+		"pinyin": "zyun3 jau6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "svänga vänster",
+		"characters": "轉左",
+		"pinyin": "zyun3 zo2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "krypa",
+		"characters": "爬",
+		"pinyin": "paa4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "klättra",
+		"characters": "爬山",
+		"pinyin": "paa4 saan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "simma",
+		"characters": "游水",
+		"pinyin": "jau4 seoi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "flyga",
+		"characters": "飛",
+		"pinyin": "fei1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "cykla",
+		"characters": "踩單車",
+		"pinyin": "caai2 daan1 ce1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "köra bil",
+		"characters": "揸車",
+		"pinyin": "zaa1 ce1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "åka tåg",
+		"characters": "搭火車",
+		"pinyin": "daap3 fo2 ce1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "åka buss",
+		"characters": "搭巴士",
+		"pinyin": "daap3 baa1 si6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "promenera",
+		"characters": "散步",
+		"pinyin": "saan3 bou6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "jogga",
+		"characters": "慢跑",
+		"pinyin": "maan6 paau2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dansa",
+		"characters": "跳舞",
+		"pinyin": "tiu3 mou5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "rulla",
+		"characters": "轆",
+		"pinyin": "luk1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "glida",
+		"characters": "滑",
+		"pinyin": "waat6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "falla",
+		"characters": "跌",
+		"pinyin": "dit3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "stiga upp",
+		"characters": "起身",
+		"pinyin": "hei2 san1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sätta sig",
+		"characters": "坐低",
+		"pinyin": "co5 dai1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "luta sig",
+		"characters": "靠",
+		"pinyin": "kaau3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "böja sig",
+		"characters": "彎腰",
+		"pinyin": "waan1 jiu1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sträcka sig",
+		"characters": "伸",
+		"pinyin": "san1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "vända sig om",
+		"characters": "轉身",
+		"pinyin": "zyun3 san1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "titta åt höger",
+		"characters": "望右邊",
+		"pinyin": "mong6 jau6 bin1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "titta åt vänster",
+		"characters": "望左邊",
+		"pinyin": "mong6 zo2 bin1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "titta upp",
+		"characters": "望上",
+		"pinyin": "mong6 soeng5",
+		"difficulty": 2
+	},
+	{
+		"swedish": "titta ner",
+		"characters": "望落",
+		"pinyin": "mong6 lok6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "peka",
+		"characters": "指",
+		"pinyin": "zi2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "sträcka ut",
+		"characters": "伸出",
+		"pinyin": "san1 ceot1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "dra tillbaka",
+		"characters": "拉返",
+		"pinyin": "laai1 faan1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "skjuta fram",
+		"characters": "推前",
+		"pinyin": "teoi1 cin4",
+		"difficulty": 2
+	},
+	{
+		"swedish": "korsning",
+		"characters": "十字路口",
+		"pinyin": "sap6 zi6 lou6 hau2",
+		"difficulty": 2
+	},
+	{
+		"swedish": "rondell",
+		"characters": "迴旋處",
+		"pinyin": "wui4 syun4 cyu3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "trafikljus",
+		"characters": "交通燈",
+		"pinyin": "gaau1 tung1 dang1",
+		"difficulty": 2
+	},
+	{
+		"swedish": "övergångsställe",
+		"characters": "斑馬線",
+		"pinyin": "baan1 maa5 sin3",
+		"difficulty": 2
+	},
+	{
+		"swedish": "hållplats",
+		"characters": "車站",
+		"pinyin": "ce1 zaam6",
+		"difficulty": 2
+	},
+	{
+		"swedish": "nordost",
+		"characters": "東北",
+		"pinyin": "dung1 bak1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "sydväst",
+		"characters": "西南",
+		"pinyin": "sai1 naam4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "nordväst",
+		"characters": "西北",
+		"pinyin": "sai1 bak1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "sydost",
+		"characters": "東南",
+		"pinyin": "dung1 naam4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "navigera",
+		"characters": "導航",
+		"pinyin": "dou6 hong4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "orientera",
+		"characters": "定位",
+		"pinyin": "ding6 wai6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kalibrerad",
+		"characters": "校準",
+		"pinyin": "gaau3 zeon2",
+		"difficulty": 3
+	},
+	{
+		"swedish": "koordinater",
+		"characters": "坐標",
+		"pinyin": "co5 biu1",
+		"difficulty": 3
+	},
+	{
+		"swedish": "longitud",
+		"characters": "經度",
+		"pinyin": "ging1 dou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "latitud",
+		"characters": "緯度",
+		"pinyin": "wai5 dou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "magnetisk",
+		"characters": "磁性",
+		"pinyin": "ci4 sing3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kompassriktning",
+		"characters": "羅盤方向",
+		"pinyin": "lo4 pun4 fong1 hoeng3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "bäring",
+		"characters": "方位角",
+		"pinyin": "fong1 wai6 gok3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "azimut",
+		"characters": "方位角",
+		"pinyin": "fong1 wai6 gok3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "triangulering",
+		"characters": "三角測量",
+		"pinyin": "saam1 gok3 cak1 loeng6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "gyrokompss",
+		"characters": "陀螺儀",
+		"pinyin": "to4 lo4 ji4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "accelerometer",
+		"characters": "加速計",
+		"pinyin": "gaa1 cuk1 gai3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "rörelsevektor",
+		"characters": "運動向量",
+		"pinyin": "wan6 dung6 hoeng3 loeng6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "hastighetsvektor",
+		"characters": "速度向量",
+		"pinyin": "cuk1 dou6 hoeng3 loeng6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "acceleration",
+		"characters": "加速度",
+		"pinyin": "gaa1 cuk1 dou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "deceleration",
+		"characters": "減速度",
+		"pinyin": "gaam2 cuk1 dou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "fart",
+		"characters": "速率",
+		"pinyin": "cuk1 leot6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "hastighet",
+		"characters": "速度",
+		"pinyin": "cuk1 dou6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "momentum",
+		"characters": "動量",
+		"pinyin": "dung6 loeng6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "kinetisk",
+		"characters": "動能",
+		"pinyin": "dung6 nang4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "potentiell",
+		"characters": "勢能",
+		"pinyin": "sai3 nang4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "friktion",
+		"characters": "摩擦力",
+		"pinyin": "mo1 caat3 lik6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "gravitation",
+		"characters": "重力",
+		"pinyin": "cung5 lik6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "centripetal",
+		"characters": "向心力",
+		"pinyin": "hoeng3 sam1 lik6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "centrifugal",
+		"characters": "離心力",
+		"pinyin": "lei4 sam1 lik6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "oscillation",
+		"characters": "振盪",
+		"pinyin": "zan3 dong6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "rotation",
+		"characters": "旋轉",
+		"pinyin": "syun4 zyun3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "revolution",
+		"characters": "公轉",
+		"pinyin": "gung1 zyun3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "translation",
+		"characters": "平移",
+		"pinyin": "ping4 ji4",
+		"difficulty": 3
+	},
+	{
+		"swedish": "vibration",
+		"characters": "振動",
+		"pinyin": "zan3 dung6",
+		"difficulty": 3
+	},
+	{
+		"swedish": "resonans",
+		"characters": "共振",
+		"pinyin": "gung6 zan3",
+		"difficulty": 3
+	},
+	{
+		"swedish": "turbulens",
+		"characters": "湍流",
+		"pinyin": "tyun4 lau4",
+		"difficulty": 3
+	}
+]

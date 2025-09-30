@@ -1,8 +1,10 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./fontawesome";
 
 import React, { useState } from "react";
 import { BrowserRouter as Router, Navigate, Route, Routes, useLocation } from "react-router-dom";
+
+import CssBaseline from "@mui/joy/CssBaseline";
+import { CssVarsProvider, extendTheme } from "@mui/joy/styles";
 
 import BottomNav from "./components/BottomNav";
 import Header from "./components/Header";
@@ -68,15 +70,11 @@ function AppContent() {
 	);
 
 	return (
-		<div className="d-flex flex-column min-vh-100">
-			<Header showPinyin={showPinyin} onPinyinToggle={handlePinyinToggle} showToggle={currentView === "quiz"} />
-			<main
-				className="flex-grow-1 d-flex justify-content-center py-4"
-				style={{
-					alignItems: currentView === "home" ? "center" : "flex-start",
-					paddingBottom: "11.125rem", // Increased padding (8rem + 50px) for fixed bottom navigation
-				}}
-			>
+		<div className="app-layout-container">
+			<div className="sticky-header">
+				<Header showPinyin={showPinyin} onPinyinToggle={handlePinyinToggle} showToggle={currentView === "quiz"} />
+			</div>
+			<main className="main-content-area">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/quiz" element={<Quiz showPinyin={showPinyin} />} />
@@ -86,18 +84,73 @@ function AppContent() {
 					<Route path="*" element={<Navigate to="/" replace />} />
 				</Routes>
 			</main>
-			<BottomNav currentView={currentView} />
+			<div className="bottom-nav-fixed">
+				<BottomNav currentView={currentView} />
+			</div>
 		</div>
 	);
 }
 
+const customTheme = extendTheme({
+	colorSchemes: {
+		light: {
+			palette: {
+				text: {
+					primary: "#292A37",
+					secondary: "#292A37",
+				},
+				primary: {
+					50: "#f4f9fc",
+					100: "#e6f3f9",
+					200: "#cce6f3",
+					300: "#b3d9ed",
+					400: "#9dbfd2",
+					500: "#9dbfd2",
+					600: "#7ea5bd",
+					700: "#5f8ba8",
+					800: "#4a6b82",
+					900: "#354c5c",
+				},
+
+				success: {
+					50: "#f6faf2",
+					100: "#ecf5e4",
+					200: "#d9ebc9",
+					300: "#c7e1a7",
+					400: "#c7e1a7",
+					500: "#c7e1a7",
+					600: "#b5d191",
+					700: "#a3c17b",
+					800: "#91b165",
+					900: "#7fa14f",
+				},
+				danger: {
+					50: "#fef5f4",
+					100: "#fdeae8",
+					200: "#fbd5d1",
+					300: "#f9c0ba",
+					400: "#e8786e",
+					500: "#e8786e",
+					600: "#d65e54",
+					700: "#c4443a",
+					800: "#b22a20",
+					900: "#a01006",
+				},
+			},
+		},
+	},
+});
+
 function App() {
 	return (
-		<Router>
-			<TranslationProvider defaultLanguage="sv">
-				<AppContent />
-			</TranslationProvider>
-		</Router>
+		<CssVarsProvider theme={customTheme}>
+			<CssBaseline />
+			<Router>
+				<TranslationProvider defaultLanguage="sv">
+					<AppContent />
+				</TranslationProvider>
+			</Router>
+		</CssVarsProvider>
 	);
 }
 
