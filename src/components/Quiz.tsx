@@ -3,7 +3,7 @@ import "../styles/components/Quiz.scss";
 import React, { useEffect, useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Box, Button, FormControl, FormLabel, LinearProgress, Option, Select, Sheet, Table, Typography } from "@mui/joy";
+import { Button, FormControl, FormLabel, LinearProgress, Option, Select, Sheet, Table, Typography } from "@mui/joy";
 
 import actionsData from "../data/actions.json";
 import animalsData from "../data/animals.json";
@@ -58,6 +58,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 
 	// Quiz setup state
 	const [quizStarted, setQuizStarted] = useState(false);
+	const [configStep, setConfigStep] = useState<number>(1); // 1: Category, 2: Difficulty, 3: Question Count
 	const [difficulty, setDifficulty] = useState<string>(getSavedSetting("difficulty", "all"));
 	const [category, setCategory] = useState<string>(getSavedSetting("category", "all"));
 	const [questionCount, setQuestionCount] = useState<number>(getSavedSetting("questionCount", 10));
@@ -348,6 +349,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	const resetQuiz = () => {
 		clearQuizState(); // Clear saved state
 		setQuizStarted(false);
+		setConfigStep(1); // Reset to first configuration step
 		setCurrentQuestion(null);
 		setScore(0);
 		setQuestionNumber(1);
@@ -369,6 +371,21 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		setQuizStarted(true);
 	};
 
+	// Configuration step navigation
+	const nextConfigStep = () => {
+		if (configStep < 2) {
+			setConfigStep(configStep + 1);
+		} else {
+			startQuiz();
+		}
+	};
+
+	const prevConfigStep = () => {
+		if (configStep > 1) {
+			setConfigStep(configStep - 1);
+		}
+	};
+
 	const showResults = () => {
 		setShowDetailedResults(true);
 	};
@@ -388,7 +405,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 							: "Loading vocabulary..."}
 					</p>
 					<Button variant="solid" color="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="chevron-left" style={{ marginRight: "8px" }} />
+						<FontAwesomeIcon icon="chevron-left" className="icon-spacing" />
 						Back to Setup
 					</Button>
 				</div>
@@ -396,72 +413,88 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		);
 	}
 
-	// Quiz setup screen
+	// Quiz setup screens (3 steps)
 	if (!quizStarted) {
-		return (
-			<div className="quiz-container">
-				<div className="setup-container">
-					<h2 className="mb-2">{t.quiz.setup.title}</h2>
-					<p className="text-muted mb-4">{t.quiz.setup.description}</p>
+		// Step 1: Category Selection
+		if (configStep === 1) {
+			return (
+				<div className="quiz-container">
+					<div className="setup-container">
+						<h2 className="mb-2">{t.quiz.setup.title}</h2>
+						<p className="text-muted mb-4">Step 1 of 2: {t.quiz.setup.category}</p>
+					</div>
+
+					<div className="setup-form">
+						<FormControl>
+							<FormLabel>{t.quiz.setup.category}</FormLabel>
+							<IconsRadio value={category} onChange={setCategory} options={categoryOptions} />
+						</FormControl>
+
+						<Button variant="solid" color="primary" onClick={nextConfigStep}>
+							Next: Quiz Settings
+						</Button>
+					</div>
 				</div>
+			);
+		}
 
-				<Box sx={{ display: "flex", flexDirection: "column", gap: 3, maxWidth: 700, margin: "0 auto" }}>
-					{/* Category selector */}
-					<FormControl>
-						<FormLabel>{t.quiz.setup.category}</FormLabel>
-						<IconsRadio value={category} onChange={setCategory} options={categoryOptions} />
-					</FormControl>
+		// Step 2: Difficulty and Question Count Selection
+		if (configStep === 2) {
+			return (
+				<div className="quiz-container">
+					<div className="setup-container">
+						<h2 className="mb-2">{t.quiz.setup.title}</h2>
+						<p className="text-muted mb-4">Step 2 of 2: Quiz Settings</p>
+					</div>
 
-					{/* Difficulty selector */}
-					<DifficultyRadio
-						value={difficulty}
-						onChange={setDifficulty}
-						labels={{
-							title: t.quiz.setup.difficulty,
-							all: t.filters.difficulty.all,
-							easy: t.filters.difficulty.easy,
-							medium: t.filters.difficulty.medium,
-							hard: t.filters.difficulty.hard,
-						}}
-					/>
-
-					{/* Question count selector */}
-					<FormControl>
-						<FormLabel>{t.quiz.setup.questionCount}</FormLabel>
-						<Select value={questionCount} onChange={(_, newValue) => setQuestionCount(Number(newValue) || 5)}>
-							{[5, 10, 15, 20].map((count) => (
-								<Option key={count} value={count}>
-									{count} {t.quiz.setup.questionPlural}
-								</Option>
-							))}
-						</Select>
-					</FormControl>
-
-					{/* Warning if not enough vocabulary */}
-					{allVocabulary.length < questionCount && (
-						<Box
-							sx={{
-								p: 2,
-								backgroundColor: "warning.50",
-								border: "1px solid",
-								borderColor: "warning.300",
-								borderRadius: "sm",
+					<div className="setup-form">
+						<DifficultyRadio
+							value={difficulty}
+							onChange={setDifficulty}
+							labels={{
+								title: t.quiz.setup.difficulty,
+								all: t.filters.difficulty.all,
+								easy: t.filters.difficulty.easy,
+								medium: t.filters.difficulty.medium,
+								hard: t.filters.difficulty.hard,
 							}}
-						>
-							<Typography fontSize="sm" color="warning">
-								<FontAwesomeIcon icon="times" style={{ marginRight: "8px" }} />
-								Not enough unique words available. Found {allVocabulary.length} words but need {questionCount}. Please select fewer questions or change your filters.
-							</Typography>
-						</Box>
-					)}
+						/>
 
-					<Button variant="solid" color="primary" onClick={startQuiz} disabled={allVocabulary.length < questionCount}>
-						<FontAwesomeIcon icon="play" style={{ marginRight: "8px" }} />
-						{t.quiz.setup.startButton}
-					</Button>
-				</Box>
-			</div>
-		);
+						<FormControl>
+							<FormLabel>{t.quiz.setup.questionCount}</FormLabel>
+							<Select value={questionCount} onChange={(_, newValue) => setQuestionCount(Number(newValue) || 5)}>
+								{[5, 10, 15, 20].map((count) => (
+									<Option key={count} value={count}>
+										{count} {t.quiz.setup.questionPlural}
+									</Option>
+								))}
+							</Select>
+						</FormControl>
+
+						{/* Warning if not enough vocabulary */}
+						{allVocabulary.length < questionCount && (
+							<div className="warning-box">
+								<Typography fontSize="sm" color="warning">
+									<FontAwesomeIcon icon="times" className="icon-spacing" />
+									Not enough unique words available. Found {allVocabulary.length} words but need {questionCount}. Please select fewer questions or change your filters.
+								</Typography>
+							</div>
+						)}
+
+						<div className="step-navigation">
+							<Button variant="outlined" color="neutral" onClick={prevConfigStep}>
+								<FontAwesomeIcon icon="chevron-left" className="icon-spacing" />
+								Back
+							</Button>
+							<Button variant="solid" color="primary" onClick={nextConfigStep} disabled={allVocabulary.length < questionCount}>
+								<FontAwesomeIcon icon="play" className="icon-spacing" />
+								{t.quiz.setup.startButton}
+							</Button>
+						</div>
+					</div>
+				</div>
+			);
+		}
 	}
 
 	// Detailed results screen
@@ -481,42 +514,36 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 					</h5>
 				</div>
 
-				<Sheet variant="outlined" sx={{ borderRadius: "sm", overflow: "auto", mb: 2 }}>
+				<Sheet variant="outlined" className="results-table">
 					<Table size="sm" hoverRow>
 						<thead>
 							<tr>
-								<th style={{ width: "8%", textAlign: "center" }}>#</th>
-								<th style={{ width: "25%" }}>Question</th>
-								<th style={{ width: "28%" }}>{t.quiz.results.yourAnswer}</th>
-								<th style={{ width: "28%" }}>{t.quiz.results.correctAnswer}</th>
-								<th style={{ width: "11%", textAlign: "center" }}>Result</th>
+								<th className="table-header-number">#</th>
+								<th className="table-header-question">Question</th>
+								<th className="table-header-answer">{t.quiz.results.yourAnswer}</th>
+								<th className="table-header-correct">{t.quiz.results.correctAnswer}</th>
+								<th className="table-header-result">Result</th>
 							</tr>
 						</thead>
 						<tbody>
 							{quizResults.map((result, index) => (
 								<tr key={index} className={result.isCorrect ? "table-row-correct" : "table-row-incorrect"}>
-									<td style={{ textAlign: "center", fontWeight: "bold" }}>{index + 1}</td>
-									<td style={{ fontWeight: "500", fontSize: "0.9rem" }}>{result.question}</td>
-									<td style={{ fontSize: "0.85rem" }}>
+									<td className="table-cell-number">{index + 1}</td>
+									<td className="table-cell-question">{result.question}</td>
+									<td className="table-cell-answer">
 										<div>
 											{result.userAnswer}
-											{showPinyin && result.userPinyin && <div style={{ fontSize: "0.75rem", fontStyle: "italic", color: "#666" }}>{result.userPinyin.toLowerCase()}</div>}
+											{showPinyin && result.userPinyin && <div className="table-pinyin">{result.userPinyin.toLowerCase()}</div>}
 										</div>
 									</td>
-									<td style={{ fontSize: "0.85rem" }}>
+									<td className="table-cell-correct">
 										<div>
 											{result.correctAnswer}
-											{showPinyin && <div style={{ fontSize: "0.75rem", fontStyle: "italic", color: "#666" }}>{result.correctPinyin.toLowerCase()}</div>}
+											{showPinyin && <div className="table-pinyin">{result.correctPinyin.toLowerCase()}</div>}
 										</div>
 									</td>
-									<td style={{ textAlign: "center" }}>
-										<FontAwesomeIcon
-											icon={result.isCorrect ? "check" : "times"}
-											style={{
-												color: result.isCorrect ? "var(--correct-color)" : "var(--incorrect-color)",
-												fontSize: "1.1rem",
-											}}
-										/>
+									<td className="table-cell-result">
+										<FontAwesomeIcon icon={result.isCorrect ? "check" : "times"} className={`table-result-icon ${result.isCorrect ? "correct" : "incorrect"}`} />
 									</td>
 								</tr>
 							))}
@@ -526,7 +553,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 
 				<div className="text-center">
 					<Button variant="solid" color="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="rotate-right" style={{ marginRight: "8px" }} />
+						<FontAwesomeIcon icon="rotate-right" className="icon-spacing" />
 						{t.quiz.complete.restartButton}
 					</Button>
 				</div>
@@ -549,11 +576,11 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 				<p className="completion-message">{getScoreMessage()}</p>
 				<div className="completion-actions">
 					<Button variant="outlined" color="primary" onClick={showResults}>
-						<FontAwesomeIcon icon="eye" style={{ marginRight: "8px" }} />
+						<FontAwesomeIcon icon="eye" className="icon-spacing" />
 						{t.quiz.results.title}
 					</Button>
 					<Button variant="solid" color="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="rotate-right" style={{ marginRight: "8px" }} />
+						<FontAwesomeIcon icon="rotate-right" className="icon-spacing" />
 						{t.quiz.complete.restartButton}
 					</Button>
 				</div>
@@ -613,14 +640,6 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 				</p>
 			</div>
 
-			{/* Progress bar */}
-			<Box sx={{ marginBottom: 2 }}>
-				<Typography level="body-sm" sx={{ marginBottom: 1 }}>
-					{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
-				</Typography>
-				<LinearProgress determinate value={(questionNumber / questionCount) * 100} sx={{ borderRadius: "4px", height: "8px" }} />
-			</Box>
-
 			{/* Score */}
 			<h5 className="score-display">
 				{t.quiz.score}: {score}/{questionNumber - 1}
@@ -658,14 +677,25 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 				</div>
 			</div>
 
-			{/* Next button */}
+			{/* Action buttons */}
 			{showResult && (
-				<div className="next-button-container">
+				<div className="quiz-actions">
+					<Button variant="outlined" color="danger" onClick={resetQuiz}>
+						Cancel Quiz
+					</Button>
 					<Button variant="solid" color="primary" onClick={handleNextQuestion}>
 						{questionNumber >= questionCount ? t.quiz.viewResults : t.quiz.nextQuestion}
 					</Button>
 				</div>
 			)}
+
+			{/* Progress bar at bottom */}
+			<div className="progress-bottom">
+				<Typography level="body-sm" className="progress-text">
+					{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
+				</Typography>
+				<LinearProgress determinate value={(questionNumber / questionCount) * 100} className="progress-bar-bottom" />
+			</div>
 		</div>
 	);
 };

@@ -99,18 +99,6 @@ const customTheme = extendTheme({
 					primary: "#292A37",
 					secondary: "#292A37",
 				},
-				primary: {
-					50: "#f4f9fc",
-					100: "#e6f3f9",
-					200: "#cce6f3",
-					300: "#b3d9ed",
-					400: "#9dbfd2",
-					500: "#9dbfd2",
-					600: "#7ea5bd",
-					700: "#5f8ba8",
-					800: "#4a6b82",
-					900: "#354c5c",
-				},
 
 				success: {
 					50: "#f6faf2",
