@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Navigate, Route, Routes, useLocation } from "r
 import CssBaseline from "@mui/joy/CssBaseline";
 import { CssVarsProvider, extendTheme } from "@mui/joy/styles";
 
-import BottomNav from "./components/BottomNav";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Quiz from "./components/Quiz";
@@ -84,9 +83,6 @@ function AppContent() {
 					<Route path="*" element={<Navigate to="/" replace />} />
 				</Routes>
 			</main>
-			<div className="bottom-nav-fixed">
-				<BottomNav currentView={currentView} />
-			</div>
 		</div>
 	);
 }

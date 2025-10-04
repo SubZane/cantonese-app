@@ -12,22 +12,43 @@
 }
 
 .quiz-header {
-	text-align: center;
+	text-align: left;
 	margin-bottom: 1rem;
 	flex-shrink: 0;
+}
+
+// New quiz header content layout
+.quiz-header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+
+	@media (max-width: 768px) {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.75rem;
+	}
+}
+
+.quiz-header-left {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
 }
 
 .category-title {
 	font-size: 1.75rem;
 	font-weight: 600;
 	color: var(--header-color);
+	margin-bottom: 0.25rem;
 }
 
 .difficulty-display {
 	font-size: 1rem;
 	font-weight: 400;
 	color: #666;
-	margin: 0.25rem 0 0 0;
+	margin: 0;
 	text-transform: capitalize;
 }
 
@@ -51,7 +72,7 @@
 	flex: 1 1 auto;
 	min-height: 0;
 	margin-bottom: 0.5rem;
-	overflow: hidden;
+	overflow: visible; // Allow borders to be visible
 	align-content: space-between;
 
 	@media (max-width: 768px) {
@@ -82,6 +103,8 @@
 	flex-direction: column;
 	gap: 0.75rem;
 	height: 100%;
+	padding: 0.25rem; // Add padding to prevent border cutoff
+	overflow: visible; // Ensure borders are visible
 }
 
 .answer-button {
@@ -236,13 +259,14 @@
 
 .quiz-actions {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	margin-top: 0.75rem;
 	margin-bottom: 1rem;
 	flex-shrink: 0;
 	position: relative;
 	z-index: 10;
+	gap: 10px;
 }
 
 .setup-container {
@@ -425,12 +449,11 @@
 // Bottom progress bar styles
 .progress-bottom {
 	position: fixed;
-	bottom: 80px; // Just above bottom navigation toolbar
+	bottom: 0; // Just above bottom navigation toolbar
 	left: 0;
 	right: 0;
 	background: white;
 	border-top: 1px solid var(--border-color);
-	padding: 0.5rem 1rem;
 	z-index: 100;
 
 	.progress-text {

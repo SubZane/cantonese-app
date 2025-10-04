@@ -79,6 +79,7 @@ export const en = {
 			title: "Configure Quiz",
 			description: "Choose category, difficulty, and number of questions for your quiz.",
 			category: "Category",
+			difficultyAndQuestions: "Pick difficulty and number of questions",
 			difficulty: "Difficulty",
 			questionCount: "Number of Questions",
 			questionPlural: "questions",
@@ -92,6 +93,7 @@ export const en = {
 		nextQuestion: "Next Question",
 		viewResults: "View Results",
 		yourChoice: "Your choice",
+		cancelQuiz: "Cancel Quiz",
 		complete: {
 			title: "Quiz Complete! 🎉",
 			score: "Your Score: {score}/{total}",

@@ -3,7 +3,7 @@ import "../styles/components/Quiz.scss";
 import React, { useEffect, useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button, FormControl, FormLabel, LinearProgress, Option, Select, Sheet, Table, Typography } from "@mui/joy";
+import { Button, Chip, FormControl, LinearProgress, Sheet, Table, Typography } from "@mui/joy";
 
 import actionsData from "../data/actions.json";
 import animalsData from "../data/animals.json";
@@ -15,7 +15,9 @@ import movementDirectionsData from "../data/movement-directions.json";
 import timeData from "../data/time.json";
 import { useT } from "../translations";
 import DifficultyRadio from "./form/DifficultyRadio";
+import IconlessRadio from "./form/IconlessRadio";
 import IconsRadio from "./form/IconsRadio";
+import QuestionCountRadio from "./form/QuestionCountRadio";
 
 interface VocabularyItem {
 	swedish: string;
@@ -217,30 +219,27 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	};
 
 	// Generate a random quiz question without repeating words
-	const generateQuestion = (): QuizQuestion | null => {
+	const generateQuestion = (currentUsedWords: Set<string> = usedWords): { question: QuizQuestion | null; newUsedWords: Set<string> } => {
 		const vocabulary = getAllVocabulary();
 
 		if (vocabulary.length < 3) {
-			return null;
+			return { question: null, newUsedWords: currentUsedWords };
 		}
 
 		// Filter out already used words
-		const availableWords = vocabulary.filter((item) => !usedWords.has(item.swedish));
+		const availableWords = vocabulary.filter((item) => !currentUsedWords.has(item.swedish));
 
 		// If we've used all words, this shouldn't happen in practice but handle it
 		if (availableWords.length === 0) {
-			return null;
+			return { question: null, newUsedWords: currentUsedWords };
 		}
 
 		const randomIndex = Math.floor(Math.random() * availableWords.length);
 		const correctItem = availableWords[randomIndex];
 
-		// Add this word to used words
-		setUsedWords((prev) => {
-			const newSet = new Set(prev);
-			newSet.add(correctItem.swedish);
-			return newSet;
-		});
+		// Create new set with the selected word added
+		const newUsedWords = new Set(currentUsedWords);
+		newUsedWords.add(correctItem.swedish);
 
 		// Get 2 wrong answers from the same category or random items
 		const wrongItems = vocabulary
@@ -265,13 +264,15 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		const options = shuffledIndices.map((i) => allOptions[i].characters);
 		const optionsPinyin = shuffledIndices.map((i) => allOptions[i].pinyin);
 
-		return {
+		const question = {
 			swedish: correctItem.swedish,
 			correctAnswer: correctItem.characters,
 			correctPinyin: correctItem.pinyin,
 			options,
 			optionsPinyin,
 		};
+
+		return { question, newUsedWords };
 	};
 
 	// Load saved quiz state on component mount
@@ -293,8 +294,9 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	// Initialize first question
 	useEffect(() => {
 		if (quizStarted && !currentQuestion) {
-			const question = generateQuestion();
-			setCurrentQuestion(question);
+			const result = generateQuestion();
+			setCurrentQuestion(result.question);
+			setUsedWords(result.newUsedWords);
 			// Only reset quiz state when starting fresh (not when restoring)
 			if (questionNumber === 1 && score === 0 && quizResults.length === 0) {
 				setScore(0);
@@ -309,11 +311,15 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	}, [quizStarted, difficulty, category]); // eslint-disable-line react-hooks/exhaustive-deps
 
 	const handleAnswerSelect = (answer: string) => {
-		if (selectedAnswer) return; // Prevent multiple selections
+		if (selectedAnswer || showResult) return; // Prevent multiple selections
 
 		setSelectedAnswer(answer);
 		const correct = answer === currentQuestion?.correctAnswer;
-		setShowResult(true);
+
+		// Automatically show result after selection
+		setTimeout(() => {
+			setShowResult(true);
+		}, 100);
 
 		if (correct) {
 			setScore(score + 1);
@@ -343,7 +349,11 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		setSelectedAnswer(null);
 		setShowResult(false);
 		setQuestionNumber(questionNumber + 1);
-		setCurrentQuestion(generateQuestion());
+
+		// Generate next question with current used words
+		const result = generateQuestion(usedWords);
+		setCurrentQuestion(result.question);
+		setUsedWords(result.newUsedWords);
 	};
 
 	const resetQuiz = () => {
@@ -420,13 +430,11 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 			return (
 				<div className="quiz-container">
 					<div className="setup-container">
-						<h2 className="mb-2">{t.quiz.setup.title}</h2>
-						<p className="text-muted mb-4">Step 1 of 2: {t.quiz.setup.category}</p>
+						<h2 className="mb-2">{t.quiz.setup.category}</h2>
 					</div>
 
 					<div className="setup-form">
 						<FormControl>
-							<FormLabel>{t.quiz.setup.category}</FormLabel>
 							<IconsRadio value={category} onChange={setCategory} options={categoryOptions} />
 						</FormControl>
 
@@ -443,8 +451,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 			return (
 				<div className="quiz-container">
 					<div className="setup-container">
-						<h2 className="mb-2">{t.quiz.setup.title}</h2>
-						<p className="text-muted mb-4">Step 2 of 2: Quiz Settings</p>
+						<h2 className="mb-2">{t.quiz.setup.difficultyAndQuestions}</h2>
 					</div>
 
 					<div className="setup-form">
@@ -460,16 +467,7 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 							}}
 						/>
 
-						<FormControl>
-							<FormLabel>{t.quiz.setup.questionCount}</FormLabel>
-							<Select value={questionCount} onChange={(_, newValue) => setQuestionCount(Number(newValue) || 5)}>
-								{[5, 10, 15, 20].map((count) => (
-									<Option key={count} value={count}>
-										{count} {t.quiz.setup.questionPlural}
-									</Option>
-								))}
-							</Select>
-						</FormControl>
+						<QuestionCountRadio value={questionCount} onChange={setQuestionCount} label={t.quiz.setup.questionCount} />
 
 						{/* Warning if not enough vocabulary */}
 						{allVocabulary.length < questionCount && (
@@ -623,80 +621,115 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	};
 
 	return (
-		<div className="quiz-container">
-			{/* Category title */}
-			<div className="quiz-header">
-				<h2 className="category-title">{getCategoryDisplayName()}</h2>
-				<p className="difficulty-display">
-					{difficulty === "all"
-						? t.filters.difficulty.all
-						: difficulty === "easy"
-						? t.filters.difficulty.easy
-						: difficulty === "medium"
-						? t.filters.difficulty.medium
-						: difficulty === "hard"
-						? t.filters.difficulty.hard
-						: t.filters.difficulty.all}
-				</p>
-			</div>
+		<>
+			<Sheet
+				sx={{
+					backgroundColor: "var(--joy-palette-background-surface)",
+					borderRadius: 0,
+					p: 3,
+					mb: 2,
+					borderBottom: "1px solid var(--joy-palette-divider)",
+				}}
+			>
+				<div className="quiz-header-content">
+					<div className="quiz-header-left">
+						<Typography
+							level="h1"
+							sx={{
+								fontSize: "1.5rem",
+								fontWeight: 700,
+								color: "var(--joy-palette-text-primary)",
+								mb: 0.5,
+							}}
+						>
+							{getCategoryDisplayName()}
+						</Typography>
+						<Typography
+							level="body-sm"
+							sx={{
+								color: "var(--joy-palette-text-secondary)",
+								fontSize: "0.875rem",
+							}}
+						>
+							{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
+						</Typography>
+					</div>
+					<Chip
+						variant="solid"
+						color={difficulty === "easy" ? "success" : difficulty === "medium" ? "warning" : difficulty === "hard" ? "danger" : "neutral"}
+						size="lg"
+						sx={{
+							fontWeight: 600,
+							letterSpacing: "0.5px",
+							color: "white",
+						}}
+					>
+						{difficulty === "all"
+							? t.filters.difficulty.all
+							: difficulty === "easy"
+							? t.filters.difficulty.easy
+							: difficulty === "medium"
+							? t.filters.difficulty.medium
+							: difficulty === "hard"
+							? t.filters.difficulty.hard
+							: t.filters.difficulty.all}
+					</Chip>
+				</div>
+			</Sheet>
+			<div className="quiz-container">
+				{/* Category title */}
 
-			{/* Score */}
-			<h5 className="score-display">
-				{t.quiz.score}: {score}/{questionNumber - 1}
-			</h5>
+				{/* Question and Answer options - Grid-like layout */}
+				<div className="quiz-layout">
+					{/* Question */}
+					<div className="question-container">
+						<h3 className="question-text">{currentQuestion.swedish}</h3>
+					</div>
 
-			{/* Question and Answer options - Grid-like layout */}
-			<div className="quiz-layout">
-				{/* Question */}
-				<div className="question-container">
-					<h3 className="question-text">{currentQuestion.swedish}</h3>
+					{/* Answer options */}
+					<div className="options-container">
+						<IconlessRadio
+							value={selectedAnswer || ""}
+							onChange={handleAnswerSelect}
+							options={currentQuestion.options.map((option, index) => ({
+								value: option,
+								label: option,
+								pinyin: currentQuestion.optionsPinyin[index],
+							}))}
+							showPinyin={showPinyin}
+							disabled={showResult}
+							correctAnswer={currentQuestion.correctAnswer}
+							showResult={showResult}
+						/>
+					</div>
 				</div>
 
-				{/* Answer options */}
-				<div className="options-container">
-					{currentQuestion.options.map((option, index) => {
-						const isSelected = selectedAnswer === option;
-						const isCorrectAnswer = option === currentQuestion.correctAnswer;
-						const optionPinyin = currentQuestion.optionsPinyin[index];
+				{/* Action buttons */}
+				{showResult && (
+					<div className="quiz-actions">
+						<Button
+							variant="outlined"
+							color="danger"
+							onClick={() => {
+								if (window.confirm("Are you sure you want to cancel the quiz? Your progress will be lost.")) {
+									resetQuiz();
+								}
+							}}
+						>
+							{t.quiz.cancelQuiz}
+						</Button>
+						<Button variant="solid" color="primary" onClick={handleNextQuestion}>
+							{questionNumber >= questionCount ? t.quiz.viewResults : t.quiz.nextQuestion}
+						</Button>
+					</div>
+				)}
 
-						let buttonClasses = `answer-button option-${index + 1}`;
-						if (isSelected) buttonClasses += " btn-primary selected";
-						if (showResult && isCorrectAnswer) buttonClasses += " correct correct-answer";
-						if (showResult && !isCorrectAnswer) buttonClasses += " incorrect";
-						if (showResult && isSelected && !isCorrectAnswer) buttonClasses += " selected-incorrect";
-
-						return (
-							<div key={index} className="button-wrapper">
-								<Button variant={isSelected ? "solid" : "outlined"} color="primary" className={buttonClasses} onClick={() => handleAnswerSelect(option)} disabled={showResult}>
-									<span className="main-text">{option}</span>
-									<span className="pinyin-text">{showPinyin ? `(${optionPinyin.toLowerCase()})` : ""}</span>
-								</Button>
-							</div>
-						);
-					})}
+				{/* Progress bar at bottom */}
+				<div className="progress-bottom">
+					<LinearProgress determinate value={(questionNumber / questionCount) * 100} className="progress-bar-bottom" />
 				</div>
 			</div>
-
-			{/* Action buttons */}
-			{showResult && (
-				<div className="quiz-actions">
-					<Button variant="outlined" color="danger" onClick={resetQuiz}>
-						Cancel Quiz
-					</Button>
-					<Button variant="solid" color="primary" onClick={handleNextQuestion}>
-						{questionNumber >= questionCount ? t.quiz.viewResults : t.quiz.nextQuestion}
-					</Button>
-				</div>
-			)}
-
-			{/* Progress bar at bottom */}
-			<div className="progress-bottom">
-				<Typography level="body-sm" className="progress-text">
-					{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
-				</Typography>
-				<LinearProgress determinate value={(questionNumber / questionCount) * 100} className="progress-bar-bottom" />
-			</div>
-		</div>
+		</>
 	);
 };
 

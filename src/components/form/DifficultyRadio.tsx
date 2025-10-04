@@ -14,7 +14,7 @@ interface DifficultyRadioProps {
 
 export default function DifficultyRadio({ value, onChange, labels }: DifficultyRadioProps) {
 	return (
-		<Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+		<Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
 			<Typography id="segmented-controls-example" sx={{ fontWeight: "lg", fontSize: "sm" }}>
 				{labels.title}
 			</Typography>

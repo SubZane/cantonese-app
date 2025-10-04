@@ -78,7 +78,8 @@ export const sv = {
 		setup: {
 			title: "Konfigurera Quiz",
 			description: "Välj kategori, svårighetsgrad och antal frågor för ditt quiz.",
-			category: "Kategori",
+			category: "Välj kategori",
+			difficultyAndQuestions: "Välj svårighetsgrad och antal frågor",
 			difficulty: "Svårighetsgrad",
 			questionCount: "Antal frågor",
 			questionPlural: "frågor",
@@ -92,6 +93,7 @@ export const sv = {
 		nextQuestion: "Nästa fråga",
 		viewResults: "Visa resultat",
 		yourChoice: "Ditt val",
+		cancelQuiz: "Avbryt",
 		complete: {
 			title: "Quiz slutfört! 🎉",
 			score: "Din poäng: {score}/{total}",

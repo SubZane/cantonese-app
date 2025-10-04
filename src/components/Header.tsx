@@ -1,7 +1,6 @@
 import React from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Box, FormControl, FormLabel, Switch, Typography } from "@mui/joy";
+import { Box, FormControl, FormLabel, Switch } from "@mui/joy";
 
 import { useT } from "../translations";
 
@@ -22,17 +21,37 @@ const Header: React.FC<HeaderProps> = ({ showPinyin = false, onPinyinToggle, sho
 				justifyContent: "space-between",
 				px: 3,
 				py: 2,
+				backgroundColor: "#292A37",
+				borderBottom: "1px solid var(--joy-palette-divider)",
 			}}
 		>
-			<Box sx={{ display: "flex", alignItems: "center" }}>
-				<FontAwesomeIcon icon="language" style={{ marginRight: "8px", color: "white" }} />
-				<Typography level="h4" sx={{ color: "white", fontWeight: "bold" }}>
-					{t.appName}
-				</Typography>
+			<Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+				{/* Logo */}
+				<Box
+					sx={{
+						width: 48,
+						height: 48,
+						borderRadius: "50%",
+						display: "flex",
+						alignItems: "center",
+						justifyContent: "center",
+						overflow: "hidden",
+					}}
+				>
+					<img
+						src="/logo.png"
+						alt="Logo"
+						style={{
+							width: "100%",
+							height: "100%",
+							objectFit: "cover",
+						}}
+					/>
+				</Box>
 			</Box>
 			{showToggle && onPinyinToggle && (
 				<FormControl orientation="horizontal" sx={{ gap: 1 }}>
-					<FormLabel sx={{ color: "white", fontSize: "0.9rem", mb: 0 }}>{t.showPinyin}</FormLabel>
+					<FormLabel sx={{ color: "#ffffff", fontSize: "0.9rem", mb: 0 }}>{t.showPinyin}</FormLabel>
 					<Switch checked={showPinyin} onChange={onPinyinToggle} />
 				</FormControl>
 			)}
