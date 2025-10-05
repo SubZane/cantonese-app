@@ -49,8 +49,8 @@
 	},
 	{
 		"swedish": "bord",
-		"characters": "台",
-		"pinyin": "toi4",
+		"characters": "桌子",
+		"pinyin": "zoek3 zi2",
 		"difficulty": 1
 	},
 	{
@@ -85,8 +85,8 @@
 	},
 	{
 		"swedish": "nycklar",
-		"characters": "锁匙",
-		"pinyin": "so2 si4",
+		"characters": "钥匙",
+		"pinyin": "joek6 si4",
 		"difficulty": 1
 	},
 	{
@@ -115,14 +115,14 @@
 	},
 	{
 		"swedish": "kylskåp",
-		"characters": "雪柜",
-		"pinyin": "syut3 gwai6",
+		"characters": "冰箱",
+		"pinyin": "bing1 soeng1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "ugn",
-		"characters": "焗炉",
-		"pinyin": "guk6 lou4",
+		"characters": "烤箱",
+		"pinyin": "haau1 soeng1",
 		"difficulty": 2
 	},
 	{
@@ -133,8 +133,8 @@
 	},
 	{
 		"swedish": "dammsugare",
-		"characters": "吸尘机",
-		"pinyin": "kap1 can4 gei1",
+		"characters": "吸尘器",
+		"pinyin": "kap1 can4 hei3",
 		"difficulty": 2
 	},
 	{
@@ -187,8 +187,8 @@
 	},
 	{
 		"swedish": "strumpor",
-		"characters": "袜",
-		"pinyin": "mat6",
+		"characters": "袜子",
+		"pinyin": "mat6 zi2",
 		"difficulty": 2
 	},
 	{
@@ -199,20 +199,14 @@
 	},
 	{
 		"swedish": "byxor",
-		"characters": "裤",
-		"pinyin": "fu3",
+		"characters": "裤子",
+		"pinyin": "fu3 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kjol",
 		"characters": "裙",
 		"pinyin": "kwan4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "jacka",
-		"characters": "褛",
-		"pinyin": "lau1",
 		"difficulty": 2
 	},
 	{
@@ -223,8 +217,8 @@
 	},
 	{
 		"swedish": "handväska",
-		"characters": "手袋",
-		"pinyin": "sau2 doi6",
+		"characters": "手提包",
+		"pinyin": "sau2 tai4 baau1",
 		"difficulty": 3
 	},
 	{
@@ -235,8 +229,8 @@
 	},
 	{
 		"swedish": "ryggsäck",
-		"characters": "背囊",
-		"pinyin": "bui3 nong4",
+		"characters": "背包",
+		"pinyin": "bui3 baau1",
 		"difficulty": 3
 	},
 	{
@@ -247,8 +241,8 @@
 	},
 	{
 		"swedish": "plånbok",
-		"characters": "银包",
-		"pinyin": "ngan4 baau1",
+		"characters": "钱包",
+		"pinyin": "cin4 baau1",
 		"difficulty": 3
 	},
 	{
@@ -607,49 +601,49 @@
 	},
 	{
 		"swedish": "barometer",
-		"characters": "氣壓計",
+		"characters": "气压计",
 		"pinyin": "hei3 aat3 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "seismograf",
-		"characters": "地震儀",
+		"characters": "地震仪",
 		"pinyin": "dei6 zan3 ji4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "stethoskop",
-		"characters": "聽診器",
-		"pinyin": "ting1 can2 hei3",
+		"characters": "听诊器",
+		"pinyin": "ting1 zan2 hei3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "mikroskop",
-		"characters": "顯微鏡",
+		"characters": "显微镜",
 		"pinyin": "hin2 mei4 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "teleskop",
-		"characters": "望遠鏡",
+		"characters": "望远镜",
 		"pinyin": "mong6 jyun5 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kaleidoskop",
-		"characters": "萬花筒",
+		"characters": "万花筒",
 		"pinyin": "maan6 faa1 tung2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kikarsikte",
-		"characters": "瞄準鏡",
+		"characters": "瞄准镜",
 		"pinyin": "miu4 zeon2 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "metronom",
-		"characters": "節拍器",
+		"characters": "节拍器",
 		"pinyin": "zit3 paak3 hei3",
 		"difficulty": 3
 	},
@@ -661,37 +655,37 @@
 	},
 	{
 		"swedish": "astrolabium",
-		"characters": "星盤",
+		"characters": "星盘",
 		"pinyin": "sing1 pun4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kompass",
-		"characters": "指南針",
+		"characters": "指南针",
 		"pinyin": "zi2 naam4 zam1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sextant",
-		"characters": "六分儀",
+		"characters": "六分仪",
 		"pinyin": "luk6 fan1 ji4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "altimeter",
-		"characters": "高度計",
+		"characters": "高度计",
 		"pinyin": "gou1 dou6 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "anemometer",
-		"characters": "風速計",
+		"characters": "风速计",
 		"pinyin": "fung1 cuk1 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "hydrometer",
-		"characters": "比重計",
+		"characters": "比重计",
 		"pinyin": "bei2 zung6 gai3",
 		"difficulty": 3
 	}

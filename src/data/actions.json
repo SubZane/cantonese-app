@@ -85,14 +85,14 @@
 	},
 	{
 		"swedish": "stänga",
-		"characters": "闂",
-		"pinyin": "saan1",
+		"characters": "关",
+		"pinyin": "gwaan1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "komma",
-		"characters": "嚟",
-		"pinyin": "lei4",
+		"characters": "来",
+		"pinyin": "loi4",
 		"difficulty": 1
 	},
 	{
@@ -103,8 +103,8 @@
 	},
 	{
 		"swedish": "arbeta",
-		"characters": "做嘢",
-		"pinyin": "zou6 je5",
+		"characters": "做事",
+		"pinyin": "zou6 si6",
 		"difficulty": 2
 	},
 	{
@@ -127,8 +127,8 @@
 	},
 	{
 		"swedish": "betala",
-		"characters": "畀钱",
-		"pinyin": "bei2 cin2",
+		"characters": "给钱",
+		"pinyin": "gei2 cin2",
 		"difficulty": 2
 	},
 	{
@@ -157,14 +157,14 @@
 	},
 	{
 		"swedish": "cykla",
-		"characters": "踩单车",
-		"pinyin": "caai2 daan1 ce1",
+		"characters": "骑单车",
+		"pinyin": "kei4 daan1 ce1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "köra",
-		"characters": "揸车",
-		"pinyin": "zaa1 ce1",
+		"characters": "开车",
+		"pinyin": "hoi1 ce1",
 		"difficulty": 2
 	},
 	{
@@ -193,8 +193,8 @@
 	},
 	{
 		"swedish": "titta",
-		"characters": "睇住",
-		"pinyin": "tai2 zyu6",
+		"characters": "看着",
+		"pinyin": "hon3 zoek6",
 		"difficulty": 2
 	},
 	{
@@ -205,8 +205,8 @@
 	},
 	{
 		"swedish": "hjälpa",
-		"characters": "帮手",
-		"pinyin": "bong1 sau2",
+		"characters": "帮助",
+		"pinyin": "bong1 zo3",
 		"difficulty": 2
 	},
 	{
@@ -319,13 +319,13 @@
 	},
 	{
 		"swedish": "syntetisera",
-		"characters": "綜合",
+		"characters": "综合",
 		"pinyin": "zung1 hap6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "filosofera",
-		"characters": "哲學思考",
+		"characters": "哲学思考",
 		"pinyin": "zit3 hok6 si1 haau2",
 		"difficulty": 3
 	},
@@ -337,7 +337,7 @@
 	},
 	{
 		"swedish": "elaborera",
-		"characters": "詳述",
+		"characters": "详述",
 		"pinyin": "coeng4 seot6",
 		"difficulty": 3
 	},
@@ -349,31 +349,31 @@
 	},
 	{
 		"swedish": "manipulera",
-		"characters": "操縱",
+		"characters": "操纵",
 		"pinyin": "cou1 zung3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "infiltrera",
-		"characters": "滲透",
+		"characters": "渗透",
 		"pinyin": "sam3 tau3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "koordinera",
-		"characters": "協調",
+		"characters": "协调",
 		"pinyin": "hip3 tiu4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "implementera",
-		"characters": "實施",
+		"characters": "实施",
 		"pinyin": "sat6 si1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "optimera",
-		"characters": "優化",
+		"characters": "优化",
 		"pinyin": "jau1 faa3",
 		"difficulty": 3
 	},
@@ -391,27 +391,15 @@
 	},
 	{
 		"swedish": "stabilisera",
-		"characters": "穩定",
+		"characters": "稳定",
 		"pinyin": "wan2 ding6",
 		"difficulty": 3
-	},
-	{
-		"swedish": "hoppa",
-		"characters": "跳",
-		"pinyin": "tiu3",
-		"difficulty": 1
 	},
 	{
 		"swedish": "klättra",
 		"characters": "爬",
 		"pinyin": "paa4",
 		"difficulty": 1
-	},
-	{
-		"swedish": "krypa",
-		"characters": "爬行",
-		"pinyin": "paa4 haang4",
-		"difficulty": 2
 	},
 	{
 		"swedish": "rulla",

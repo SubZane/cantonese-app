@@ -61,8 +61,8 @@
 	},
 	{
 		"swedish": "farmor",
-		"characters": "嫲嫲",
-		"pinyin": "maa4 maa1",
+		"characters": "奶奶",
+		"pinyin": "naai5 naai1",
 		"difficulty": 1
 	},
 	{
@@ -115,14 +115,14 @@
 	},
 	{
 		"swedish": "svärmor",
-		"characters": "奶奶",
-		"pinyin": "naai5 naai1",
+		"characters": "岳母",
+		"pinyin": "ngok6 mou5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svärfar",
-		"characters": "老爷",
-		"pinyin": "lou5 je4",
+		"characters": "岳父",
+		"pinyin": "ngok6 fu6",
 		"difficulty": 2
 	},
 	{
@@ -336,7 +336,7 @@
 		"difficulty": 2
 	},
 	{
-		"swedish": "systersdotter",
+		"swedish": "systerdotter",
 		"characters": "外甥女",
 		"pinyin": "ngoi6 saang1 neoi5",
 		"difficulty": 2
@@ -345,18 +345,6 @@
 		"swedish": "systerson",
 		"characters": "外甥",
 		"pinyin": "ngoi6 saang1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "systerdotter",
-		"characters": "姐妹女",
-		"pinyin": "ze2 mui6 neoi5",
-		"difficulty": 2
-	},
-	{
-		"swedish": "systerson",
-		"characters": "姐妹子",
-		"pinyin": "ze2 mui6 zi2",
 		"difficulty": 2
 	},
 	{
@@ -396,7 +384,7 @@
 		"difficulty": 1
 	},
 	{
-		"swedish": "svärmor",
+		"swedish": "svärmor (farmor)",
 		"characters": "奶奶",
 		"pinyin": "naai5 naai1",
 		"difficulty": 2

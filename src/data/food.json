@@ -103,8 +103,8 @@
 	},
 	{
 		"swedish": "gurka",
-		"characters": "青瓜",
-		"pinyin": "ceng1 gwaa1",
+		"characters": "黄瓜",
+		"pinyin": "wong4 gwaa1",
 		"difficulty": 2
 	},
 	{
@@ -115,8 +115,8 @@
 	},
 	{
 		"swedish": "potatis",
-		"characters": "薯仔",
-		"pinyin": "syu4 zai2",
+		"characters": "土豆",
+		"pinyin": "tou2 dau6",
 		"difficulty": 2
 	},
 	{
@@ -145,8 +145,8 @@
 	},
 	{
 		"swedish": "vitkål",
-		"characters": "椰菜",
-		"pinyin": "je4 coi3",
+		"characters": "卷心菜",
+		"pinyin": "gyun2 sam1 coi3",
 		"difficulty": 2
 	},
 	{
@@ -169,8 +169,8 @@
 	},
 	{
 		"swedish": "jordgubbar",
-		"characters": "士多啤梨",
-		"pinyin": "si6 do1 be1 lei4",
+		"characters": "草莓",
+		"pinyin": "cou2 mui4",
 		"difficulty": 2
 	},
 	{
@@ -265,8 +265,8 @@
 	},
 	{
 		"swedish": "mussla",
-		"characters": "青口",
-		"pinyin": "ceng1 hau2",
+		"characters": "贻贝",
+		"pinyin": "ji4 bui3",
 		"difficulty": 3
 	},
 	{
@@ -293,12 +293,7 @@
 		"pinyin": "ciu4 sin1 gei6",
 		"difficulty": 3
 	},
-	{
-		"swedish": "quinoa",
-		"characters": "奎奴亚",
-		"pinyin": "fui1 nou4 aa3",
-		"difficulty": 3
-	},
+
 	{
 		"swedish": "soppa",
 		"characters": "汤",
@@ -607,14 +602,14 @@
 	},
 	{
 		"swedish": "hummus",
-		"characters": "鷹嘴豆泥",
+		"characters": "鹰嘴豆泥",
 		"pinyin": "jing1 zeoi2 dau6 nai4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "quinoa",
-		"characters": "藜麥",
-		"pinyin": "lai4 mak6",
+		"characters": "藜麦",
+		"pinyin": "lei4 mak6",
 		"difficulty": 3
 	},
 	{
@@ -625,37 +620,37 @@
 	},
 	{
 		"swedish": "tempura",
-		"characters": "天婦羅",
+		"characters": "天妇罗",
 		"pinyin": "tin1 fu5 lo4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "risotto",
-		"characters": "意式燴飯",
+		"characters": "意式烩饭",
 		"pinyin": "ji3 sik1 wui6 faan6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "gazpacho",
-		"characters": "冷湯",
+		"characters": "冷汤",
 		"pinyin": "laang5 tong1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "paella",
-		"characters": "海鮮飯",
+		"characters": "海鲜饭",
 		"pinyin": "hoi2 sin1 faan6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ceviche",
-		"characters": "酸橘魚",
+		"characters": "酸橘鱼",
 		"pinyin": "syun1 gwat1 jyu4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "falafel",
-		"characters": "鷹嘴豆丸",
+		"characters": "鹰嘴豆丸",
 		"pinyin": "jing1 zeoi2 dau6 jyun4",
 		"difficulty": 3
 	},
@@ -667,7 +662,7 @@
 	},
 	{
 		"swedish": "baklava",
-		"characters": "果仁蜜餅",
+		"characters": "果仁蜜饼",
 		"pinyin": "gwo2 jan4 mat6 beng2",
 		"difficulty": 3
 	}

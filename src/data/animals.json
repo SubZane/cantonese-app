@@ -283,7 +283,7 @@
 	},
 	{
 		"swedish": "gräshoppa",
-		"characters": "蝗蟲",
+		"characters": "蝗虫",
 		"pinyin": "wong4 cung4",
 		"difficulty": 3
 	},
@@ -300,123 +300,9 @@
 		"difficulty": 3
 	},
 	{
-		"swedish": "råtta",
-		"characters": "老鼠",
-		"pinyin": "lou5 syu2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "mus",
-		"characters": "老鼠仔",
-		"pinyin": "lou5 syu2 zai2",
-		"difficulty": 1
-	},
-	{
 		"swedish": "hamster",
 		"characters": "仓鼠",
 		"pinyin": "cong1 syu2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "kanin",
-		"characters": "兔子",
-		"pinyin": "tou3 zi2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "fågel",
-		"characters": "雀仔",
-		"pinyin": "zoek3 zai2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "fisk",
-		"characters": "鱼",
-		"pinyin": "jyu2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "guldfisk",
-		"characters": "金鱼",
-		"pinyin": "gam1 jyu2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "haj",
-		"characters": "鲨鱼",
-		"pinyin": "saa1 jyu2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "delfin",
-		"characters": "海豚",
-		"pinyin": "hoi2 tyun4",
-		"difficulty": 1
-	},
-	{
-		"swedish": "val",
-		"characters": "鲸鱼",
-		"pinyin": "king4 jyu2",
-		"difficulty": 1
-	},
-	{
-		"swedish": "orm",
-		"characters": "蛇",
-		"pinyin": "se4",
-		"difficulty": 1
-	},
-	{
-		"swedish": "ödla",
-		"characters": "蜥蜴",
-		"pinyin": "sik1 jik6",
-		"difficulty": 2
-	},
-	{
-		"swedish": "groda",
-		"characters": "青蛙",
-		"pinyin": "ceng1 waa1",
-		"difficulty": 1
-	},
-	{
-		"swedish": "krokodil",
-		"characters": "鳄鱼",
-		"pinyin": "ngok6 jyu2",
-		"difficulty": 2
-	},
-	{
-		"swedish": "myra",
-		"characters": "蚂蚁",
-		"pinyin": "maa5 ngai5",
-		"difficulty": 2
-	},
-	{
-		"swedish": "bi",
-		"characters": "蜜蜂",
-		"pinyin": "mat6 fung1",
-		"difficulty": 1
-	},
-	{
-		"swedish": "getmott",
-		"characters": "黄蜂",
-		"pinyin": "wong4 fung1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "nyckelpiga",
-		"characters": "瓢虫",
-		"pinyin": "piu4 cung4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "fjäril",
-		"characters": "蝴蝶",
-		"pinyin": "wu4 dip6",
-		"difficulty": 2
-	},
-	{
-		"swedish": "mask",
-		"characters": "虫",
-		"pinyin": "cung4",
 		"difficulty": 1
 	},
 	{
@@ -432,12 +318,6 @@
 		"difficulty": 2
 	},
 	{
-		"swedish": "spindel",
-		"characters": "蜘蛛",
-		"pinyin": "zi1 zyu1",
-		"difficulty": 2
-	},
-	{
 		"swedish": "mygga",
 		"characters": "蚊子",
 		"pinyin": "man1 zi2",
@@ -447,108 +327,6 @@
 		"swedish": "fluga",
 		"characters": "苍蝇",
 		"pinyin": "cong1 jing4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "uggla",
-		"characters": "猫头鹰",
-		"pinyin": "maau1 tau4 jing1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "örn",
-		"characters": "老鹰",
-		"pinyin": "lou5 jing1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "kråka",
-		"characters": "乌鸦",
-		"pinyin": "wu1 aa1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "duva",
-		"characters": "鸽子",
-		"pinyin": "gap3 zi2",
-		"difficulty": 2
-	},
-	{
-		"swedish": "sparv",
-		"characters": "麻雀",
-		"pinyin": "maa4 zoek3",
-		"difficulty": 2
-	},
-	{
-		"swedish": "svan",
-		"characters": "天鹅",
-		"pinyin": "tin1 ngo4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "and",
-		"characters": "鸭",
-		"pinyin": "aap3",
-		"difficulty": 1
-	},
-	{
-		"swedish": "gås",
-		"characters": "鹅",
-		"pinyin": "ngo4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "tupp",
-		"characters": "公鸡",
-		"pinyin": "gung1 gai1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "höna",
-		"characters": "母鸡",
-		"pinyin": "mou5 gai1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "kyckling",
-		"characters": "小鸡",
-		"pinyin": "siu2 gai1",
-		"difficulty": 1
-	},
-	{
-		"swedish": "ko",
-		"characters": "牛",
-		"pinyin": "ngau4",
-		"difficulty": 1
-	},
-	{
-		"swedish": "get",
-		"characters": "山羊",
-		"pinyin": "saan1 joeng4",
-		"difficulty": 1
-	},
-	{
-		"swedish": "får",
-		"characters": "绵羊",
-		"pinyin": "min4 joeng4",
-		"difficulty": 1
-	},
-	{
-		"swedish": "lamm",
-		"characters": "羊羔",
-		"pinyin": "joeng4 gou1",
-		"difficulty": 2
-	},
-	{
-		"swedish": "kalv",
-		"characters": "小牛",
-		"pinyin": "siu2 ngau4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "oxe",
-		"characters": "公牛",
-		"pinyin": "gung1 ngau4",
 		"difficulty": 2
 	},
 	{
@@ -564,24 +342,6 @@
 		"difficulty": 3
 	},
 	{
-		"swedish": "varg",
-		"characters": "狼",
-		"pinyin": "long4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "räv",
-		"characters": "狐狸",
-		"pinyin": "wu4 lei4",
-		"difficulty": 2
-	},
-	{
-		"swedish": "björn",
-		"characters": "熊",
-		"pinyin": "hung4",
-		"difficulty": 2
-	},
-	{
 		"swedish": "ekorre",
 		"characters": "松鼠",
 		"pinyin": "cung4 syu2",
@@ -594,81 +354,33 @@
 		"difficulty": 3
 	},
 	{
-		"swedish": "maulvarp",
+		"swedish": "mullvad",
 		"characters": "鼹鼠",
 		"pinyin": "jin2 syu2",
 		"difficulty": 3
 	},
 	{
-		"swedish": "fladdermuss",
+		"swedish": "fladdermus",
 		"characters": "蝙蝠",
 		"pinyin": "pin1 fuk1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sjölejon",
-		"characters": "海獅",
+		"characters": "海狮",
 		"pinyin": "hoi2 si1",
 		"difficulty": 3
 	},
 	{
-		"swedish": "val",
-		"characters": "鯨魚",
-		"pinyin": "king4 jyu4",
+		"swedish": "kalmare",
+		"characters": "鱿鱼",
+		"pinyin": "jau4 jyu4",
 		"difficulty": 3
 	},
 	{
-		"swedish": "delfin",
-		"characters": "海豚",
-		"pinyin": "hoi2 tyun4",
-		"difficulty": 3
-	},
-	{
-		"swedish": "haj",
-		"characters": "鯊魚",
-		"pinyin": "saa1 jyu4",
-		"difficulty": 3
-	},
-	{
-		"swedish": "bläckfisk",
-		"characters": "墨魚",
+		"swedish": "sepia",
+		"characters": "墨鱼",
 		"pinyin": "mak6 jyu4",
-		"difficulty": 3
-	},
-	{
-		"swedish": "krabba",
-		"characters": "蟹",
-		"pinyin": "haai5",
-		"difficulty": 3
-	},
-	{
-		"swedish": "hummer",
-		"characters": "龍蝦",
-		"pinyin": "lung4 haa1",
-		"difficulty": 3
-	},
-	{
-		"swedish": "struts",
-		"characters": "駝鳥",
-		"pinyin": "to4 niu5",
-		"difficulty": 3
-	},
-	{
-		"swedish": "påfågel",
-		"characters": "孔雀",
-		"pinyin": "hung2 zeok3",
-		"difficulty": 3
-	},
-	{
-		"swedish": "flamingo",
-		"characters": "火烈鳥",
-		"pinyin": "fo2 lit6 niu5",
-		"difficulty": 3
-	},
-	{
-		"swedish": "kolibri",
-		"characters": "蜂鳥",
-		"pinyin": "fung1 niu5",
 		"difficulty": 3
 	}
 ]

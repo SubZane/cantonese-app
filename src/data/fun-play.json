@@ -13,13 +13,13 @@
 	},
 	{
 		"swedish": "drake",
-		"characters": "風箏",
+		"characters": "风筝",
 		"pinyin": "fung1 zang1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "pussel",
-		"characters": "拼圖",
+		"characters": "拼图",
 		"pinyin": "ping1 tou4",
 		"difficulty": 1
 	},
@@ -31,7 +31,7 @@
 	},
 	{
 		"swedish": "rita",
-		"characters": "畫",
+		"characters": "画",
 		"pinyin": "waak6",
 		"difficulty": 1
 	},
@@ -55,19 +55,19 @@
 	},
 	{
 		"swedish": "läsa",
-		"characters": "讀",
+		"characters": "读",
 		"pinyin": "duk6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "simma",
-		"characters": "游水",
-		"pinyin": "jau4 seoi2",
+		"characters": "游泳",
+		"pinyin": "jau4 wing6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "måla",
-		"characters": "油畫",
+		"characters": "油画",
 		"pinyin": "jau4 waak6",
 		"difficulty": 1
 	},
@@ -79,13 +79,13 @@
 	},
 	{
 		"swedish": "spel",
-		"characters": "遊戲",
+		"characters": "游戏",
 		"pinyin": "jau4 hei3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kort",
-		"characters": "紙牌",
+		"characters": "纸牌",
 		"pinyin": "zi2 paai4",
 		"difficulty": 1
 	},
@@ -97,8 +97,8 @@
 	},
 	{
 		"swedish": "cykel",
-		"characters": "單車",
-		"pinyin": "daan1 ce1",
+		"characters": "自行车",
+		"pinyin": "zi6 hang4 ce1",
 		"difficulty": 1
 	},
 	{
@@ -109,13 +109,13 @@
 	},
 	{
 		"swedish": "hobby",
-		"characters": "愛好",
+		"characters": "爱好",
 		"pinyin": "oi3 hou2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "krama",
-		"characters": "擁抱",
+		"characters": "拥抱",
 		"pinyin": "jung2 pou5",
 		"difficulty": 1
 	},
@@ -133,7 +133,7 @@
 	},
 	{
 		"swedish": "kasta",
-		"characters": "擲",
+		"characters": "掷",
 		"pinyin": "zaak6",
 		"difficulty": 1
 	},
@@ -151,7 +151,7 @@
 	},
 	{
 		"swedish": "gunga",
-		"characters": "搖擺",
+		"characters": "摇摆",
 		"pinyin": "jiu4 baai2",
 		"difficulty": 2
 	},
@@ -169,13 +169,13 @@
 	},
 	{
 		"swedish": "lekplats",
-		"characters": "遊樂場",
+		"characters": "游乐场",
 		"pinyin": "jau4 lok6 coeng4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "träna",
-		"characters": "鍛煉",
+		"characters": "锻炼",
 		"pinyin": "dyun3 lin6",
 		"difficulty": 2
 	},
@@ -193,19 +193,19 @@
 	},
 	{
 		"swedish": "fotografera",
-		"characters": "攝影",
+		"characters": "摄影",
 		"pinyin": "sip3 jing2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "trädgårdsskötsel",
-		"characters": "園藝",
+		"characters": "园艺",
 		"pinyin": "jyun4 ngai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "laga mat",
-		"characters": "烹飪",
+		"characters": "烹饪",
 		"pinyin": "paang1 jam6",
 		"difficulty": 2
 	},
@@ -217,37 +217,37 @@
 	},
 	{
 		"swedish": "sticka",
-		"characters": "織毛衣",
+		"characters": "织毛衣",
 		"pinyin": "zik1 mou4 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "broderi",
-		"characters": "刺繡",
+		"characters": "刺绣",
 		"pinyin": "ci3 sau3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fiska",
-		"characters": "釣魚",
+		"characters": "钓鱼",
 		"pinyin": "diu3 jyu4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vandring",
-		"characters": "遠足",
+		"characters": "远足",
 		"pinyin": "jyun5 zuk1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "camping",
-		"characters": "露營",
+		"characters": "露营",
 		"pinyin": "lou6 jing4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "schack",
-		"characters": "國際象棋",
+		"characters": "国际象棋",
 		"pinyin": "gwok3 zai3 zoeng6 kei4",
 		"difficulty": 2
 	},
@@ -259,38 +259,38 @@
 	},
 	{
 		"swedish": "brädspel",
-		"characters": "桌遊",
+		"characters": "桌游",
 		"pinyin": "zoek3 jau4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "videospel",
-		"characters": "電子遊戲",
+		"characters": "电子游戏",
 		"pinyin": "din6 zi2 jau4 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "musik",
-		"characters": "音樂",
+		"characters": "音乐",
 		"pinyin": "jam1 ngok6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "instrument",
-		"characters": "樂器",
+		"characters": "乐器",
 		"pinyin": "ngok6 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "piano",
-		"characters": "鋼琴",
+		"characters": "钢琴",
 		"pinyin": "gong3 kam4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "gitarr",
-		"characters": "結他",
-		"pinyin": "git3 taa1",
+		"characters": "吉他",
+		"pinyin": "gat1 taa1",
 		"difficulty": 2
 	},
 	{
@@ -301,7 +301,7 @@
 	},
 	{
 		"swedish": "målning",
-		"characters": "繪畫",
+		"characters": "绘画",
 		"pinyin": "kui2 waak6",
 		"difficulty": 2
 	},
@@ -331,25 +331,25 @@
 	},
 	{
 		"swedish": "frimärken",
-		"characters": "郵票",
+		"characters": "邮票",
 		"pinyin": "jau4 piu3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mynt",
-		"characters": "硬幣",
+		"characters": "硬币",
 		"pinyin": "ngaang6 bai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "modelljärnväg",
-		"characters": "模型火車",
+		"characters": "模型火车",
 		"pinyin": "mou4 jing4 fo2 ce1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "marionettteater",
-		"characters": "木偶劇",
+		"characters": "木偶剧",
 		"pinyin": "muk6 ngau5 kek6",
 		"difficulty": 3
 	},
@@ -361,19 +361,19 @@
 	},
 	{
 		"swedish": "origami",
-		"characters": "摺紙",
+		"characters": "折纸",
 		"pinyin": "zip3 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "akvarellmålning",
-		"characters": "水彩畫",
+		"characters": "水彩画",
 		"pinyin": "seoi2 coi2 waak6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "oljemålning",
-		"characters": "油畫",
+		"characters": "油画",
 		"pinyin": "jau4 waak6",
 		"difficulty": 3
 	},
@@ -385,7 +385,7 @@
 	},
 	{
 		"swedish": "metallbearbetning",
-		"characters": "金屬加工",
+		"characters": "金属加工",
 		"pinyin": "gam1 suk6 gaa1 gung1",
 		"difficulty": 3
 	},
@@ -397,91 +397,91 @@
 	},
 	{
 		"swedish": "juvelsmide",
-		"characters": "珠寶製作",
+		"characters": "珠宝制作",
 		"pinyin": "zyu1 bou2 zai3 zok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "astronomi",
-		"characters": "天文學",
+		"characters": "天文学",
 		"pinyin": "tin1 man4 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "teleskop",
-		"characters": "望遠鏡",
+		"characters": "望远镜",
 		"pinyin": "mong6 jyun5 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "fågelskådning",
-		"characters": "觀鳥",
+		"characters": "观鸟",
 		"pinyin": "gun1 niu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "botanik",
-		"characters": "植物學",
+		"characters": "植物学",
 		"pinyin": "zik6 mat6 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "entomologi",
-		"characters": "昆蟲學",
+		"characters": "昆虫学",
 		"pinyin": "kwan1 cung4 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "arkeologi",
-		"characters": "考古學",
+		"characters": "考古学",
 		"pinyin": "haau2 gu2 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "genealogi",
-		"characters": "族譜學",
+		"characters": "族谱学",
 		"pinyin": "zuk6 pou2 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "filatelism",
-		"characters": "集郵",
+		"characters": "集邮",
 		"pinyin": "zaap6 jau4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "numismatik",
-		"characters": "錢幣學",
+		"characters": "钱币学",
 		"pinyin": "cin4 bai6 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "amatörradio",
-		"characters": "業餘無線電",
+		"characters": "业余无线电",
 		"pinyin": "jip6 jyu4 mou4 sin3 din6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "modellbygge",
-		"characters": "模型製作",
+		"characters": "模型制作",
 		"pinyin": "mou4 jing4 zai3 zok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "drakbygge",
-		"characters": "製作風箏",
+		"characters": "制作风筝",
 		"pinyin": "zai3 zok3 fung1 zang1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "robotik",
-		"characters": "機器人學",
+		"characters": "机器人学",
 		"pinyin": "gei1 hei3 jan4 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "programmering",
-		"characters": "編程",
+		"characters": "编程",
 		"pinyin": "pin1 cing4",
 		"difficulty": 3
 	},
@@ -493,31 +493,31 @@
 	},
 	{
 		"swedish": "animering",
-		"characters": "動畫製作",
+		"characters": "动画制作",
 		"pinyin": "dung6 waak6 zai3 zok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "speldesign",
-		"characters": "遊戲設計",
+		"characters": "游戏设计",
 		"pinyin": "jau4 hei3 cit3 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "virtuell verklighet",
-		"characters": "虛擬實境",
-		"pinyin": "heoi1 jin6 sat6 ging2",
+		"characters": "虚拟现实",
+		"pinyin": "heoi1 nei5 jin6 sat6 jin6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "drönarpilot",
-		"characters": "無人機駕駛",
+		"characters": "无人机驾驶",
 		"pinyin": "mou4 jan4 gei1 gaa3 sai2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "geocaching",
-		"characters": "地理藏寶",
+		"characters": "地理藏宝",
 		"pinyin": "dei6 lei5 cong4 bou2",
 		"difficulty": 3
 	},
@@ -529,8 +529,8 @@
 	},
 	{
 		"swedish": "slackline",
-		"characters": "扁帶平衡",
-		"pinyin": "pin1 daai2 ping4 hang4",
+		"characters": "扁带平衡",
+		"pinyin": "bin2 daai3 ping4 hang4",
 		"difficulty": 3
 	},
 	{
@@ -547,7 +547,7 @@
 	},
 	{
 		"swedish": "longboard",
-		"characters": "長板滑板",
+		"characters": "长板滑板",
 		"pinyin": "coeng4 baan2 waat6 baan2",
 		"difficulty": 3
 	}
