@@ -19,36 +19,36 @@ export const sv = {
 
 	// Home page
 	home: {
-		welcome: "Välkommen till kantonesisk inlärning! 🇭🇰",
-		subtitle: "Öva din kantonesiska ordförråd med interaktiva quiz",
+		welcome: "Välkommen till din kantonesiska språkträning! 🇭🇰",
+		subtitle: "Träna ditt kantonesiska ordförråd med interaktiva quiz",
 		quickQuiz: {
-			title: "Snabbt Quiz",
-			description: "Testa dina kunskaper med svenska till kantonesiska översättningsfrågor",
-			button: "Starta Quiz",
+			title: "Snabbquiz",
+			description: "Testa dina kunskaper med frågor där du översätter från svenska till kantonesiska",
+			button: "Starta quiz",
 		},
 		lessons: {
 			title: "Lektioner",
-			description: "Strukturerade inlärningsmoduler som täcker djur, mat, familj och mer",
+			description: "Strukturerade kurser som täcker djur, mat, familj och mycket mer",
 			button: "Kommer snart",
 		},
 		progress: {
 			title: "Framsteg",
-			description: "Spåra din inlärningsresa och se hur mycket du har förbättrats",
+			description: "Följ din utveckling och se hur du förbättras över tid",
 			button: "Kommer snart",
 		},
 		achievements: {
 			title: "Prestationer",
-			description: "Lås upp märken och prestationer när du bemästrar kantonesisk ordförråd",
+			description: "Lås upp märken när du bemästrar fler ord och kategorier",
 			button: "Kommer snart",
 		},
 		categories: {
-			title: "Tillgängliga ordförrådskategorier",
+			title: "Tillgängliga kategorier",
 			animals: "Djur",
 			food: "Mat",
 			family: "Familj",
 			actions: "Handlingar",
 			items: "Föremål",
-			funPlay: "Lek & Roligt",
+			funPlay: "Lek & Nöje",
 			time: "Tid",
 			movementDirections: "Rörelse & Riktningar",
 		},

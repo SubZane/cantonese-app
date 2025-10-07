@@ -54,12 +54,10 @@ const NavigationDrawer: React.FC<NavigationDrawerProps> = ({ open, onClose, show
 					</Typography>
 
 					{/* Jyutping Toggle */}
-					{onJyutpingToggle && (
-						<FormControl orientation="horizontal" sx={{ mb: 2, justifyContent: "space-between" }}>
-							<FormLabel sx={{ fontSize: "0.9rem" }}>{t.showJyutping}</FormLabel>
-							<Switch checked={showJyutping} onChange={onJyutpingToggle} />
-						</FormControl>
-					)}
+					<FormControl orientation="horizontal" sx={{ mb: 2, justifyContent: "space-between" }}>
+						<FormLabel sx={{ fontSize: "0.9rem" }}>{t.showJyutping}</FormLabel>
+						<Switch checked={showJyutping} onChange={onJyutpingToggle} />
+					</FormControl>
 
 					{/* HK Variant Toggle */}
 					<FormControl orientation="horizontal" sx={{ justifyContent: "space-between" }}>

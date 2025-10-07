@@ -34,6 +34,7 @@ const Header: React.FC<HeaderProps> = ({ showJyutping = false, onJyutpingToggle,
 				{/* Hamburger Menu */}
 				<IconButton
 					onClick={handleDrawerToggle}
+					aria-label="Öppna meny"
 					sx={{
 						color: "white",
 						"&:hover": {
@@ -41,7 +42,8 @@ const Header: React.FC<HeaderProps> = ({ showJyutping = false, onJyutpingToggle,
 						},
 					}}
 				>
-					<MenuIcon />
+					{/* Force icon color to white to avoid inheriting default grey */}
+					<MenuIcon sx={{ color: "#FFFFFF" }} />
 				</IconButton>
 
 				{/* Logo */}
@@ -49,7 +51,6 @@ const Header: React.FC<HeaderProps> = ({ showJyutping = false, onJyutpingToggle,
 					sx={{
 						width: 48,
 						height: 48,
-						borderRadius: "50%",
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
