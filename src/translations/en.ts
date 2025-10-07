@@ -1,8 +1,8 @@
 export const en = {
 	// Header
 	appName: "Cantonese App",
-	pinyin: "Pinyin",
-	showPinyin: "Show Pronunciation",
+	jyutping: "Jyutping",
+	showJyutping: "Show Pronunciation",
 	difficulty: "Difficulty",
 	category: "Category",
 
@@ -11,8 +11,10 @@ export const en = {
 		home: "Home",
 		lessons: "Lessons",
 		quiz: "Quiz",
+		vocabulary: "Vocabulary",
 		profile: "Profile",
 		settings: "Settings",
+		menu: "Menu",
 	},
 
 	// Home page
@@ -119,6 +121,21 @@ export const en = {
 	general: {
 		comingSoon: "Coming Soon",
 		underDevelopment: "This feature is under development",
+	},
+
+	// Vocabulary page
+	vocabulary: {
+		title: "Vocabulary",
+		filterByCategory: "Filter by category",
+		searchPlaceholder: "Search words",
+		searchDescription: "Search in Swedish, Chinese, or Jyutping...",
+		showingResults: "Showing {count} words",
+		noResults: "No words found with the selected filters.",
+		swedish: "Swedish",
+		cantonese: "Cantonese",
+		pronunciation: "Pronunciation",
+		difficulty: "Difficulty",
+		category: "Category",
 	},
 };
 

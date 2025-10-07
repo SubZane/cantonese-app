@@ -1,554 +1,646 @@
 [
 	{
 		"swedish": "boll",
-		"characters": "球",
-		"pinyin": "kau4",
+		"mainland_cantonese": "球",
+    "hongkong_cantonese": "球",
+		"jyutping": "kau4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "docka",
-		"characters": "娃娃",
-		"pinyin": "waa1 waa1",
+		"mainland_cantonese": "娃娃",
+    "hongkong_cantonese": "娃娃",
+		"jyutping": "waa1 waa1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "drake",
-		"characters": "风筝",
-		"pinyin": "fung1 zang1",
+		"mainland_cantonese": "风筝",
+    "hongkong_cantonese": "风筝",
+		"jyutping": "fung1 zang1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "pussel",
-		"characters": "拼图",
-		"pinyin": "ping1 tou4",
+		"mainland_cantonese": "拼图",
+    "hongkong_cantonese": "拼图",
+		"jyutping": "ping1 tou4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "hoppa",
-		"characters": "跳",
-		"pinyin": "tiu3",
+		"mainland_cantonese": "跳",
+    "hongkong_cantonese": "跳",
+		"jyutping": "tiu3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "rita",
-		"characters": "画",
-		"pinyin": "waak6",
+		"mainland_cantonese": "画",
+    "hongkong_cantonese": "画",
+		"jyutping": "waak6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "leka",
-		"characters": "玩",
-		"pinyin": "waan2",
+		"mainland_cantonese": "玩",
+    "hongkong_cantonese": "玩",
+		"jyutping": "waan2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sjunga",
-		"characters": "唱",
-		"pinyin": "coeng3",
+		"mainland_cantonese": "唱",
+    "hongkong_cantonese": "唱",
+		"jyutping": "coeng3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "dansa",
-		"characters": "跳舞",
-		"pinyin": "tiu3 mou5",
+		"mainland_cantonese": "跳舞",
+    "hongkong_cantonese": "跳舞",
+		"jyutping": "tiu3 mou5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "läsa",
-		"characters": "读",
-		"pinyin": "duk6",
+		"mainland_cantonese": "读",
+    "hongkong_cantonese": "读",
+		"jyutping": "duk6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "simma",
-		"characters": "游泳",
-		"pinyin": "jau4 wing6",
+		"mainland_cantonese": "游泳",
+    "hongkong_cantonese": "游泳",
+		"jyutping": "jau4 wing6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "måla",
-		"characters": "油画",
-		"pinyin": "jau4 waak6",
+		"mainland_cantonese": "油画",
+    "hongkong_cantonese": "油画",
+		"jyutping": "jau4 waak6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "leksak",
-		"characters": "玩具",
-		"pinyin": "waan2 geoi6",
+		"mainland_cantonese": "玩具",
+    "hongkong_cantonese": "玩具",
+		"jyutping": "waan2 geoi6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "spel",
-		"characters": "游戏",
-		"pinyin": "jau4 hei3",
+		"mainland_cantonese": "游戏",
+    "hongkong_cantonese": "游戏",
+		"jyutping": "jau4 hei3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kort",
-		"characters": "纸牌",
-		"pinyin": "zi2 paai4",
+		"mainland_cantonese": "纸牌",
+    "hongkong_cantonese": "纸牌",
+		"jyutping": "zi2 paai4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "tärning",
-		"characters": "骰子",
-		"pinyin": "sik1 zi2",
+		"mainland_cantonese": "骰子",
+    "hongkong_cantonese": "骰子",
+		"jyutping": "sik1 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "cykel",
-		"characters": "自行车",
-		"pinyin": "zi6 hang4 ce1",
+		"mainland_cantonese": "自行车",
+    "hongkong_cantonese": "自行车",
+		"jyutping": "zi6 hang4 ce1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "springa",
-		"characters": "跑",
-		"pinyin": "paau2",
+		"mainland_cantonese": "跑",
+    "hongkong_cantonese": "跑",
+		"jyutping": "paau2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "hobby",
-		"characters": "爱好",
-		"pinyin": "oi3 hou2",
+		"mainland_cantonese": "爱好",
+    "hongkong_cantonese": "爱好",
+		"jyutping": "oi3 hou2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "krama",
-		"characters": "拥抱",
-		"pinyin": "jung2 pou5",
+		"mainland_cantonese": "拥抱",
+    "hongkong_cantonese": "拥抱",
+		"jyutping": "jung2 pou5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "skratta",
-		"characters": "笑",
-		"pinyin": "siu3",
+		"mainland_cantonese": "笑",
+    "hongkong_cantonese": "笑",
+		"jyutping": "siu3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "gömma",
-		"characters": "躲",
-		"pinyin": "do2",
+		"mainland_cantonese": "躲",
+    "hongkong_cantonese": "躲",
+		"jyutping": "do2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kasta",
-		"characters": "掷",
-		"pinyin": "zaak6",
+		"mainland_cantonese": "掷",
+    "hongkong_cantonese": "掷",
+		"jyutping": "zaak6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "fånga",
-		"characters": "抓",
-		"pinyin": "zaa1",
+		"mainland_cantonese": "抓",
+    "hongkong_cantonese": "抓",
+		"jyutping": "zaa1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "klättra",
-		"characters": "爬",
-		"pinyin": "paa4",
+		"mainland_cantonese": "爬",
+    "hongkong_cantonese": "爬",
+		"jyutping": "paa4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "gunga",
-		"characters": "摇摆",
-		"pinyin": "jiu4 baai2",
+		"mainland_cantonese": "摇摆",
+    "hongkong_cantonese": "摇摆",
+		"jyutping": "jiu4 baai2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "rutschkana",
-		"characters": "滑梯",
-		"pinyin": "waat6 tai1",
+		"mainland_cantonese": "滑梯",
+    "hongkong_cantonese": "滑梯",
+		"jyutping": "waat6 tai1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sandlåda",
-		"characters": "沙池",
-		"pinyin": "saa1 ci4",
+		"mainland_cantonese": "沙池",
+    "hongkong_cantonese": "沙池",
+		"jyutping": "saa1 ci4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "lekplats",
-		"characters": "游乐场",
-		"pinyin": "jau4 lok6 coeng4",
+		"mainland_cantonese": "游乐场",
+    "hongkong_cantonese": "游乐场",
+		"jyutping": "jau4 lok6 coeng4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "träna",
-		"characters": "锻炼",
-		"pinyin": "dyun3 lin6",
+		"mainland_cantonese": "锻炼",
+    "hongkong_cantonese": "锻炼",
+		"jyutping": "dyun3 lin6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "yoga",
-		"characters": "瑜伽",
-		"pinyin": "jyu4 gaa1",
+		"mainland_cantonese": "瑜伽",
+    "hongkong_cantonese": "瑜伽",
+		"jyutping": "jyu4 gaa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "meditation",
-		"characters": "冥想",
-		"pinyin": "ming4 soeng2",
+		"mainland_cantonese": "冥想",
+    "hongkong_cantonese": "冥想",
+		"jyutping": "ming4 soeng2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fotografera",
-		"characters": "摄影",
-		"pinyin": "sip3 jing2",
+		"mainland_cantonese": "摄影",
+    "hongkong_cantonese": "摄影",
+		"jyutping": "sip3 jing2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "trädgårdsskötsel",
-		"characters": "园艺",
-		"pinyin": "jyun4 ngai6",
+		"mainland_cantonese": "园艺",
+    "hongkong_cantonese": "园艺",
+		"jyutping": "jyun4 ngai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "laga mat",
-		"characters": "烹饪",
-		"pinyin": "paang1 jam6",
+		"mainland_cantonese": "烹饪",
+    "hongkong_cantonese": "烹饪",
+		"jyutping": "paang1 jam6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "baka",
-		"characters": "烘焙",
-		"pinyin": "hung1 pui3",
+		"mainland_cantonese": "烘焙",
+    "hongkong_cantonese": "烘焙",
+		"jyutping": "hung1 pui3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sticka",
-		"characters": "织毛衣",
-		"pinyin": "zik1 mou4 ji1",
+		"mainland_cantonese": "织毛衣",
+    "hongkong_cantonese": "织毛衣",
+		"jyutping": "zik1 mou4 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "broderi",
-		"characters": "刺绣",
-		"pinyin": "ci3 sau3",
+		"mainland_cantonese": "刺绣",
+    "hongkong_cantonese": "刺绣",
+		"jyutping": "ci3 sau3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fiska",
-		"characters": "钓鱼",
-		"pinyin": "diu3 jyu4",
+		"mainland_cantonese": "钓鱼",
+    "hongkong_cantonese": "钓鱼",
+		"jyutping": "diu3 jyu4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vandring",
-		"characters": "远足",
-		"pinyin": "jyun5 zuk1",
+		"mainland_cantonese": "远足",
+    "hongkong_cantonese": "远足",
+		"jyutping": "jyun5 zuk1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "camping",
-		"characters": "露营",
-		"pinyin": "lou6 jing4",
+		"mainland_cantonese": "露营",
+    "hongkong_cantonese": "露营",
+		"jyutping": "lou6 jing4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "schack",
-		"characters": "国际象棋",
-		"pinyin": "gwok3 zai3 zoeng6 kei4",
+		"mainland_cantonese": "国际象棋",
+    "hongkong_cantonese": "国际象棋",
+		"jyutping": "gwok3 zai3 zoeng6 kei4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "damer",
-		"characters": "跳棋",
-		"pinyin": "tiu3 kei4",
+		"mainland_cantonese": "跳棋",
+    "hongkong_cantonese": "跳棋",
+		"jyutping": "tiu3 kei4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "brädspel",
-		"characters": "桌游",
-		"pinyin": "zoek3 jau4",
+		"mainland_cantonese": "桌游",
+    "hongkong_cantonese": "桌游",
+		"jyutping": "zoek3 jau4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "videospel",
-		"characters": "电子游戏",
-		"pinyin": "din6 zi2 jau4 hei3",
+		"mainland_cantonese": "电子游戏",
+    "hongkong_cantonese": "电子游戏",
+		"jyutping": "din6 zi2 jau4 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "musik",
-		"characters": "音乐",
-		"pinyin": "jam1 ngok6",
+		"mainland_cantonese": "音乐",
+    "hongkong_cantonese": "音乐",
+		"jyutping": "jam1 ngok6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "instrument",
-		"characters": "乐器",
-		"pinyin": "ngok6 hei3",
+		"mainland_cantonese": "乐器",
+    "hongkong_cantonese": "乐器",
+		"jyutping": "ngok6 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "piano",
-		"characters": "钢琴",
-		"pinyin": "gong3 kam4",
+		"mainland_cantonese": "钢琴",
+    "hongkong_cantonese": "钢琴",
+		"jyutping": "gong3 kam4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "gitarr",
-		"characters": "吉他",
-		"pinyin": "gat1 taa1",
+		"mainland_cantonese": "吉他",
+    "hongkong_cantonese": "吉他",
+		"jyutping": "gat1 taa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "trummor",
-		"characters": "鼓",
-		"pinyin": "gu2",
+		"mainland_cantonese": "鼓",
+    "hongkong_cantonese": "鼓",
+		"jyutping": "gu2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "målning",
-		"characters": "绘画",
-		"pinyin": "kui2 waak6",
+		"mainland_cantonese": "绘画",
+    "hongkong_cantonese": "绘画",
+		"jyutping": "kui2 waak6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "teckning",
-		"characters": "素描",
-		"pinyin": "sou3 miu4",
+		"mainland_cantonese": "素描",
+    "hongkong_cantonese": "素描",
+		"jyutping": "sou3 miu4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "skulptur",
-		"characters": "雕塑",
-		"pinyin": "diu1 sou3",
+		"mainland_cantonese": "雕塑",
+    "hongkong_cantonese": "雕塑",
+		"jyutping": "diu1 sou3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "keramik",
-		"characters": "陶瓷",
-		"pinyin": "tou4 ci4",
+		"mainland_cantonese": "陶瓷",
+    "hongkong_cantonese": "陶瓷",
+		"jyutping": "tou4 ci4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "samla",
-		"characters": "收集",
-		"pinyin": "sau1 zaap6",
+		"mainland_cantonese": "收集",
+    "hongkong_cantonese": "收集",
+		"jyutping": "sau1 zaap6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "frimärken",
-		"characters": "邮票",
-		"pinyin": "jau4 piu3",
+		"mainland_cantonese": "邮票",
+    "hongkong_cantonese": "邮票",
+		"jyutping": "jau4 piu3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mynt",
-		"characters": "硬币",
-		"pinyin": "ngaang6 bai6",
+		"mainland_cantonese": "硬币",
+    "hongkong_cantonese": "硬币",
+		"jyutping": "ngaang6 bai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "modelljärnväg",
-		"characters": "模型火车",
-		"pinyin": "mou4 jing4 fo2 ce1",
+		"mainland_cantonese": "模型火车",
+    "hongkong_cantonese": "模型火车",
+		"jyutping": "mou4 jing4 fo2 ce1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "marionettteater",
-		"characters": "木偶剧",
-		"pinyin": "muk6 ngau5 kek6",
+		"mainland_cantonese": "木偶剧",
+    "hongkong_cantonese": "木偶剧",
+		"jyutping": "muk6 ngau5 kek6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kalligrafi",
-		"characters": "書法",
-		"pinyin": "syu1 faat3",
+		"mainland_cantonese": "書法",
+    "hongkong_cantonese": "書法",
+		"jyutping": "syu1 faat3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "origami",
-		"characters": "折纸",
-		"pinyin": "zip3 zi2",
+		"mainland_cantonese": "折纸",
+    "hongkong_cantonese": "折纸",
+		"jyutping": "zip3 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "akvarellmålning",
-		"characters": "水彩画",
-		"pinyin": "seoi2 coi2 waak6",
+		"mainland_cantonese": "水彩画",
+    "hongkong_cantonese": "水彩画",
+		"jyutping": "seoi2 coi2 waak6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "oljemålning",
-		"characters": "油画",
-		"pinyin": "jau4 waak6",
+		"mainland_cantonese": "油画",
+    "hongkong_cantonese": "油画",
+		"jyutping": "jau4 waak6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "glassblåsning",
-		"characters": "吹玻璃",
-		"pinyin": "ceoi1 bo1 lei4",
+		"mainland_cantonese": "吹玻璃",
+    "hongkong_cantonese": "吹玻璃",
+		"jyutping": "ceoi1 bo1 lei4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "metallbearbetning",
-		"characters": "金属加工",
-		"pinyin": "gam1 suk6 gaa1 gung1",
+		"mainland_cantonese": "金属加工",
+    "hongkong_cantonese": "金属加工",
+		"jyutping": "gam1 suk6 gaa1 gung1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "träsnideri",
-		"characters": "木雕",
-		"pinyin": "muk6 diu1",
+		"mainland_cantonese": "木雕",
+    "hongkong_cantonese": "木雕",
+		"jyutping": "muk6 diu1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "juvelsmide",
-		"characters": "珠宝制作",
-		"pinyin": "zyu1 bou2 zai3 zok3",
+		"mainland_cantonese": "珠宝制作",
+    "hongkong_cantonese": "珠宝制作",
+		"jyutping": "zyu1 bou2 zai3 zok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "astronomi",
-		"characters": "天文学",
-		"pinyin": "tin1 man4 hok6",
+		"mainland_cantonese": "天文学",
+    "hongkong_cantonese": "天文学",
+		"jyutping": "tin1 man4 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "teleskop",
-		"characters": "望远镜",
-		"pinyin": "mong6 jyun5 geng3",
+		"mainland_cantonese": "望远镜",
+    "hongkong_cantonese": "望远镜",
+		"jyutping": "mong6 jyun5 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "fågelskådning",
-		"characters": "观鸟",
-		"pinyin": "gun1 niu5",
+		"mainland_cantonese": "观鸟",
+    "hongkong_cantonese": "观鸟",
+		"jyutping": "gun1 niu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "botanik",
-		"characters": "植物学",
-		"pinyin": "zik6 mat6 hok6",
+		"mainland_cantonese": "植物学",
+    "hongkong_cantonese": "植物学",
+		"jyutping": "zik6 mat6 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "entomologi",
-		"characters": "昆虫学",
-		"pinyin": "kwan1 cung4 hok6",
+		"mainland_cantonese": "昆虫学",
+    "hongkong_cantonese": "昆虫学",
+		"jyutping": "kwan1 cung4 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "arkeologi",
-		"characters": "考古学",
-		"pinyin": "haau2 gu2 hok6",
+		"mainland_cantonese": "考古学",
+    "hongkong_cantonese": "考古学",
+		"jyutping": "haau2 gu2 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "genealogi",
-		"characters": "族谱学",
-		"pinyin": "zuk6 pou2 hok6",
+		"mainland_cantonese": "族谱学",
+    "hongkong_cantonese": "族谱学",
+		"jyutping": "zuk6 pou2 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "filatelism",
-		"characters": "集邮",
-		"pinyin": "zaap6 jau4",
+		"mainland_cantonese": "集邮",
+    "hongkong_cantonese": "集邮",
+		"jyutping": "zaap6 jau4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "numismatik",
-		"characters": "钱币学",
-		"pinyin": "cin4 bai6 hok6",
+		"mainland_cantonese": "钱币学",
+    "hongkong_cantonese": "钱币学",
+		"jyutping": "cin4 bai6 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "amatörradio",
-		"characters": "业余无线电",
-		"pinyin": "jip6 jyu4 mou4 sin3 din6",
+		"mainland_cantonese": "业余无线电",
+    "hongkong_cantonese": "业余无线电",
+		"jyutping": "jip6 jyu4 mou4 sin3 din6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "modellbygge",
-		"characters": "模型制作",
-		"pinyin": "mou4 jing4 zai3 zok3",
+		"mainland_cantonese": "模型制作",
+    "hongkong_cantonese": "模型制作",
+		"jyutping": "mou4 jing4 zai3 zok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "drakbygge",
-		"characters": "制作风筝",
-		"pinyin": "zai3 zok3 fung1 zang1",
+		"mainland_cantonese": "制作风筝",
+    "hongkong_cantonese": "制作风筝",
+		"jyutping": "zai3 zok3 fung1 zang1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "robotik",
-		"characters": "机器人学",
-		"pinyin": "gei1 hei3 jan4 hok6",
+		"mainland_cantonese": "机器人学",
+    "hongkong_cantonese": "机器人学",
+		"jyutping": "gei1 hei3 jan4 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "programmering",
-		"characters": "编程",
-		"pinyin": "pin1 cing4",
+		"mainland_cantonese": "编程",
+    "hongkong_cantonese": "编程",
+		"jyutping": "pin1 cing4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "3D-modellering",
-		"characters": "3D建模",
-		"pinyin": "saam1 D gin3 mou4",
+		"mainland_cantonese": "3D建模",
+    "hongkong_cantonese": "3D建模",
+		"jyutping": "saam1 D gin3 mou4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "animering",
-		"characters": "动画制作",
-		"pinyin": "dung6 waak6 zai3 zok3",
+		"mainland_cantonese": "动画制作",
+    "hongkong_cantonese": "动画制作",
+		"jyutping": "dung6 waak6 zai3 zok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "speldesign",
-		"characters": "游戏设计",
-		"pinyin": "jau4 hei3 cit3 gai3",
+		"mainland_cantonese": "游戏设计",
+    "hongkong_cantonese": "游戏设计",
+		"jyutping": "jau4 hei3 cit3 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "virtuell verklighet",
-		"characters": "虚拟现实",
-		"pinyin": "heoi1 nei5 jin6 sat6 jin6",
+		"mainland_cantonese": "虚拟现实",
+    "hongkong_cantonese": "虚拟现实",
+		"jyutping": "heoi1 nei5 jin6 sat6 jin6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "drönarpilot",
-		"characters": "无人机驾驶",
-		"pinyin": "mou4 jan4 gei1 gaa3 sai2",
+		"mainland_cantonese": "无人机驾驶",
+    "hongkong_cantonese": "无人机驾驶",
+		"jyutping": "mou4 jan4 gei1 gaa3 sai2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "geocaching",
-		"characters": "地理藏宝",
-		"pinyin": "dei6 lei5 cong4 bou2",
+		"mainland_cantonese": "地理藏宝",
+    "hongkong_cantonese": "地理藏宝",
+		"jyutping": "dei6 lei5 cong4 bou2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "parkour",
-		"characters": "跑酷",
-		"pinyin": "paau2 fu3",
+		"mainland_cantonese": "跑酷",
+    "hongkong_cantonese": "跑酷",
+		"jyutping": "paau2 fu3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "slackline",
-		"characters": "扁带平衡",
-		"pinyin": "bin2 daai3 ping4 hang4",
+		"mainland_cantonese": "扁带平衡",
+    "hongkong_cantonese": "扁带平衡",
+		"jyutping": "bin2 daai3 ping4 hang4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "bouldering",
-		"characters": "抱石攀岩",
-		"pinyin": "pou5 sek6 paan1 ngaam4",
+		"mainland_cantonese": "抱石攀岩",
+    "hongkong_cantonese": "抱石攀岩",
+		"jyutping": "pou5 sek6 paan1 ngaam4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "skateboard",
-		"characters": "滑板",
-		"pinyin": "waat6 baan2",
+		"mainland_cantonese": "滑板",
+    "hongkong_cantonese": "滑板",
+		"jyutping": "waat6 baan2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "longboard",
-		"characters": "长板滑板",
-		"pinyin": "coeng4 baan2 waat6 baan2",
+		"mainland_cantonese": "长板滑板",
+    "hongkong_cantonese": "长板滑板",
+		"jyutping": "coeng4 baan2 waat6 baan2",
 		"difficulty": 3
 	}
 ]

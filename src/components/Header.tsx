@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 
-import { Box, FormControl, FormLabel, Switch } from "@mui/joy";
+import MenuIcon from "@mui/icons-material/Menu";
+import { Box, IconButton } from "@mui/joy";
 
-import { useT } from "../translations";
+import NavigationDrawer from "./NavigationDrawer";
 
 interface HeaderProps {
-	showPinyin?: boolean;
-	onPinyinToggle?: () => void;
+	showJyutping?: boolean;
+	onJyutpingToggle?: () => void;
 	showToggle?: boolean;
 }
 
-const Header: React.FC<HeaderProps> = ({ showPinyin = false, onPinyinToggle, showToggle = false }) => {
-	const { t } = useT();
+const Header: React.FC<HeaderProps> = ({ showJyutping = false, onJyutpingToggle, showToggle = false }) => {
+	const [drawerOpen, setDrawerOpen] = useState(false);
+
+	const handleDrawerToggle = () => {
+		setDrawerOpen(!drawerOpen);
+	};
 
 	return (
 		<Box
@@ -26,6 +31,19 @@ const Header: React.FC<HeaderProps> = ({ showPinyin = false, onPinyinToggle, sho
 			}}
 		>
 			<Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+				{/* Hamburger Menu */}
+				<IconButton
+					onClick={handleDrawerToggle}
+					sx={{
+						color: "white",
+						"&:hover": {
+							backgroundColor: "rgba(255, 255, 255, 0.1)",
+						},
+					}}
+				>
+					<MenuIcon />
+				</IconButton>
+
 				{/* Logo */}
 				<Box
 					sx={{
@@ -49,12 +67,9 @@ const Header: React.FC<HeaderProps> = ({ showPinyin = false, onPinyinToggle, sho
 					/>
 				</Box>
 			</Box>
-			{showToggle && onPinyinToggle && (
-				<FormControl orientation="horizontal" sx={{ gap: 1 }}>
-					<FormLabel sx={{ color: "#ffffff", fontSize: "0.9rem", mb: 0 }}>{t.showPinyin}</FormLabel>
-					<Switch checked={showPinyin} onChange={onPinyinToggle} />
-				</FormControl>
-			)}
+
+			{/* Navigation Drawer */}
+			<NavigationDrawer open={drawerOpen} onClose={handleDrawerToggle} showJyutping={showJyutping} onJyutpingToggle={showToggle && onJyutpingToggle ? onJyutpingToggle : undefined} />
 		</Box>
 	);
 };

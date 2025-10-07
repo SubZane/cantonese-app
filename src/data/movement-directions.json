@@ -1,596 +1,713 @@
 [
 	{
 		"swedish": "gå",
-		"characters": "行",
-		"pinyin": "haang4",
+		"mainland_cantonese": "行",
+		"hongkong_cantonese": "行",
+		"jyutping": "haang4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "springa",
-		"characters": "跑",
-		"pinyin": "paau2",
+		"mainland_cantonese": "跑",
+		"hongkong_cantonese": "跑",
+		"jyutping": "paau2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "stå",
-		"characters": "企",
-		"pinyin": "kei5",
+		"mainland_cantonese": "企",
+		"hongkong_cantonese": "企",
+		"jyutping": "kei5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sitta",
-		"characters": "坐",
-		"pinyin": "co5",
+		"mainland_cantonese": "坐",
+		"hongkong_cantonese": "坐",
+		"jyutping": "co5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ligga",
-		"characters": "瞓",
-		"pinyin": "fan3",
+		"mainland_cantonese": "睡",
+		"hongkong_cantonese": "瞓",
+		"has_hk_variant": true,
+		"jyutping": "fan3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "hoppa",
-		"characters": "跳",
-		"pinyin": "tiu3",
+		"mainland_cantonese": "跳",
+		"hongkong_cantonese": "跳",
+		"jyutping": "tiu3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "komma",
-		"characters": "来",
-		"pinyin": "loi4",
+		"mainland_cantonese": "来",
+		"hongkong_cantonese": "嚟",
+		"has_hk_variant": true,
+		"jyutping": "loi4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "gå bort",
-		"characters": "走",
-		"pinyin": "zau2",
+		"mainland_cantonese": "走",
+		"hongkong_cantonese": "走",
+		"jyutping": "zau2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "stopp",
-		"characters": "停",
-		"pinyin": "ting4",
+		"mainland_cantonese": "停",
+		"hongkong_cantonese": "停",
+		"jyutping": "ting4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "höger",
-		"characters": "右",
-		"pinyin": "jau6",
+		"mainland_cantonese": "右",
+		"hongkong_cantonese": "右",
+		"jyutping": "jau6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "vänster",
-		"characters": "左",
-		"pinyin": "zo2",
+		"mainland_cantonese": "左",
+		"hongkong_cantonese": "左",
+		"jyutping": "zo2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "upp",
-		"characters": "上",
-		"pinyin": "soeng5",
+		"mainland_cantonese": "上",
+		"hongkong_cantonese": "上",
+		"jyutping": "soeng5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ner",
-		"characters": "落",
-		"pinyin": "lok6",
+		"mainland_cantonese": "落",
+		"hongkong_cantonese": "落",
+		"jyutping": "lok6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "framåt",
-		"characters": "前",
-		"pinyin": "cin4",
+		"mainland_cantonese": "前",
+		"hongkong_cantonese": "前",
+		"jyutping": "cin4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bakåt",
-		"characters": "後",
-		"pinyin": "hau6",
+		"mainland_cantonese": "後",
+		"hongkong_cantonese": "後",
+		"jyutping": "hau6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "här",
-		"characters": "这里",
-		"pinyin": "ze2 lei5",
+		"mainland_cantonese": "这里",
+		"hongkong_cantonese": "呢度",
+		"has_hk_variant": true,
+		"jyutping": "ze2 lei5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "där",
-		"characters": "那里",
-		"pinyin": "naa5 lei5",
+		"mainland_cantonese": "那里",
+		"hongkong_cantonese": "嗰度",
+		"has_hk_variant": true,
+		"jyutping": "naa5 lei5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "nära",
-		"characters": "近",
-		"pinyin": "gan6",
+		"mainland_cantonese": "近",
+		"hongkong_cantonese": "近",
+		"jyutping": "gan6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "långt bort",
-		"characters": "遠",
-		"pinyin": "jyun5",
+		"mainland_cantonese": "遠",
+		"hongkong_cantonese": "遠",
+		"jyutping": "jyun5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "inne",
-		"characters": "里面",
-		"pinyin": "laap6 min6",
+		"mainland_cantonese": "里面",
+		"hongkong_cantonese": "入面",
+		"has_hk_variant": true,
+		"jyutping": "laap6 min6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ute",
-		"characters": "外面",
-		"pinyin": "ngoi6 min6",
+		"mainland_cantonese": "外面",
+		"hongkong_cantonese": "出面",
+		"has_hk_variant": true,
+		"jyutping": "ngoi6 min6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "på",
-		"characters": "在",
-		"pinyin": "zoi6",
+		"mainland_cantonese": "在",
+		"hongkong_cantonese": "喺",
+		"has_hk_variant": true,
+		"jyutping": "zoi6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "under",
-		"characters": "底下",
-		"pinyin": "dai2 haa6",
+		"mainland_cantonese": "底下",
+		"hongkong_cantonese": "底下",
+		"jyutping": "dai2 haa6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "över",
-		"characters": "上面",
-		"pinyin": "soeng6 min6",
+		"mainland_cantonese": "上面",
+		"hongkong_cantonese": "上面",
+		"jyutping": "soeng6 min6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bredvid",
-		"characters": "隔壁",
-		"pinyin": "gaak3 bik1",
+		"mainland_cantonese": "隔壁",
+		"hongkong_cantonese": "隔壁",
+		"jyutping": "gaak3 bik1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mellan",
-		"characters": "之间",
-		"pinyin": "zi1 gaan1",
+		"mainland_cantonese": "之间",
+		"hongkong_cantonese": "之间",
+		"jyutping": "zi1 gaan1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "rakt fram",
-		"characters": "直行",
-		"pinyin": "zik6 haang4",
+		"mainland_cantonese": "直行",
+		"hongkong_cantonese": "直行",
+		"jyutping": "zik6 haang4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svänga höger",
-		"characters": "转右",
-		"pinyin": "zyun3 jau6",
+		"mainland_cantonese": "转右",
+		"hongkong_cantonese": "转右",
+		"jyutping": "zyun3 jau6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svänga vänster",
-		"characters": "转左",
-		"pinyin": "zyun3 zo2",
+		"mainland_cantonese": "转左",
+		"hongkong_cantonese": "转左",
+		"jyutping": "zyun3 zo2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "krypa",
-		"characters": "爬",
-		"pinyin": "paa4",
+		"mainland_cantonese": "爬",
+		"hongkong_cantonese": "爬",
+		"jyutping": "paa4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "klättra",
-		"characters": "爬山",
-		"pinyin": "paa4 saan1",
+		"mainland_cantonese": "爬山",
+		"hongkong_cantonese": "爬山",
+		"jyutping": "paa4 saan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "simma",
-		"characters": "游泳",
-		"pinyin": "jau4 wing6",
+		"mainland_cantonese": "游泳",
+		"hongkong_cantonese": "游水",
+		"has_hk_variant": true,
+		"jyutping": "jau4 wing6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "flyga",
-		"characters": "飛",
-		"pinyin": "fei1",
+		"mainland_cantonese": "飛",
+		"hongkong_cantonese": "飛",
+		"jyutping": "fei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "cykla",
-		"characters": "骑自行车",
-		"pinyin": "kei4 zi6 hang4 ce1",
+		"mainland_cantonese": "骑自行车",
+		"hongkong_cantonese": "踩单车",
+		"has_hk_variant": true,
+		"jyutping": "kei4 zi6 hang4 ce1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "köra bil",
-		"characters": "开车",
-		"pinyin": "hoi1 ce1",
+		"mainland_cantonese": "开车",
+		"hongkong_cantonese": "揸车",
+		"has_hk_variant": true,
+		"jyutping": "hoi1 ce1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "åka tåg",
-		"characters": "坐火车",
-		"pinyin": "co5 fo2 ce1",
+		"mainland_cantonese": "坐火车",
+		"hongkong_cantonese": "搭火车",
+		"has_hk_variant": true,
+		"jyutping": "co5 fo2 ce1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "åka buss",
-		"characters": "坐巴士",
-		"pinyin": "co5 baa1 si6",
+		"mainland_cantonese": "坐巴士",
+		"hongkong_cantonese": "搭巴士",
+		"has_hk_variant": true,
+		"jyutping": "co5 baa1 si6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "promenera",
-		"characters": "散步",
-		"pinyin": "saan3 bou6",
+		"mainland_cantonese": "散步",
+		"hongkong_cantonese": "散步",
+		"jyutping": "saan3 bou6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "jogga",
-		"characters": "慢跑",
-		"pinyin": "maan6 paau2",
+		"mainland_cantonese": "慢跑",
+		"hongkong_cantonese": "慢跑",
+		"jyutping": "maan6 paau2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "dansa",
-		"characters": "跳舞",
-		"pinyin": "tiu3 mou5",
+		"mainland_cantonese": "跳舞",
+		"hongkong_cantonese": "跳舞",
+		"jyutping": "tiu3 mou5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "rulla",
-		"characters": "轆",
-		"pinyin": "luk1",
+		"mainland_cantonese": "轆",
+		"hongkong_cantonese": "轆",
+		"jyutping": "luk1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "glida",
-		"characters": "滑",
-		"pinyin": "waat6",
+		"mainland_cantonese": "滑",
+		"hongkong_cantonese": "滑",
+		"jyutping": "waat6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "falla",
-		"characters": "跌",
-		"pinyin": "dit3",
+		"mainland_cantonese": "跌",
+		"hongkong_cantonese": "跌",
+		"jyutping": "dit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "stiga upp",
-		"characters": "起身",
-		"pinyin": "hei2 san1",
+		"mainland_cantonese": "起身",
+		"hongkong_cantonese": "起身",
+		"jyutping": "hei2 san1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sätta sig",
-		"characters": "坐下",
-		"pinyin": "co5 haa6",
+		"mainland_cantonese": "坐下",
+		"hongkong_cantonese": "坐低",
+		"has_hk_variant": true,
+		"jyutping": "co5 haa6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "luta sig",
-		"characters": "靠",
-		"pinyin": "kaau3",
+		"mainland_cantonese": "靠",
+		"hongkong_cantonese": "靠",
+		"jyutping": "kaau3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "böja sig",
-		"characters": "彎腰",
-		"pinyin": "waan1 jiu1",
+		"mainland_cantonese": "彎腰",
+		"hongkong_cantonese": "彎腰",
+		"jyutping": "waan1 jiu1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sträcka sig",
-		"characters": "伸",
-		"pinyin": "san1",
+		"mainland_cantonese": "伸",
+		"hongkong_cantonese": "伸",
+		"jyutping": "san1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vända sig om",
-		"characters": "轉身",
-		"pinyin": "zyun3 san1",
+		"mainland_cantonese": "轉身",
+		"hongkong_cantonese": "轉身",
+		"jyutping": "zyun3 san1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "titta åt höger",
-		"characters": "看右边",
-		"pinyin": "hon3 jau6 bin1",
+		"mainland_cantonese": "看右边",
+		"hongkong_cantonese": "望右边",
+		"has_hk_variant": true,
+		"jyutping": "hon3 jau6 bin1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "titta åt vänster",
-		"characters": "看左边",
-		"pinyin": "hon3 zo2 bin1",
+		"mainland_cantonese": "看左边",
+		"hongkong_cantonese": "望左边",
+		"has_hk_variant": true,
+		"jyutping": "hon3 zo2 bin1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "titta upp",
-		"characters": "看上",
-		"pinyin": "hon3 soeng5",
+		"mainland_cantonese": "看上",
+		"hongkong_cantonese": "望上",
+		"has_hk_variant": true,
+		"jyutping": "hon3 soeng5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "titta ner",
-		"characters": "看下",
-		"pinyin": "hon3 haa6",
+		"mainland_cantonese": "看下",
+		"hongkong_cantonese": "望下",
+		"has_hk_variant": true,
+		"jyutping": "hon3 haa6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "peka",
-		"characters": "指",
-		"pinyin": "zi2",
+		"mainland_cantonese": "指",
+		"hongkong_cantonese": "指",
+		"jyutping": "zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sträcka ut",
-		"characters": "伸出",
-		"pinyin": "san1 ceot1",
+		"mainland_cantonese": "伸出",
+		"hongkong_cantonese": "伸出",
+		"jyutping": "san1 ceot1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "dra tillbaka",
-		"characters": "拉回",
-		"pinyin": "laai1 wui4",
+		"mainland_cantonese": "拉回",
+		"hongkong_cantonese": "拉返",
+		"has_hk_variant": true,
+		"jyutping": "laai1 wui4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "skjuta fram",
-		"characters": "推前",
-		"pinyin": "teoi1 cin4",
+		"mainland_cantonese": "推前",
+		"hongkong_cantonese": "推前",
+		"jyutping": "teoi1 cin4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "korsning",
-		"characters": "十字路口",
-		"pinyin": "sap6 zi6 lou6 hau2",
+		"mainland_cantonese": "十字路口",
+		"hongkong_cantonese": "十字路口",
+		"jyutping": "sap6 zi6 lou6 hau2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "rondell",
-		"characters": "环岛",
-		"pinyin": "waan4 dou2",
+		"mainland_cantonese": "环岛",
+		"hongkong_cantonese": "环岛",
+		"jyutping": "waan4 dou2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "trafikljus",
-		"characters": "交通灯",
-		"pinyin": "gaau1 tung1 dang1",
+		"mainland_cantonese": "交通灯",
+		"hongkong_cantonese": "交通灯",
+		"jyutping": "gaau1 tung1 dang1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "övergångsställe",
-		"characters": "斑马线",
-		"pinyin": "baan1 maa5 sin3",
+		"mainland_cantonese": "斑马线",
+		"hongkong_cantonese": "斑马线",
+		"jyutping": "baan1 maa5 sin3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "hållplats",
-		"characters": "车站",
-		"pinyin": "ce1 zaam6",
+		"mainland_cantonese": "车站",
+		"hongkong_cantonese": "车站",
+		"jyutping": "ce1 zaam6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "nordost",
-		"characters": "東北",
-		"pinyin": "dung1 bak1",
+		"mainland_cantonese": "東北",
+		"hongkong_cantonese": "東北",
+		"jyutping": "dung1 bak1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sydväst",
-		"characters": "西南",
-		"pinyin": "sai1 naam4",
+		"mainland_cantonese": "西南",
+		"hongkong_cantonese": "西南",
+		"jyutping": "sai1 naam4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "nordväst",
-		"characters": "西北",
-		"pinyin": "sai1 bak1",
+		"mainland_cantonese": "西北",
+		"hongkong_cantonese": "西北",
+		"jyutping": "sai1 bak1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sydost",
-		"characters": "東南",
-		"pinyin": "dung1 naam4",
+		"mainland_cantonese": "東南",
+		"hongkong_cantonese": "東南",
+		"jyutping": "dung1 naam4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "navigera",
-		"characters": "导航",
-		"pinyin": "dou6 hong4",
+		"mainland_cantonese": "导航",
+		"hongkong_cantonese": "导航",
+		"jyutping": "dou6 hong4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "orientera",
-		"characters": "定位",
-		"pinyin": "ding6 wai6",
+		"mainland_cantonese": "定位",
+		"hongkong_cantonese": "定位",
+		"jyutping": "ding6 wai6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kalibrerad",
-		"characters": "校准",
-		"pinyin": "gaau3 zeon2",
+		"mainland_cantonese": "校准",
+		"hongkong_cantonese": "校准",
+		"jyutping": "gaau3 zeon2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "koordinater",
-		"characters": "坐标",
-		"pinyin": "co5 biu1",
+		"mainland_cantonese": "坐标",
+		"hongkong_cantonese": "坐标",
+		"jyutping": "co5 biu1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "longitud",
-		"characters": "经度",
-		"pinyin": "ging1 dou6",
+		"mainland_cantonese": "经度",
+		"hongkong_cantonese": "经度",
+		"jyutping": "ging1 dou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "latitud",
-		"characters": "纬度",
-		"pinyin": "wai5 dou6",
+		"mainland_cantonese": "纬度",
+		"hongkong_cantonese": "纬度",
+		"jyutping": "wai5 dou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "magnetisk",
-		"characters": "磁性",
-		"pinyin": "ci4 sing3",
+		"mainland_cantonese": "磁性",
+		"hongkong_cantonese": "磁性",
+		"jyutping": "ci4 sing3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kompassriktning",
-		"characters": "罗盘方向",
-		"pinyin": "lo4 pun4 fong1 hoeng3",
+		"mainland_cantonese": "罗盘方向",
+		"hongkong_cantonese": "罗盘方向",
+		"jyutping": "lo4 pun4 fong1 hoeng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "bäring",
-		"characters": "方位角",
-		"pinyin": "fong1 wai6 gok3",
+		"mainland_cantonese": "方位角",
+		"hongkong_cantonese": "方位角",
+		"jyutping": "fong1 wai6 gok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "azimut",
-		"characters": "方位角",
-		"pinyin": "fong1 wai6 gok3",
+		"mainland_cantonese": "方位角",
+		"hongkong_cantonese": "方位角",
+		"jyutping": "fong1 wai6 gok3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "triangulering",
-		"characters": "三角测量",
-		"pinyin": "saam1 gok3 cak1 loeng6",
+		"mainland_cantonese": "三角测量",
+		"hongkong_cantonese": "三角测量",
+		"jyutping": "saam1 gok3 cak1 loeng6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "gyrokompss",
-		"characters": "陀螺仪",
-		"pinyin": "to4 lo4 ji4",
+		"mainland_cantonese": "陀螺仪",
+		"hongkong_cantonese": "陀螺仪",
+		"jyutping": "to4 lo4 ji4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "accelerometer",
-		"characters": "加速计",
-		"pinyin": "gaa1 cuk1 gai3",
+		"mainland_cantonese": "加速计",
+		"hongkong_cantonese": "加速计",
+		"jyutping": "gaa1 cuk1 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "rörelsevektor",
-		"characters": "运动向量",
-		"pinyin": "wan6 dung6 hoeng3 loeng6",
+		"mainland_cantonese": "运动向量",
+		"hongkong_cantonese": "运动向量",
+		"jyutping": "wan6 dung6 hoeng3 loeng6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "hastighetsvektor",
-		"characters": "速度向量",
-		"pinyin": "cuk1 dou6 hoeng3 loeng6",
+		"mainland_cantonese": "速度向量",
+		"hongkong_cantonese": "速度向量",
+		"jyutping": "cuk1 dou6 hoeng3 loeng6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "acceleration",
-		"characters": "加速度",
-		"pinyin": "gaa1 cuk1 dou6",
+		"mainland_cantonese": "加速度",
+		"hongkong_cantonese": "加速度",
+		"jyutping": "gaa1 cuk1 dou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "deceleration",
-		"characters": "减速度",
-		"pinyin": "gaam2 cuk1 dou6",
+		"mainland_cantonese": "减速度",
+		"hongkong_cantonese": "减速度",
+		"jyutping": "gaam2 cuk1 dou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "fart",
-		"characters": "速率",
-		"pinyin": "cuk1 leot6",
+		"mainland_cantonese": "速率",
+		"hongkong_cantonese": "速率",
+		"jyutping": "cuk1 leot6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "hastighet",
-		"characters": "速度",
-		"pinyin": "cuk1 dou6",
+		"mainland_cantonese": "速度",
+		"hongkong_cantonese": "速度",
+		"jyutping": "cuk1 dou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "momentum",
-		"characters": "动量",
-		"pinyin": "dung6 loeng6",
+		"mainland_cantonese": "动量",
+		"hongkong_cantonese": "动量",
+		"jyutping": "dung6 loeng6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kinetisk",
-		"characters": "动能",
-		"pinyin": "dung6 nang4",
+		"mainland_cantonese": "动能",
+		"hongkong_cantonese": "动能",
+		"jyutping": "dung6 nang4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "potentiell",
-		"characters": "势能",
-		"pinyin": "sai3 nang4",
+		"mainland_cantonese": "势能",
+		"hongkong_cantonese": "势能",
+		"jyutping": "sai3 nang4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "friktion",
-		"characters": "摩擦力",
-		"pinyin": "mo1 caat3 lik6",
+		"mainland_cantonese": "摩擦力",
+		"hongkong_cantonese": "摩擦力",
+		"jyutping": "mo1 caat3 lik6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "gravitation",
-		"characters": "重力",
-		"pinyin": "cung5 lik6",
+		"mainland_cantonese": "重力",
+		"hongkong_cantonese": "重力",
+		"jyutping": "cung5 lik6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "centripetal",
-		"characters": "向心力",
-		"pinyin": "hoeng3 sam1 lik6",
+		"mainland_cantonese": "向心力",
+		"hongkong_cantonese": "向心力",
+		"jyutping": "hoeng3 sam1 lik6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "centrifugal",
-		"characters": "离心力",
-		"pinyin": "lei4 sam1 lik6",
+		"mainland_cantonese": "离心力",
+		"hongkong_cantonese": "离心力",
+		"jyutping": "lei4 sam1 lik6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "oscillation",
-		"characters": "振荡",
-		"pinyin": "zan3 dong6",
+		"mainland_cantonese": "振荡",
+		"hongkong_cantonese": "振荡",
+		"jyutping": "zan3 dong6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "rotation",
-		"characters": "旋转",
-		"pinyin": "syun4 zyun3",
+		"mainland_cantonese": "旋转",
+		"hongkong_cantonese": "旋转",
+		"jyutping": "syun4 zyun3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "revolution",
-		"characters": "公转",
-		"pinyin": "gung1 zyun3",
+		"mainland_cantonese": "公转",
+		"hongkong_cantonese": "公转",
+		"jyutping": "gung1 zyun3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "translation",
-		"characters": "平移",
-		"pinyin": "ping4 ji4",
+		"mainland_cantonese": "平移",
+		"hongkong_cantonese": "平移",
+		"jyutping": "ping4 ji4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "vibration",
-		"characters": "振动",
-		"pinyin": "zan3 dung6",
+		"mainland_cantonese": "振动",
+		"hongkong_cantonese": "振动",
+		"jyutping": "zan3 dung6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "resonans",
-		"characters": "共振",
-		"pinyin": "gung6 zan3",
+		"mainland_cantonese": "共振",
+		"hongkong_cantonese": "共振",
+		"jyutping": "gung6 zan3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "turbulens",
-		"characters": "湍流",
-		"pinyin": "tyun4 lau4",
+		"mainland_cantonese": "湍流",
+		"hongkong_cantonese": "湍流",
+		"jyutping": "tyun4 lau4",
 		"difficulty": 3
 	}
 ]

@@ -15,6 +15,7 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView }) => {
 
 	const navItems = [
 		{ key: "home", label: t.navigation.home, icon: "home", path: "/" },
+		{ key: "vocabulary", label: t.navigation.vocabulary, icon: "book", path: "/vocabulary" },
 		{ key: "quiz", label: t.navigation.quiz, icon: "clipboard-question", path: "/quiz" },
 	];
 

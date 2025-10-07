@@ -1,386 +1,450 @@
 [
 	{
 		"swedish": "hund",
-		"characters": "狗",
-		"pinyin": "gou2",
+		"mainland_cantonese": "狗",
+    "hongkong_cantonese": "狗",
+		"jyutping": "gou2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "katt",
-		"characters": "猫",
-		"pinyin": "maau1",
+		"mainland_cantonese": "猫",
+    "hongkong_cantonese": "猫",
+		"jyutping": "maau1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "fisk",
-		"characters": "鱼",
-		"pinyin": "jyu4",
+		"mainland_cantonese": "鱼",
+    "hongkong_cantonese": "鱼",
+		"jyutping": "jyu4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "fågel",
-		"characters": "鸟",
-		"pinyin": "niu5",
+		"mainland_cantonese": "鸟",
+    "hongkong_cantonese": "鸟",
+		"jyutping": "niu5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "häst",
-		"characters": "马",
-		"pinyin": "maa5",
+		"mainland_cantonese": "马",
+    "hongkong_cantonese": "马",
+		"jyutping": "maa5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ko",
-		"characters": "牛",
-		"pinyin": "ngau4",
+		"mainland_cantonese": "牛",
+    "hongkong_cantonese": "牛",
+		"jyutping": "ngau4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "gris",
-		"characters": "猪",
-		"pinyin": "zyu1",
+		"mainland_cantonese": "猪",
+    "hongkong_cantonese": "猪",
+		"jyutping": "zyu1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "får",
-		"characters": "羊",
-		"pinyin": "joeng4",
+		"mainland_cantonese": "羊",
+    "hongkong_cantonese": "羊",
+		"jyutping": "joeng4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "anka",
-		"characters": "鸭",
-		"pinyin": "aap3",
+		"mainland_cantonese": "鸭",
+    "hongkong_cantonese": "鸭",
+		"jyutping": "aap3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "höna",
-		"characters": "鸡",
-		"pinyin": "gai1",
+		"mainland_cantonese": "鸡",
+    "hongkong_cantonese": "鸡",
+		"jyutping": "gai1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kanin",
-		"characters": "兔",
-		"pinyin": "tou3",
+		"mainland_cantonese": "兔",
+    "hongkong_cantonese": "兔",
+		"jyutping": "tou3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mus",
-		"characters": "老鼠",
-		"pinyin": "lou5 syu2",
+		"mainland_cantonese": "老鼠",
+    "hongkong_cantonese": "老鼠",
+		"jyutping": "lou5 syu2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "elefant",
-		"characters": "象",
-		"pinyin": "zoeng6",
+		"mainland_cantonese": "象",
+    "hongkong_cantonese": "象",
+		"jyutping": "zoeng6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "apa",
-		"characters": "猴",
-		"pinyin": "hau4",
+		"mainland_cantonese": "猴",
+    "hongkong_cantonese": "猴",
+		"jyutping": "hau4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "lejon",
-		"characters": "狮子",
-		"pinyin": "si1 zi2",
+		"mainland_cantonese": "狮子",
+    "hongkong_cantonese": "狮子",
+		"jyutping": "si1 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "tiger",
-		"characters": "老虎",
-		"pinyin": "lou5 fu2",
+		"mainland_cantonese": "老虎",
+    "hongkong_cantonese": "老虎",
+		"jyutping": "lou5 fu2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "björn",
-		"characters": "熊",
-		"pinyin": "hung4",
+		"mainland_cantonese": "熊",
+    "hongkong_cantonese": "熊",
+		"jyutping": "hung4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "varg",
-		"characters": "狼",
-		"pinyin": "long4",
+		"mainland_cantonese": "狼",
+    "hongkong_cantonese": "狼",
+		"jyutping": "long4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "räv",
-		"characters": "狐狸",
-		"pinyin": "wu4 lei4",
+		"mainland_cantonese": "狐狸",
+    "hongkong_cantonese": "狐狸",
+		"jyutping": "wu4 lei4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "zebra",
-		"characters": "斑马",
-		"pinyin": "baan1 maa5",
+		"mainland_cantonese": "斑马",
+    "hongkong_cantonese": "斑马",
+		"jyutping": "baan1 maa5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "giraff",
-		"characters": "长颈鹿",
-		"pinyin": "coeng4 geng2 luk6",
+		"mainland_cantonese": "长颈鹿",
+    "hongkong_cantonese": "长颈鹿",
+		"jyutping": "coeng4 geng2 luk6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "flodhäst",
-		"characters": "河马",
-		"pinyin": "ho4 maa5",
+		"mainland_cantonese": "河马",
+    "hongkong_cantonese": "河马",
+		"jyutping": "ho4 maa5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "noshörning",
-		"characters": "犀牛",
-		"pinyin": "sai1 ngau4",
+		"mainland_cantonese": "犀牛",
+    "hongkong_cantonese": "犀牛",
+		"jyutping": "sai1 ngau4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "känguru",
-		"characters": "袋鼠",
-		"pinyin": "doi6 syu2",
+		"mainland_cantonese": "袋鼠",
+    "hongkong_cantonese": "袋鼠",
+		"jyutping": "doi6 syu2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "panda",
-		"characters": "熊猫",
-		"pinyin": "hung4 maau1",
+		"mainland_cantonese": "熊猫",
+    "hongkong_cantonese": "熊猫",
+		"jyutping": "hung4 maau1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sköldpadda",
-		"characters": "龟",
-		"pinyin": "gwai1",
+		"mainland_cantonese": "龟",
+    "hongkong_cantonese": "龟",
+		"jyutping": "gwai1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "orm",
-		"characters": "蛇",
-		"pinyin": "se4",
+		"mainland_cantonese": "蛇",
+    "hongkong_cantonese": "蛇",
+		"jyutping": "se4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "groda",
-		"characters": "青蛙",
-		"pinyin": "ceng1 waa1",
+		"mainland_cantonese": "青蛙",
+    "hongkong_cantonese": "青蛙",
+		"jyutping": "ceng1 waa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fjäril",
-		"characters": "蝴蝶",
-		"pinyin": "wu4 dip6",
+		"mainland_cantonese": "蝴蝶",
+    "hongkong_cantonese": "蝴蝶",
+		"jyutping": "wu4 dip6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "spindel",
-		"characters": "蜘蛛",
-		"pinyin": "zi1 zyu1",
+		"mainland_cantonese": "蜘蛛",
+    "hongkong_cantonese": "蜘蛛",
+		"jyutping": "zi1 zyu1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "bi",
-		"characters": "蜜蜂",
-		"pinyin": "mat6 fung1",
+		"mainland_cantonese": "蜜蜂",
+    "hongkong_cantonese": "蜜蜂",
+		"jyutping": "mat6 fung1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "myra",
-		"characters": "蚂蚁",
-		"pinyin": "maa5 ngai5",
+		"mainland_cantonese": "蚂蚁",
+    "hongkong_cantonese": "蚂蚁",
+		"jyutping": "maa5 ngai5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "krokodil",
-		"characters": "鳄鱼",
-		"pinyin": "ngok6 jyu4",
+		"mainland_cantonese": "鳄鱼",
+    "hongkong_cantonese": "鳄鱼",
+		"jyutping": "ngok6 jyu4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "haj",
-		"characters": "鲨鱼",
-		"pinyin": "saa1 jyu4",
+		"mainland_cantonese": "鲨鱼",
+    "hongkong_cantonese": "鲨鱼",
+		"jyutping": "saa1 jyu4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "delfin",
-		"characters": "海豚",
-		"pinyin": "hoi2 tyun4",
+		"mainland_cantonese": "海豚",
+    "hongkong_cantonese": "海豚",
+		"jyutping": "hoi2 tyun4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "val",
-		"characters": "鲸鱼",
-		"pinyin": "king4 jyu4",
+		"mainland_cantonese": "鲸鱼",
+    "hongkong_cantonese": "鲸鱼",
+		"jyutping": "king4 jyu4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "bläckfisk",
-		"characters": "章鱼",
-		"pinyin": "zoeng1 jyu4",
+		"mainland_cantonese": "章鱼",
+    "hongkong_cantonese": "章鱼",
+		"jyutping": "zoeng1 jyu4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "pingvin",
-		"characters": "企鹅",
-		"pinyin": "kei5 ngo4",
+		"mainland_cantonese": "企鹅",
+    "hongkong_cantonese": "企鹅",
+		"jyutping": "kei5 ngo4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "flamingo",
-		"characters": "火烈鸟",
-		"pinyin": "fo2 lit6 niu5",
+		"mainland_cantonese": "火烈鸟",
+    "hongkong_cantonese": "火烈鸟",
+		"jyutping": "fo2 lit6 niu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kolibri",
-		"characters": "蜂鸟",
-		"pinyin": "fung1 niu5",
+		"mainland_cantonese": "蜂鸟",
+    "hongkong_cantonese": "蜂鸟",
+		"jyutping": "fung1 niu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "papegoja",
-		"characters": "鹦鹉",
-		"pinyin": "jing1 mou5",
+		"mainland_cantonese": "鹦鹉",
+    "hongkong_cantonese": "鹦鹉",
+		"jyutping": "jing1 mou5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ödla",
-		"characters": "蜥蜴",
-		"pinyin": "sik1 jik6",
+		"mainland_cantonese": "蜥蜴",
+    "hongkong_cantonese": "蜥蜴",
+		"jyutping": "sik1 jik6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "salamander",
-		"characters": "蝾螈",
-		"pinyin": "wing4 jyun4",
+		"mainland_cantonese": "蝾螈",
+    "hongkong_cantonese": "蝾螈",
+		"jyutping": "wing4 jyun4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kameleon",
-		"characters": "变色龙",
-		"pinyin": "bin3 sik1 lung4",
+		"mainland_cantonese": "变色龙",
+    "hongkong_cantonese": "变色龙",
+		"jyutping": "bin3 sik1 lung4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "skorpion",
-		"characters": "蝎子",
-		"pinyin": "hit3 zi2",
+		"mainland_cantonese": "蝎子",
+    "hongkong_cantonese": "蝎子",
+		"jyutping": "hit3 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tarantel",
-		"characters": "狼蛛",
-		"pinyin": "long4 zyu1",
+		"mainland_cantonese": "狼蛛",
+    "hongkong_cantonese": "狼蛛",
+		"jyutping": "long4 zyu1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "syrsa",
-		"characters": "蟋蟀",
-		"pinyin": "sat1 seot1",
+		"mainland_cantonese": "蟋蟀",
+    "hongkong_cantonese": "蟋蟀",
+		"jyutping": "sat1 seot1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "gräshoppa",
-		"characters": "蝗虫",
-		"pinyin": "wong4 cung4",
+		"mainland_cantonese": "蝗虫",
+    "hongkong_cantonese": "蝗虫",
+		"jyutping": "wong4 cung4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "trollslända",
-		"characters": "蜻蜓",
-		"pinyin": "ceng1 ting4",
+		"mainland_cantonese": "蜻蜓",
+    "hongkong_cantonese": "蜻蜓",
+		"jyutping": "ceng1 ting4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kackerlacka",
-		"characters": "蟑螂",
-		"pinyin": "zoeng1 long4",
+		"mainland_cantonese": "蟑螂",
+    "hongkong_cantonese": "蟑螂",
+		"jyutping": "zoeng1 long4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "hamster",
-		"characters": "仓鼠",
-		"pinyin": "cong1 syu2",
+		"mainland_cantonese": "仓鼠",
+    "hongkong_cantonese": "仓鼠",
+		"jyutping": "cong1 syu2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "daggmask",
-		"characters": "蚯蚓",
-		"pinyin": "kau1 jan5",
+		"mainland_cantonese": "蚯蚓",
+    "hongkong_cantonese": "蚯蚓",
+		"jyutping": "kau1 jan5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "snigel",
-		"characters": "蜗牛",
-		"pinyin": "wo1 ngau4",
+		"mainland_cantonese": "蜗牛",
+    "hongkong_cantonese": "蜗牛",
+		"jyutping": "wo1 ngau4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mygga",
-		"characters": "蚊子",
-		"pinyin": "man1 zi2",
+		"mainland_cantonese": "蚊子",
+    "hongkong_cantonese": "蚊子",
+		"jyutping": "man1 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fluga",
-		"characters": "苍蝇",
-		"pinyin": "cong1 jing4",
+		"mainland_cantonese": "苍蝇",
+    "hongkong_cantonese": "苍蝇",
+		"jyutping": "cong1 jing4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "rådjur",
-		"characters": "鹿",
-		"pinyin": "luk6",
+		"mainland_cantonese": "鹿",
+    "hongkong_cantonese": "鹿",
+		"jyutping": "luk6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "älg",
-		"characters": "驼鹿",
-		"pinyin": "to4 luk6",
+		"mainland_cantonese": "驼鹿",
+    "hongkong_cantonese": "驼鹿",
+		"jyutping": "to4 luk6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ekorre",
-		"characters": "松鼠",
-		"pinyin": "cung4 syu2",
+		"mainland_cantonese": "松鼠",
+    "hongkong_cantonese": "松鼠",
+		"jyutping": "cung4 syu2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "igelkott",
-		"characters": "刺猬",
-		"pinyin": "ci3 wai6",
+		"mainland_cantonese": "刺猬",
+    "hongkong_cantonese": "刺猬",
+		"jyutping": "ci3 wai6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "mullvad",
-		"characters": "鼹鼠",
-		"pinyin": "jin2 syu2",
+		"mainland_cantonese": "鼹鼠",
+    "hongkong_cantonese": "鼹鼠",
+		"jyutping": "jin2 syu2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "fladdermus",
-		"characters": "蝙蝠",
-		"pinyin": "pin1 fuk1",
+		"mainland_cantonese": "蝙蝠",
+    "hongkong_cantonese": "蝙蝠",
+		"jyutping": "pin1 fuk1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sjölejon",
-		"characters": "海狮",
-		"pinyin": "hoi2 si1",
+		"mainland_cantonese": "海狮",
+    "hongkong_cantonese": "海狮",
+		"jyutping": "hoi2 si1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kalmare",
-		"characters": "鱿鱼",
-		"pinyin": "jau4 jyu4",
+		"mainland_cantonese": "鱿鱼",
+    "hongkong_cantonese": "鱿鱼",
+		"jyutping": "jau4 jyu4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sepia",
-		"characters": "墨鱼",
-		"pinyin": "mak6 jyu4",
+		"mainland_cantonese": "墨鱼",
+    "hongkong_cantonese": "墨鱼",
+		"jyutping": "mak6 jyu4",
 		"difficulty": 3
 	}
 ]

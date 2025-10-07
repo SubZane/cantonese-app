@@ -1,669 +1,780 @@
 [
 	{
 		"swedish": "ris",
-		"characters": "米饭",
-		"pinyin": "mai5 faan6",
+		"mainland_cantonese": "米饭",
+    "hongkong_cantonese": "米饭",
+		"jyutping": "mai5 faan6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "nudlar",
-		"characters": "面条",
-		"pinyin": "min6 tiu4",
+		"mainland_cantonese": "面条",
+    "hongkong_cantonese": "面条",
+		"jyutping": "min6 tiu4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bröd",
-		"characters": "面包",
-		"pinyin": "min6 baau1",
+		"mainland_cantonese": "面包",
+    "hongkong_cantonese": "面包",
+		"jyutping": "min6 baau1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "äpple",
-		"characters": "苹果",
-		"pinyin": "ping4 gwo2",
+		"mainland_cantonese": "苹果",
+    "hongkong_cantonese": "苹果",
+		"jyutping": "ping4 gwo2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "banan",
-		"characters": "香蕉",
-		"pinyin": "hoeng1 ziu1",
+		"mainland_cantonese": "香蕉",
+    "hongkong_cantonese": "香蕉",
+		"jyutping": "hoeng1 ziu1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "apelsin",
-		"characters": "橙",
-		"pinyin": "caang2",
+		"mainland_cantonese": "橙",
+    "hongkong_cantonese": "橙",
+		"jyutping": "caang2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "vatten",
-		"characters": "水",
-		"pinyin": "seoi2",
+		"mainland_cantonese": "水",
+    "hongkong_cantonese": "水",
+		"jyutping": "seoi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mjölk",
-		"characters": "牛奶",
-		"pinyin": "ngau4 naai5",
+		"mainland_cantonese": "牛奶",
+    "hongkong_cantonese": "牛奶",
+		"jyutping": "ngau4 naai5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "te",
-		"characters": "茶",
-		"pinyin": "caa4",
+		"mainland_cantonese": "茶",
+    "hongkong_cantonese": "茶",
+		"jyutping": "caa4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kaffe",
-		"characters": "咖啡",
-		"pinyin": "gaa3 fe1",
+		"mainland_cantonese": "咖啡",
+    "hongkong_cantonese": "咖啡",
+		"jyutping": "gaa3 fe1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "socker",
-		"characters": "糖",
-		"pinyin": "tong2",
+		"mainland_cantonese": "糖",
+    "hongkong_cantonese": "糖",
+		"jyutping": "tong2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "salt",
-		"characters": "盐",
-		"pinyin": "jim4",
+		"mainland_cantonese": "盐",
+    "hongkong_cantonese": "盐",
+		"jyutping": "jim4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kött",
-		"characters": "肉",
-		"pinyin": "juk6",
+		"mainland_cantonese": "肉",
+    "hongkong_cantonese": "肉",
+		"jyutping": "juk6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kyckling",
-		"characters": "鸡肉",
-		"pinyin": "gai1 juk6",
+		"mainland_cantonese": "鸡肉",
+    "hongkong_cantonese": "鸡肉",
+		"jyutping": "gai1 juk6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "fläsk",
-		"characters": "猪肉",
-		"pinyin": "zyu1 juk6",
+		"mainland_cantonese": "猪肉",
+    "hongkong_cantonese": "猪肉",
+		"jyutping": "zyu1 juk6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "nötkött",
-		"characters": "牛肉",
-		"pinyin": "ngau4 juk6",
+		"mainland_cantonese": "牛肉",
+    "hongkong_cantonese": "牛肉",
+		"jyutping": "ngau4 juk6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "tomat",
-		"characters": "番茄",
-		"pinyin": "faan1 ke2",
+		"mainland_cantonese": "番茄",
+    "hongkong_cantonese": "番茄",
+		"jyutping": "faan1 ke2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "gurka",
-		"characters": "黄瓜",
-		"pinyin": "wong4 gwaa1",
+		"mainland_cantonese": "黄瓜",
+    "hongkong_cantonese": "黄瓜",
+		"jyutping": "wong4 gwaa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "morot",
-		"characters": "红萝卜",
-		"pinyin": "hung4 lo4 baak6",
+		"mainland_cantonese": "红萝卜",
+    "hongkong_cantonese": "红萝卜",
+		"jyutping": "hung4 lo4 baak6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "potatis",
-		"characters": "土豆",
-		"pinyin": "tou2 dau6",
+		"mainland_cantonese": "土豆",
+    "hongkong_cantonese": "土豆",
+		"jyutping": "tou2 dau6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "lök",
-		"characters": "洋葱",
-		"pinyin": "joeng4 cung1",
+		"mainland_cantonese": "洋葱",
+    "hongkong_cantonese": "洋葱",
+		"jyutping": "joeng4 cung1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vitlök",
-		"characters": "蒜",
-		"pinyin": "syun3",
+		"mainland_cantonese": "蒜",
+    "hongkong_cantonese": "蒜",
+		"jyutping": "syun3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "ingefära",
-		"characters": "姜",
-		"pinyin": "goeng1",
+		"mainland_cantonese": "姜",
+    "hongkong_cantonese": "姜",
+		"jyutping": "goeng1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "broccoli",
-		"characters": "西兰花",
-		"pinyin": "sai1 laan4 faa1",
+		"mainland_cantonese": "西兰花",
+    "hongkong_cantonese": "西兰花",
+		"jyutping": "sai1 laan4 faa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vitkål",
-		"characters": "卷心菜",
-		"pinyin": "gyun2 sam1 coi3",
+		"mainland_cantonese": "卷心菜",
+    "hongkong_cantonese": "卷心菜",
+		"jyutping": "gyun2 sam1 coi3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "spenat",
-		"characters": "菠菜",
-		"pinyin": "bo1 coi3",
+		"mainland_cantonese": "菠菜",
+    "hongkong_cantonese": "菠菜",
+		"jyutping": "bo1 coi3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sallad",
-		"characters": "生菜",
-		"pinyin": "saang1 coi3",
+		"mainland_cantonese": "生菜",
+    "hongkong_cantonese": "生菜",
+		"jyutping": "saang1 coi3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "druvor",
-		"characters": "葡萄",
-		"pinyin": "pou4 tou4",
+		"mainland_cantonese": "葡萄",
+    "hongkong_cantonese": "葡萄",
+		"jyutping": "pou4 tou4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "jordgubbar",
-		"characters": "草莓",
-		"pinyin": "cou2 mui4",
+		"mainland_cantonese": "草莓",
+    "hongkong_cantonese": "草莓",
+		"jyutping": "cou2 mui4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "persika",
-		"characters": "桃",
-		"pinyin": "tou4",
+		"mainland_cantonese": "桃",
+    "hongkong_cantonese": "桃",
+		"jyutping": "tou4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "ananas",
-		"characters": "菠萝",
-		"pinyin": "bo1 lo4",
+		"mainland_cantonese": "菠萝",
+    "hongkong_cantonese": "菠萝",
+		"jyutping": "bo1 lo4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "citron",
-		"characters": "柠檬",
-		"pinyin": "ning4 mung1",
+		"mainland_cantonese": "柠檬",
+    "hongkong_cantonese": "柠檬",
+		"jyutping": "ning4 mung1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vattenmelon",
-		"characters": "西瓜",
-		"pinyin": "sai1 gwaa1",
+		"mainland_cantonese": "西瓜",
+    "hongkong_cantonese": "西瓜",
+		"jyutping": "sai1 gwaa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mango",
-		"characters": "芒果",
-		"pinyin": "mong1 gwo2",
+		"mainland_cantonese": "芒果",
+    "hongkong_cantonese": "芒果",
+		"jyutping": "mong1 gwo2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kokosnöt",
-		"characters": "椰子",
-		"pinyin": "je4 zi2",
+		"mainland_cantonese": "椰子",
+    "hongkong_cantonese": "椰子",
+		"jyutping": "je4 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "honung",
-		"characters": "蜂蜜",
-		"pinyin": "fung1 mat6",
+		"mainland_cantonese": "蜂蜜",
+    "hongkong_cantonese": "蜂蜜",
+		"jyutping": "fung1 mat6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "glass",
-		"characters": "雪糕",
-		"pinyin": "syut3 gou1",
+		"mainland_cantonese": "雪糕",
+    "hongkong_cantonese": "雪糕",
+		"jyutping": "syut3 gou1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "choklad",
-		"characters": "朱古力",
-		"pinyin": "zyu1 gu2 lik6",
+		"mainland_cantonese": "朱古力",
+    "hongkong_cantonese": "朱古力",
+		"jyutping": "zyu1 gu2 lik6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kaka",
-		"characters": "蛋糕",
-		"pinyin": "daan6 gou1",
+		"mainland_cantonese": "蛋糕",
+    "hongkong_cantonese": "蛋糕",
+		"jyutping": "daan6 gou1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tårta",
-		"characters": "忌廉蛋糕",
-		"pinyin": "gei6 lim1 daan6 gou1",
+		"mainland_cantonese": "忌廉蛋糕",
+    "hongkong_cantonese": "忌廉蛋糕",
+		"jyutping": "gei6 lim1 daan6 gou1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kakor",
-		"characters": "曲奇",
-		"pinyin": "kuk1 kei4",
+		"mainland_cantonese": "曲奇",
+    "hongkong_cantonese": "曲奇",
+		"jyutping": "kuk1 kei4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kräfta",
-		"characters": "龙虾",
-		"pinyin": "lung4 haa1",
+		"mainland_cantonese": "龙虾",
+    "hongkong_cantonese": "龙虾",
+		"jyutping": "lung4 haa1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "krabba",
-		"characters": "蟹",
-		"pinyin": "haai5",
+		"mainland_cantonese": "蟹",
+    "hongkong_cantonese": "蟹",
+		"jyutping": "haai5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ostron",
-		"characters": "蚝",
-		"pinyin": "hou4",
+		"mainland_cantonese": "蚝",
+    "hongkong_cantonese": "蚝",
+		"jyutping": "hou4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "mussla",
-		"characters": "贻贝",
-		"pinyin": "ji4 bui3",
+		"mainland_cantonese": "贻贝",
+    "hongkong_cantonese": "贻贝",
+		"jyutping": "ji4 bui3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kaviar",
-		"characters": "鱼子酱",
-		"pinyin": "jyu4 zi2 zoeng3",
+		"mainland_cantonese": "鱼子酱",
+    "hongkong_cantonese": "鱼子酱",
+		"jyutping": "jyu4 zi2 zoeng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tryffel",
-		"characters": "松露",
-		"pinyin": "cung4 lou6",
+		"mainland_cantonese": "松露",
+    "hongkong_cantonese": "松露",
+		"jyutping": "cung4 lou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sparris",
-		"characters": "芦笋",
-		"pinyin": "lou4 seon2",
+		"mainland_cantonese": "芦笋",
+    "hongkong_cantonese": "芦笋",
+		"jyutping": "lou4 seon2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "artskocka",
-		"characters": "朝鲜蓟",
-		"pinyin": "ciu4 sin1 gei6",
+		"mainland_cantonese": "朝鲜蓟",
+    "hongkong_cantonese": "朝鲜蓟",
+		"jyutping": "ciu4 sin1 gei6",
 		"difficulty": 3
 	},
 
 	{
 		"swedish": "soppa",
-		"characters": "汤",
-		"pinyin": "tong1",
+		"mainland_cantonese": "汤",
+    "hongkong_cantonese": "汤",
+		"jyutping": "tong1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sallad",
-		"characters": "沙拉",
-		"pinyin": "saa1 laai1",
+		"mainland_cantonese": "沙拉",
+    "hongkong_cantonese": "沙拉",
+		"jyutping": "saa1 laai1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sandwich",
-		"characters": "三明治",
-		"pinyin": "saam1 ming4 zi6",
+		"mainland_cantonese": "三明治",
+    "hongkong_cantonese": "三明治",
+		"jyutping": "saam1 ming4 zi6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "pizza",
-		"characters": "披萨",
-		"pinyin": "pei1 saat3",
+		"mainland_cantonese": "披萨",
+    "hongkong_cantonese": "披萨",
+		"jyutping": "pei1 saat3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "hamburgare",
-		"characters": "汉堡",
-		"pinyin": "hon3 bou2",
+		"mainland_cantonese": "汉堡",
+    "hongkong_cantonese": "汉堡",
+		"jyutping": "hon3 bou2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "pommes frites",
-		"characters": "薯条",
-		"pinyin": "syu4 tiu4",
+		"mainland_cantonese": "薯条",
+    "hongkong_cantonese": "薯条",
+		"jyutping": "syu4 tiu4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kex",
-		"characters": "饼干",
-		"pinyin": "beng2 gon1",
+		"mainland_cantonese": "饼干",
+    "hongkong_cantonese": "饼干",
+		"jyutping": "beng2 gon1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "chips",
-		"characters": "薯片",
-		"pinyin": "syu4 pin3",
+		"mainland_cantonese": "薯片",
+    "hongkong_cantonese": "薯片",
+		"jyutping": "syu4 pin3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "popcorn",
-		"characters": "爆米花",
-		"pinyin": "baau3 mai5 faa1",
+		"mainland_cantonese": "爆米花",
+    "hongkong_cantonese": "爆米花",
+		"jyutping": "baau3 mai5 faa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "nötter",
-		"characters": "坚果",
-		"pinyin": "gin1 gwo2",
+		"mainland_cantonese": "坚果",
+    "hongkong_cantonese": "坚果",
+		"jyutping": "gin1 gwo2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mandel",
-		"characters": "杏仁",
-		"pinyin": "haang6 jan4",
+		"mainland_cantonese": "杏仁",
+    "hongkong_cantonese": "杏仁",
+		"jyutping": "haang6 jan4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "jordnötter",
-		"characters": "花生",
-		"pinyin": "faa1 sang1",
+		"mainland_cantonese": "花生",
+    "hongkong_cantonese": "花生",
+		"jyutping": "faa1 sang1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "cashewnötter",
-		"characters": "腰果",
-		"pinyin": "jiu1 gwo2",
+		"mainland_cantonese": "腰果",
+    "hongkong_cantonese": "腰果",
+		"jyutping": "jiu1 gwo2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "valnötter",
-		"characters": "核桃",
-		"pinyin": "hat6 tou4",
+		"mainland_cantonese": "核桃",
+    "hongkong_cantonese": "核桃",
+		"jyutping": "hat6 tou4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "russin",
-		"characters": "葡萄干",
-		"pinyin": "pou4 tou4 gon1",
+		"mainland_cantonese": "葡萄干",
+    "hongkong_cantonese": "葡萄干",
+		"jyutping": "pou4 tou4 gon1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "dadlar",
-		"characters": "椰枣",
-		"pinyin": "je4 zou2",
+		"mainland_cantonese": "椰枣",
+    "hongkong_cantonese": "椰枣",
+		"jyutping": "je4 zou2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fikon",
-		"characters": "无花果",
-		"pinyin": "mou4 faa1 gwo2",
+		"mainland_cantonese": "无花果",
+    "hongkong_cantonese": "无花果",
+		"jyutping": "mou4 faa1 gwo2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "avokado",
-		"characters": "牛油果",
-		"pinyin": "ngau4 jau4 gwo2",
+		"mainland_cantonese": "牛油果",
+    "hongkong_cantonese": "牛油果",
+		"jyutping": "ngau4 jau4 gwo2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kiwi",
-		"characters": "奇异果",
-		"pinyin": "kei4 ji6 gwo2",
+		"mainland_cantonese": "奇异果",
+    "hongkong_cantonese": "奇异果",
+		"jyutping": "kei4 ji6 gwo2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "blåbär",
-		"characters": "蓝莓",
-		"pinyin": "laam4 mui4",
+		"mainland_cantonese": "蓝莓",
+    "hongkong_cantonese": "蓝莓",
+		"jyutping": "laam4 mui4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "hallon",
-		"characters": "覆盆子",
-		"pinyin": "fuk1 pun4 zi2",
+		"mainland_cantonese": "覆盆子",
+    "hongkong_cantonese": "覆盆子",
+		"jyutping": "fuk1 pun4 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "björnbär",
-		"characters": "黑莓",
-		"pinyin": "hak1 mui4",
+		"mainland_cantonese": "黑莓",
+    "hongkong_cantonese": "黑莓",
+		"jyutping": "hak1 mui4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "körsbär",
-		"characters": "樱桃",
-		"pinyin": "jing1 tou4",
+		"mainland_cantonese": "樱桃",
+    "hongkong_cantonese": "樱桃",
+		"jyutping": "jing1 tou4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "plommon",
-		"characters": "李子",
-		"pinyin": "lei5 zi2",
+		"mainland_cantonese": "李子",
+    "hongkong_cantonese": "李子",
+		"jyutping": "lei5 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "aprikos",
-		"characters": "杏",
-		"pinyin": "haang6",
+		"mainland_cantonese": "杏",
+    "hongkong_cantonese": "杏",
+		"jyutping": "haang6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "melon",
-		"characters": "甜瓜",
-		"pinyin": "tim4 gwaa1",
+		"mainland_cantonese": "甜瓜",
+    "hongkong_cantonese": "甜瓜",
+		"jyutping": "tim4 gwaa1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "päron",
-		"characters": "梨",
-		"pinyin": "lei4",
+		"mainland_cantonese": "梨",
+    "hongkong_cantonese": "梨",
+		"jyutping": "lei4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "lime",
-		"characters": "青柠",
-		"pinyin": "ceng1 ning4",
+		"mainland_cantonese": "青柠",
+    "hongkong_cantonese": "青柠",
+		"jyutping": "ceng1 ning4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "grapefrukt",
-		"characters": "柚子",
-		"pinyin": "jau2 zi2",
+		"mainland_cantonese": "柚子",
+    "hongkong_cantonese": "柚子",
+		"jyutping": "jau2 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "pomegranate",
-		"characters": "石榴",
-		"pinyin": "sek6 lau4",
+		"mainland_cantonese": "石榴",
+    "hongkong_cantonese": "石榴",
+		"jyutping": "sek6 lau4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "yoghurt",
-		"characters": "酸奶",
-		"pinyin": "syun1 naai5",
+		"mainland_cantonese": "酸奶",
+    "hongkong_cantonese": "酸奶",
+		"jyutping": "syun1 naai5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ost",
-		"characters": "奶酪",
-		"pinyin": "naai5 lok3",
+		"mainland_cantonese": "奶酪",
+    "hongkong_cantonese": "奶酪",
+		"jyutping": "naai5 lok3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "smör",
-		"characters": "黄油",
-		"pinyin": "wong4 jau4",
+		"mainland_cantonese": "黄油",
+    "hongkong_cantonese": "黄油",
+		"jyutping": "wong4 jau4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ägg",
-		"characters": "鸡蛋",
-		"pinyin": "gai1 daan6",
+		"mainland_cantonese": "鸡蛋",
+    "hongkong_cantonese": "鸡蛋",
+		"jyutping": "gai1 daan6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "stekt ägg",
-		"characters": "煎蛋",
-		"pinyin": "zin1 daan6",
+		"mainland_cantonese": "煎蛋",
+    "hongkong_cantonese": "煎蛋",
+		"jyutping": "zin1 daan6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kokt ägg",
-		"characters": "水煮蛋",
-		"pinyin": "seoi2 zyu2 daan6",
+		"mainland_cantonese": "水煮蛋",
+    "hongkong_cantonese": "水煮蛋",
+		"jyutping": "seoi2 zyu2 daan6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "omelett",
-		"characters": "煎蛋卷",
-		"pinyin": "zin1 daan6 gyun2",
+		"mainland_cantonese": "煎蛋卷",
+    "hongkong_cantonese": "煎蛋卷",
+		"jyutping": "zin1 daan6 gyun2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fisk",
-		"characters": "鱼",
-		"pinyin": "jyu2",
+		"mainland_cantonese": "鱼",
+    "hongkong_cantonese": "鱼",
+		"jyutping": "jyu2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "lax",
-		"characters": "三文鱼",
-		"pinyin": "saam1 man4 jyu2",
+		"mainland_cantonese": "三文鱼",
+    "hongkong_cantonese": "三文鱼",
+		"jyutping": "saam1 man4 jyu2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tonfisk",
-		"characters": "金枪鱼",
-		"pinyin": "gam1 coeng1 jyu2",
+		"mainland_cantonese": "金枪鱼",
+    "hongkong_cantonese": "金枪鱼",
+		"jyutping": "gam1 coeng1 jyu2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "räkor",
-		"characters": "虾",
-		"pinyin": "haa1",
+		"mainland_cantonese": "虾",
+    "hongkong_cantonese": "虾",
+		"jyutping": "haa1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "ramen",
-		"characters": "拉面",
-		"pinyin": "laai1 min6",
+		"mainland_cantonese": "拉面",
+    "hongkong_cantonese": "拉面",
+		"jyutping": "laai1 min6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sushi",
-		"characters": "寿司",
-		"pinyin": "sau6 si1",
+		"mainland_cantonese": "寿司",
+    "hongkong_cantonese": "寿司",
+		"jyutping": "sau6 si1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "dumpling",
-		"characters": "饺子",
-		"pinyin": "gaau2 zi2",
+		"mainland_cantonese": "饺子",
+    "hongkong_cantonese": "饺子",
+		"jyutping": "gaau2 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "nudelsoppa",
-		"characters": "面汤",
-		"pinyin": "min6 tong1",
+		"mainland_cantonese": "面汤",
+    "hongkong_cantonese": "面汤",
+		"jyutping": "min6 tong1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "stuvad ris",
-		"characters": "炒饭",
-		"pinyin": "caau2 faan6",
+		"mainland_cantonese": "炒饭",
+    "hongkong_cantonese": "炒饭",
+		"jyutping": "caau2 faan6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "grillad kyckling",
-		"characters": "烤鸡",
-		"pinyin": "haau1 gai1",
+		"mainland_cantonese": "烤鸡",
+    "hongkong_cantonese": "烤鸡",
+		"jyutping": "haau1 gai1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "grillat nötkött",
-		"characters": "烤牛肉",
-		"pinyin": "haau1 ngau4 juk6",
+		"mainland_cantonese": "烤牛肉",
+    "hongkong_cantonese": "烤牛肉",
+		"jyutping": "haau1 ngau4 juk6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kött och potatis",
-		"characters": "肉和土豆",
-		"pinyin": "juk6 wo4 tou2 dau6",
+		"mainland_cantonese": "肉和土豆",
+    "hongkong_cantonese": "肉和土豆",
+		"jyutping": "juk6 wo4 tou2 dau6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "grönkål",
-		"characters": "羽衣甘蓝",
-		"pinyin": "jyu5 ji1 gam1 laam4",
+		"mainland_cantonese": "羽衣甘蓝",
+    "hongkong_cantonese": "羽衣甘蓝",
+		"jyutping": "jyu5 ji1 gam1 laam4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "avocadotoast",
-		"characters": "牛油果吐司",
-		"pinyin": "ngau4 jau4 gwo2 tou3 si1",
+		"mainland_cantonese": "牛油果吐司",
+    "hongkong_cantonese": "牛油果吐司",
+		"jyutping": "ngau4 jau4 gwo2 tou3 si1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "hummus",
-		"characters": "鹰嘴豆泥",
-		"pinyin": "jing1 zeoi2 dau6 nai4",
+		"mainland_cantonese": "鹰嘴豆泥",
+    "hongkong_cantonese": "鹰嘴豆泥",
+		"jyutping": "jing1 zeoi2 dau6 nai4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "quinoa",
-		"characters": "藜麦",
-		"pinyin": "lei4 mak6",
+		"mainland_cantonese": "藜麦",
+    "hongkong_cantonese": "藜麦",
+		"jyutping": "lei4 mak6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kimchi",
-		"characters": "泡菜",
-		"pinyin": "paau3 coi3",
+		"mainland_cantonese": "泡菜",
+    "hongkong_cantonese": "泡菜",
+		"jyutping": "paau3 coi3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tempura",
-		"characters": "天妇罗",
-		"pinyin": "tin1 fu5 lo4",
+		"mainland_cantonese": "天妇罗",
+    "hongkong_cantonese": "天妇罗",
+		"jyutping": "tin1 fu5 lo4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "risotto",
-		"characters": "意式烩饭",
-		"pinyin": "ji3 sik1 wui6 faan6",
+		"mainland_cantonese": "意式烩饭",
+    "hongkong_cantonese": "意式烩饭",
+		"jyutping": "ji3 sik1 wui6 faan6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "gazpacho",
-		"characters": "冷汤",
-		"pinyin": "laang5 tong1",
+		"mainland_cantonese": "冷汤",
+    "hongkong_cantonese": "冷汤",
+		"jyutping": "laang5 tong1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "paella",
-		"characters": "海鲜饭",
-		"pinyin": "hoi2 sin1 faan6",
+		"mainland_cantonese": "海鲜饭",
+    "hongkong_cantonese": "海鲜饭",
+		"jyutping": "hoi2 sin1 faan6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ceviche",
-		"characters": "酸橘鱼",
-		"pinyin": "syun1 gwat1 jyu4",
+		"mainland_cantonese": "酸橘鱼",
+    "hongkong_cantonese": "酸橘鱼",
+		"jyutping": "syun1 gwat1 jyu4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "falafel",
-		"characters": "鹰嘴豆丸",
-		"pinyin": "jing1 zeoi2 dau6 jyun4",
+		"mainland_cantonese": "鹰嘴豆丸",
+    "hongkong_cantonese": "鹰嘴豆丸",
+		"jyutping": "jing1 zeoi2 dau6 jyun4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "churros",
-		"characters": "吉拿棒",
-		"pinyin": "gat1 naa4 paang5",
+		"mainland_cantonese": "吉拿棒",
+    "hongkong_cantonese": "吉拿棒",
+		"jyutping": "gat1 naa4 paang5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "baklava",
-		"characters": "果仁蜜饼",
-		"pinyin": "gwo2 jan4 mat6 beng2",
+		"mainland_cantonese": "果仁蜜饼",
+    "hongkong_cantonese": "果仁蜜饼",
+		"jyutping": "gwo2 jan4 mat6 beng2",
 		"difficulty": 3
 	}
 ]

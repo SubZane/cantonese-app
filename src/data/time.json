@@ -1,668 +1,791 @@
 [
 	{
 		"swedish": "morgon",
-		"characters": "早上",
-		"pinyin": "zou2 soeng6",
+		"mainland_cantonese": "早上",
+		"hongkong_cantonese": "朝早",
+		"has_hk_variant": true,
+		"jyutping": "zou2 soeng6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kväll",
-		"characters": "晚上",
-		"pinyin": "maan5 soeng6",
+		"mainland_cantonese": "晚上",
+		"hongkong_cantonese": "晚上",
+		"jyutping": "maan5 soeng6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "nu",
-		"characters": "现在",
-		"pinyin": "jin6 zoi6",
+		"mainland_cantonese": "现在",
+		"hongkong_cantonese": "而家",
+		"has_hk_variant": true,
+		"jyutping": "jin6 zoi6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "senare",
-		"characters": "稍后",
-		"pinyin": "saau2 hau6",
+		"mainland_cantonese": "稍后",
+		"hongkong_cantonese": "等阵",
+		"has_hk_variant": true,
+		"jyutping": "saau2 hau6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "igår",
-		"characters": "昨天",
-		"pinyin": "zok6 tin1",
+		"mainland_cantonese": "昨天",
+		"hongkong_cantonese": "尋日",
+		"has_hk_variant": true,
+		"jyutping": "zok6 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "idag",
-		"characters": "今天",
-		"pinyin": "gam1 tin1",
+		"mainland_cantonese": "今天",
+		"hongkong_cantonese": "今日",
+		"has_hk_variant": true,
+		"jyutping": "gam1 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "imorgon",
-		"characters": "明天",
-		"pinyin": "ming4 tin1",
+		"mainland_cantonese": "明天",
+		"hongkong_cantonese": "聽日",
+		"has_hk_variant": true,
+		"jyutping": "ming4 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "tid",
-		"characters": "时间",
-		"pinyin": "si4 gaan3",
+		"mainland_cantonese": "时间",
+		"hongkong_cantonese": "时间",
+		"jyutping": "si4 gaan3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "dag",
-		"characters": "日",
-		"pinyin": "jat6",
+		"mainland_cantonese": "日",
+		"hongkong_cantonese": "日",
+		"jyutping": "jat6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "vecka",
-		"characters": "星期",
-		"pinyin": "sing1 kei4",
+		"mainland_cantonese": "星期",
+		"hongkong_cantonese": "星期",
+		"jyutping": "sing1 kei4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "månad",
-		"characters": "月",
-		"pinyin": "jyut6",
+		"mainland_cantonese": "月",
+		"hongkong_cantonese": "月",
+		"jyutping": "jyut6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "år",
-		"characters": "年",
-		"pinyin": "nin4",
+		"mainland_cantonese": "年",
+		"hongkong_cantonese": "年",
+		"jyutping": "nin4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "timme",
-		"characters": "小时",
-		"pinyin": "siu2 si4",
+		"mainland_cantonese": "小时",
+		"hongkong_cantonese": "小时",
+		"jyutping": "siu2 si4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "minut",
-		"characters": "分钟",
-		"pinyin": "fan1 zung1",
+		"mainland_cantonese": "分钟",
+		"hongkong_cantonese": "分鐘",
+		"has_hk_variant": true,
+		"jyutping": "fan1 zung1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sekund",
-		"characters": "秒",
-		"pinyin": "miu5",
+		"mainland_cantonese": "秒",
+		"hongkong_cantonese": "秒",
+		"jyutping": "miu5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "klocka",
-		"characters": "钟",
-		"pinyin": "zung1",
+		"mainland_cantonese": "钟",
+		"hongkong_cantonese": "钟",
+		"jyutping": "zung1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "vinter",
-		"characters": "冬天",
-		"pinyin": "dung1 tin1",
+		"mainland_cantonese": "冬天",
+		"hongkong_cantonese": "冬天",
+		"jyutping": "dung1 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "vår",
-		"characters": "春天",
-		"pinyin": "ceon1 tin1",
+		"mainland_cantonese": "春天",
+		"hongkong_cantonese": "春天",
+		"jyutping": "ceon1 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sommar",
-		"characters": "夏天",
-		"pinyin": "haa6 tin1",
+		"mainland_cantonese": "夏天",
+		"hongkong_cantonese": "夏天",
+		"jyutping": "haa6 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "höst",
-		"characters": "秋天",
-		"pinyin": "cau1 tin1",
+		"mainland_cantonese": "秋天",
+		"hongkong_cantonese": "秋天",
+		"jyutping": "cau1 tin1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "tidigt",
-		"characters": "早",
-		"pinyin": "zou2",
+		"mainland_cantonese": "早",
+		"hongkong_cantonese": "早",
+		"jyutping": "zou2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sent",
-		"characters": "迟",
-		"pinyin": "ci4",
+		"mainland_cantonese": "迟",
+		"hongkong_cantonese": "迟",
+		"jyutping": "ci4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "snabbt",
-		"characters": "快",
-		"pinyin": "faai3",
+		"mainland_cantonese": "快",
+		"hongkong_cantonese": "快",
+		"jyutping": "faai3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sakta",
-		"characters": "慢",
-		"pinyin": "maan6",
+		"mainland_cantonese": "慢",
+		"hongkong_cantonese": "慢",
+		"jyutping": "maan6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "första",
-		"characters": "第一",
-		"pinyin": "dai6 jat1",
+		"mainland_cantonese": "第一",
+		"hongkong_cantonese": "第一",
+		"jyutping": "dai6 jat1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sista",
-		"characters": "最后",
-		"pinyin": "zeoi3 hau6",
+		"mainland_cantonese": "最后",
+		"hongkong_cantonese": "最后",
+		"jyutping": "zeoi3 hau6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "måndag",
-		"characters": "星期一",
-		"pinyin": "sing1 kei4 jat1",
+		"mainland_cantonese": "星期一",
+		"hongkong_cantonese": "星期一",
+		"jyutping": "sing1 kei4 jat1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tisdag",
-		"characters": "星期二",
-		"pinyin": "sing1 kei4 ji6",
+		"mainland_cantonese": "星期二",
+		"hongkong_cantonese": "星期二",
+		"jyutping": "sing1 kei4 ji6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "onsdag",
-		"characters": "星期三",
-		"pinyin": "sing1 kei4 saam1",
+		"mainland_cantonese": "星期三",
+		"hongkong_cantonese": "星期三",
+		"jyutping": "sing1 kei4 saam1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "torsdag",
-		"characters": "星期四",
-		"pinyin": "sing1 kei4 sei3",
+		"mainland_cantonese": "星期四",
+		"hongkong_cantonese": "星期四",
+		"jyutping": "sing1 kei4 sei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fredag",
-		"characters": "星期五",
-		"pinyin": "sing1 kei4 ng5",
+		"mainland_cantonese": "星期五",
+		"hongkong_cantonese": "星期五",
+		"jyutping": "sing1 kei4 ng5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "lördag",
-		"characters": "星期六",
-		"pinyin": "sing1 kei4 luk6",
+		"mainland_cantonese": "星期六",
+		"hongkong_cantonese": "星期六",
+		"jyutping": "sing1 kei4 luk6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "söndag",
-		"characters": "星期日",
-		"pinyin": "sing1 kei4 jat6",
+		"mainland_cantonese": "星期日",
+		"hongkong_cantonese": "星期日",
+		"jyutping": "sing1 kei4 jat6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "januari",
-		"characters": "一月",
-		"pinyin": "jat1 jyut6",
+		"mainland_cantonese": "一月",
+		"hongkong_cantonese": "一月",
+		"jyutping": "jat1 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "februari",
-		"characters": "二月",
-		"pinyin": "ji6 jyut6",
+		"mainland_cantonese": "二月",
+		"hongkong_cantonese": "二月",
+		"jyutping": "ji6 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mars",
-		"characters": "三月",
-		"pinyin": "saam1 jyut6",
+		"mainland_cantonese": "三月",
+		"hongkong_cantonese": "三月",
+		"jyutping": "saam1 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "april",
-		"characters": "四月",
-		"pinyin": "sei3 jyut6",
+		"mainland_cantonese": "四月",
+		"hongkong_cantonese": "四月",
+		"jyutping": "sei3 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "maj",
-		"characters": "五月",
-		"pinyin": "ng5 jyut6",
+		"mainland_cantonese": "五月",
+		"hongkong_cantonese": "五月",
+		"jyutping": "ng5 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "juni",
-		"characters": "六月",
-		"pinyin": "luk6 jyut6",
+		"mainland_cantonese": "六月",
+		"hongkong_cantonese": "六月",
+		"jyutping": "luk6 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "juli",
-		"characters": "七月",
-		"pinyin": "cat1 jyut6",
+		"mainland_cantonese": "七月",
+		"hongkong_cantonese": "七月",
+		"jyutping": "cat1 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "augusti",
-		"characters": "八月",
-		"pinyin": "baat3 jyut6",
+		"mainland_cantonese": "八月",
+		"hongkong_cantonese": "八月",
+		"jyutping": "baat3 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "september",
-		"characters": "九月",
-		"pinyin": "gau2 jyut6",
+		"mainland_cantonese": "九月",
+		"hongkong_cantonese": "九月",
+		"jyutping": "gau2 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "oktober",
-		"characters": "十月",
-		"pinyin": "sap6 jyut6",
+		"mainland_cantonese": "十月",
+		"hongkong_cantonese": "十月",
+		"jyutping": "sap6 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "november",
-		"characters": "十一月",
-		"pinyin": "sap6 jat1 jyut6",
+		"mainland_cantonese": "十一月",
+		"hongkong_cantonese": "十一月",
+		"jyutping": "sap6 jat1 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "december",
-		"characters": "十二月",
-		"pinyin": "sap6 ji6 jyut6",
+		"mainland_cantonese": "十二月",
+		"hongkong_cantonese": "十二月",
+		"jyutping": "sap6 ji6 jyut6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "middag",
-		"characters": "中午",
-		"pinyin": "zung1 ng5",
+		"mainland_cantonese": "中午",
+		"hongkong_cantonese": "中午",
+		"jyutping": "zung1 ng5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "eftermiddag",
-		"characters": "下午",
-		"pinyin": "haa6 ng5",
+		"mainland_cantonese": "下午",
+		"hongkong_cantonese": "下晝",
+		"has_hk_variant": true,
+		"jyutping": "haa6 ng5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "natt",
-		"characters": "夜晚",
-		"pinyin": "je6 maan5",
+		"mainland_cantonese": "夜晚",
+		"hongkong_cantonese": "夜晚",
+		"jyutping": "je6 maan5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "midnatt",
-		"characters": "半夜",
-		"pinyin": "bun3 je6",
+		"mainland_cantonese": "半夜",
+		"hongkong_cantonese": "半夜",
+		"jyutping": "bun3 je6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "gryning",
-		"characters": "天亮",
-		"pinyin": "tin1 loeng6",
+		"mainland_cantonese": "天亮",
+		"hongkong_cantonese": "天光",
+		"has_hk_variant": true,
+		"jyutping": "tin1 loeng6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "skymning",
-		"characters": "黄昏",
-		"pinyin": "wong4 fan1",
+		"mainland_cantonese": "黄昏",
+		"hongkong_cantonese": "黃昏",
+		"has_hk_variant": true,
+		"jyutping": "wong4 fan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "helg",
-		"characters": "假期",
-		"pinyin": "gaa3 kei4",
+		"mainland_cantonese": "假期",
+		"hongkong_cantonese": "假期",
+		"jyutping": "gaa3 kei4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vardag",
-		"characters": "平日",
-		"pinyin": "ping4 jat6",
+		"mainland_cantonese": "平日",
+		"hongkong_cantonese": "平日",
+		"jyutping": "ping4 jat6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vakna",
-		"characters": "起身",
-		"pinyin": "hei2 san1",
+		"mainland_cantonese": "起身",
+		"hongkong_cantonese": "起身",
+		"jyutping": "hei2 san1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sova",
-		"characters": "睡觉",
-		"pinyin": "seoi6 gaau3",
+		"mainland_cantonese": "睡觉",
+		"hongkong_cantonese": "瞓觉",
+		"has_hk_variant": true,
+		"jyutping": "seoi6 gaau3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "frukost",
-		"characters": "早餐",
-		"pinyin": "zou2 caan1",
+		"mainland_cantonese": "早餐",
+		"hongkong_cantonese": "早餐",
+		"jyutping": "zou2 caan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "lunch",
-		"characters": "午餐",
-		"pinyin": "ng5 caan1",
+		"mainland_cantonese": "午餐",
+		"hongkong_cantonese": "午餐",
+		"jyutping": "ng5 caan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "middag",
-		"characters": "晚餐",
-		"pinyin": "maan5 caan1",
+		"mainland_cantonese": "晚餐",
+		"hongkong_cantonese": "晚餐",
+		"jyutping": "maan5 caan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "dusch",
-		"characters": "洗澡",
-		"pinyin": "sai2 zou2",
+		"mainland_cantonese": "洗澡",
+		"hongkong_cantonese": "沖涼",
+		"has_hk_variant": true,
+		"jyutping": "sai2 zou2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "borsta tänder",
-		"characters": "刷牙",
-		"pinyin": "caat3 ngaa4",
+		"mainland_cantonese": "刷牙",
+		"hongkong_cantonese": "刷牙",
+		"jyutping": "caat3 ngaa4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "klockan ett",
-		"characters": "一点钟",
-		"pinyin": "jat1 dim2 zung1",
+		"mainland_cantonese": "一点钟",
+		"hongkong_cantonese": "一点钟",
+		"jyutping": "jat1 dim2 zung1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "halv två",
-		"characters": "一点半",
-		"pinyin": "jat1 dim2 bun3",
+		"mainland_cantonese": "一点半",
+		"hongkong_cantonese": "一点半",
+		"jyutping": "jat1 dim2 bun3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kvart över",
-		"characters": "一刻",
-		"pinyin": "jat1 hak1",
+		"mainland_cantonese": "一刻",
+		"hongkong_cantonese": "一刻",
+		"jyutping": "jat1 hak1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kvart i",
-		"characters": "差一刻",
-		"pinyin": "caa1 jat1 hak1",
+		"mainland_cantonese": "差一刻",
+		"hongkong_cantonese": "差一刻",
+		"jyutping": "caa1 jat1 hak1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "arbetstid",
-		"characters": "工作时间",
-		"pinyin": "gung1 zok3 si4 gaan3",
+		"mainland_cantonese": "工作时间",
+		"hongkong_cantonese": "工作时间",
+		"jyutping": "gung1 zok3 si4 gaan3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "ledighet",
-		"characters": "放假",
-		"pinyin": "fong3 gaa3",
+		"mainland_cantonese": "放假",
+		"hongkong_cantonese": "放假",
+		"jyutping": "fong3 gaa3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "nyår",
-		"characters": "新年",
-		"pinyin": "san1 nin4",
+		"mainland_cantonese": "新年",
+		"hongkong_cantonese": "新年",
+		"jyutping": "san1 nin4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "jul",
-		"characters": "圣诞节",
-		"pinyin": "sing3 daan3 zit3",
+		"mainland_cantonese": "圣诞节",
+		"hongkong_cantonese": "圣诞节",
+		"jyutping": "sing3 daan3 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "påsk",
-		"characters": "复活节",
-		"pinyin": "fuk6 wut6 zit3",
+		"mainland_cantonese": "复活节",
+		"hongkong_cantonese": "复活节",
+		"jyutping": "fuk6 wut6 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "midsommar",
-		"characters": "仲夏节",
-		"pinyin": "zung6 haa6 zit3",
+		"mainland_cantonese": "仲夏节",
+		"hongkong_cantonese": "仲夏节",
+		"jyutping": "zung6 haa6 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "lucia",
-		"characters": "露西亚节",
-		"pinyin": "lou6 sai1 aa3 zit3",
+		"mainland_cantonese": "露西亚节",
+		"hongkong_cantonese": "露西亚节",
+		"jyutping": "lou6 sai1 aa3 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "valborg",
-		"characters": "春季庆典",
-		"pinyin": "ceon1 gwai3 hing3 din2",
+		"mainland_cantonese": "春季庆典",
+		"hongkong_cantonese": "春季庆典",
+		"jyutping": "ceon1 gwai3 hing3 din2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "första maj",
-		"characters": "劳动节",
-		"pinyin": "lou6 dung6 zit3",
+		"mainland_cantonese": "劳动节",
+		"hongkong_cantonese": "劳动节",
+		"jyutping": "lou6 dung6 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "nationaldagen",
-		"characters": "国庆日",
-		"pinyin": "gwok3 hing3 jat6",
+		"mainland_cantonese": "国庆日",
+		"hongkong_cantonese": "国庆日",
+		"jyutping": "gwok3 hing3 jat6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "månfestival",
-		"characters": "中秋節",
-		"pinyin": "zung1 cau1 zit3",
+		"mainland_cantonese": "中秋節",
+		"hongkong_cantonese": "中秋節",
+		"jyutping": "zung1 cau1 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kinesiskt nyår",
-		"characters": "农历新年",
-		"pinyin": "nung4 lik6 san1 nin4",
+		"mainland_cantonese": "农历新年",
+		"hongkong_cantonese": "农历新年",
+		"jyutping": "nung4 lik6 san1 nin4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "drakbåtsfestival",
-		"characters": "端午節",
-		"pinyin": "dyun1 ng5 zit3",
+		"mainland_cantonese": "端午節",
+		"hongkong_cantonese": "端午節",
+		"jyutping": "dyun1 ng5 zit3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "årtionde",
-		"characters": "十年",
-		"pinyin": "sap6 nin4",
+		"mainland_cantonese": "十年",
+		"hongkong_cantonese": "十年",
+		"jyutping": "sap6 nin4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "århundrade",
-		"characters": "世纪",
-		"pinyin": "sai3 gei2",
+		"mainland_cantonese": "世纪",
+		"hongkong_cantonese": "世纪",
+		"jyutping": "sai3 gei2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "årtusende",
-		"characters": "千年",
-		"pinyin": "cin1 nin4",
+		"mainland_cantonese": "千年",
+		"hongkong_cantonese": "千年",
+		"jyutping": "cin1 nin4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "evighet",
-		"characters": "永恒",
-		"pinyin": "wing5 hang4",
+		"mainland_cantonese": "永恒",
+		"hongkong_cantonese": "永恒",
+		"jyutping": "wing5 hang4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "millisekund",
-		"characters": "毫秒",
-		"pinyin": "hou4 miu5",
+		"mainland_cantonese": "毫秒",
+		"hongkong_cantonese": "毫秒",
+		"jyutping": "hou4 miu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "mikrosekund",
-		"characters": "微秒",
-		"pinyin": "mei4 miu5",
+		"mainland_cantonese": "微秒",
+		"hongkong_cantonese": "微秒",
+		"jyutping": "mei4 miu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "nanosekund",
-		"characters": "纳秒",
-		"pinyin": "naap6 miu5",
+		"mainland_cantonese": "纳秒",
+		"hongkong_cantonese": "纳秒",
+		"jyutping": "naap6 miu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "skottår",
-		"characters": "闰年",
-		"pinyin": "jeon6 nin4",
+		"mainland_cantonese": "闰年",
+		"hongkong_cantonese": "闰年",
+		"jyutping": "jeon6 nin4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tidszon",
-		"characters": "时区",
-		"pinyin": "si4 keoi1",
+		"mainland_cantonese": "时区",
+		"hongkong_cantonese": "时区",
+		"jyutping": "si4 keoi1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sommartid",
-		"characters": "夏令时间",
-		"pinyin": "haa6 ling6 si4 gaan3",
+		"mainland_cantonese": "夏令时间",
+		"hongkong_cantonese": "夏令时间",
+		"jyutping": "haa6 ling6 si4 gaan3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "vintertid",
-		"characters": "冬令时间",
-		"pinyin": "dung1 ling6 si4 gaan3",
+		"mainland_cantonese": "冬令时间",
+		"hongkong_cantonese": "冬令时间",
+		"jyutping": "dung1 ling6 si4 gaan3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "jetlag",
-		"characters": "时差反应",
-		"pinyin": "si4 caa1 faan2 jing3",
+		"mainland_cantonese": "时差反应",
+		"hongkong_cantonese": "时差反应",
+		"jyutping": "si4 caa1 faan2 jing3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kronologi",
-		"characters": "年代学",
-		"pinyin": "nin4 doi6 hok6",
+		"mainland_cantonese": "年代学",
+		"hongkong_cantonese": "年代学",
+		"jyutping": "nin4 doi6 hok6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "synkronisera",
-		"characters": "同步",
-		"pinyin": "tung4 bou6",
+		"mainland_cantonese": "同步",
+		"hongkong_cantonese": "同步",
+		"jyutping": "tung4 bou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "asynkron",
-		"characters": "异步",
-		"pinyin": "ji6 bou6",
+		"mainland_cantonese": "异步",
+		"hongkong_cantonese": "异步",
+		"jyutping": "ji6 bou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "periodisk",
-		"characters": "周期性",
-		"pinyin": "zau1 kei4 sing3",
+		"mainland_cantonese": "周期性",
+		"hongkong_cantonese": "周期性",
+		"jyutping": "zau1 kei4 sing3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "intermittent",
-		"characters": "间歇性",
-		"pinyin": "gaan3 hit3 sing3",
+		"mainland_cantonese": "间歇性",
+		"hongkong_cantonese": "间歇性",
+		"jyutping": "gaan3 hit3 sing3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "simultant",
-		"characters": "同时",
-		"pinyin": "tung4 si4",
+		"mainland_cantonese": "同时",
+		"hongkong_cantonese": "同时",
+		"jyutping": "tung4 si4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sekventiell",
-		"characters": "顺序",
-		"pinyin": "seon6 zeoi6",
+		"mainland_cantonese": "顺序",
+		"hongkong_cantonese": "顺序",
+		"jyutping": "seon6 zeoi6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "retrospektiv",
-		"characters": "回顾",
-		"pinyin": "wui4 gu3",
+		"mainland_cantonese": "回顾",
+		"hongkong_cantonese": "回顾",
+		"jyutping": "wui4 gu3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "prospektiv",
-		"characters": "前瞻",
-		"pinyin": "cin4 zim1",
+		"mainland_cantonese": "前瞻",
+		"hongkong_cantonese": "前瞻",
+		"jyutping": "cin4 zim1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tidslinje",
-		"characters": "时间轴",
-		"pinyin": "si4 gaan3 zuk6",
+		"mainland_cantonese": "时间轴",
+		"hongkong_cantonese": "时间轴",
+		"jyutping": "si4 gaan3 zuk6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "deadline",
-		"characters": "截止日期",
-		"pinyin": "zit6 zi2 jat6 kei4",
+		"mainland_cantonese": "截止日期",
+		"hongkong_cantonese": "截止日期",
+		"jyutping": "zit6 zi2 jat6 kei4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "solståndet",
-		"characters": "至点",
-		"pinyin": "zi3 dim2",
+		"mainland_cantonese": "至点",
+		"hongkong_cantonese": "至点",
+		"jyutping": "zi3 dim2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "dagjämning",
-		"characters": "春分",
-		"pinyin": "ceon1 fan1",
+		"mainland_cantonese": "春分",
+		"hongkong_cantonese": "春分",
+		"jyutping": "ceon1 fan1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "måncykel",
-		"characters": "月相",
-		"pinyin": "jyut6 soeng3",
+		"mainland_cantonese": "月相",
+		"hongkong_cantonese": "月相",
+		"jyutping": "jyut6 soeng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "biorhythm",
-		"characters": "生理节律",
-		"pinyin": "saang1 lei5 zit3 leot6",
+		"mainland_cantonese": "生理节律",
+		"hongkong_cantonese": "生理节律",
+		"jyutping": "saang1 lei5 zit3 leot6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kvartal",
-		"characters": "季度",
-		"pinyin": "gwai3 dou6",
+		"mainland_cantonese": "季度",
+		"hongkong_cantonese": "季度",
+		"jyutping": "gwai3 dou6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "varannan dag",
-		"characters": "隔日",
-		"pinyin": "gaak3 jat6",
+		"mainland_cantonese": "隔日",
+		"hongkong_cantonese": "隔日",
+		"jyutping": "gaak3 jat6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "klarsyntafestival",
-		"characters": "清明节",
-		"pinyin": "cing1 ming4 zit3",
+		"mainland_cantonese": "清明节",
+		"hongkong_cantonese": "清明节",
+		"jyutping": "cing1 ming4 zit3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "lanternfestival",
-		"characters": "元宵节",
-		"pinyin": "jyun4 siu1 zit3",
+		"mainland_cantonese": "元宵节",
+		"hongkong_cantonese": "元宵节",
+		"jyutping": "jyun4 siu1 zit3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "dubbelniafestival",
-		"characters": "重阳节",
-		"pinyin": "cung4 joeng4 zit3",
+		"mainland_cantonese": "重阳节",
+		"hongkong_cantonese": "重阳节",
+		"jyutping": "cung4 joeng4 zit3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "spökfestival",
-		"characters": "鬼节",
-		"pinyin": "gwai2 zit3",
+		"mainland_cantonese": "鬼节",
+		"hongkong_cantonese": "鬼节",
+		"jyutping": "gwai2 zit3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "qixi-festival",
-		"characters": "七夕节",
-		"pinyin": "cat1 zik6 zit3",
+		"mainland_cantonese": "七夕节",
+		"hongkong_cantonese": "七夕节",
+		"jyutping": "cat1 zik6 zit3",
 		"difficulty": 3
 	}
 ]

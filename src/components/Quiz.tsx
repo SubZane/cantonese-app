@@ -1,10 +1,11 @@
 import "../styles/components/Quiz.scss";
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, Chip, FormControl, LinearProgress, Sheet, Table, Typography } from "@mui/joy";
 
+import { getDisplayCantonese, isHongKongVariantDisplay, useCantoneseVariant } from "../context/CantoneseVariantContext";
 import actionsData from "../data/actions.json";
 import animalsData from "../data/animals.json";
 import familyData from "../data/family.json";
@@ -21,33 +22,45 @@ import QuestionCountRadio from "./form/QuestionCountRadio";
 
 interface VocabularyItem {
 	swedish: string;
-	characters: string;
-	pinyin: string;
+	mainland_cantonese: string;
+	hongkong_cantonese: string;
+	jyutping: string;
+	hongkong_jyutping?: string;
 	difficulty: number;
+	has_hk_variant?: boolean;
 }
 
 interface QuizQuestion {
 	swedish: string;
 	correctAnswer: string;
-	correctPinyin: string;
+	correctJyutping: string;
 	options: string[];
-	optionsPinyin: string[];
+	optionsJyutping: string[];
+	optionIsHK: boolean[]; // parallel to options
+	correctIsHK: boolean;
+	optionHasHK: boolean[]; // availability regardless of toggle
+	correctHasHK: boolean;
+	// Stored raw vocabulary items for dynamic recomputation when HK toggle changes
+	baseOptions: VocabularyItem[];
 }
 
 interface QuizResult {
 	question: string;
 	correctAnswer: string;
-	correctPinyin: string;
+	correctJyutping: string;
 	userAnswer: string;
-	userPinyin: string;
+	userJyutping: string;
 	isCorrect: boolean;
+	correctIsHK: boolean;
+	userIsHK: boolean;
 }
 
 interface QuizProps {
-	showPinyin?: boolean;
+	showJyutping?: boolean;
 }
 
-const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
+const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
+	const { useHongKong } = useCantoneseVariant();
 	// Load saved settings from localStorage
 	const getSavedSetting = (key: string, defaultValue: any) => {
 		try {
@@ -243,14 +256,14 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 
 		// Get 2 wrong answers from the same category or random items
 		const wrongItems = vocabulary
-			.filter((item) => item.characters !== correctItem.characters)
+			.filter((item) => item.swedish !== correctItem.swedish)
 			.sort(() => Math.random() - 0.5)
 			.slice(0, 2);
 
 		// If we don't have enough wrong answers, pad with items from all vocabulary
-		const allItems = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData];
+		const allItems = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData, ...movementDirectionsData] as VocabularyItem[];
 		const additionalWrong = allItems
-			.filter((item) => item.characters !== correctItem.characters && !wrongItems.some((wrong) => wrong.characters === item.characters))
+			.filter((item) => item.swedish !== correctItem.swedish && !wrongItems.some((wrong) => wrong.swedish === item.swedish))
 			.sort(() => Math.random() - 0.5)
 			.slice(0, 2 - wrongItems.length);
 
@@ -260,16 +273,25 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 		const allOptions = [correctItem, ...finalWrongItems];
 		const shuffledIndices = [0, 1, 2].sort(() => Math.random() - 0.5);
 
-		// Shuffle all options and pinyin together
-		const options = shuffledIndices.map((i) => allOptions[i].characters);
-		const optionsPinyin = shuffledIndices.map((i) => allOptions[i].pinyin);
+		// Build shuffled base options (store raw entries for later variant recalculation)
+		const baseOptions = shuffledIndices.map((i) => allOptions[i]);
+		// Derive displayed data from base options with current variant setting
+		const options = baseOptions.map((item) => getDisplayCantonese(item, useHongKong));
+		const optionIsHK = baseOptions.map((item) => isHongKongVariantDisplay(item, useHongKong));
+		const optionHasHK = baseOptions.map((item) => !!item.has_hk_variant);
+		const optionsJyutping = baseOptions.map((item) => (useHongKong && item.hongkong_jyutping ? item.hongkong_jyutping : item.jyutping));
 
-		const question = {
+		const question: QuizQuestion = {
 			swedish: correctItem.swedish,
-			correctAnswer: correctItem.characters,
-			correctPinyin: correctItem.pinyin,
+			correctAnswer: getDisplayCantonese(correctItem, useHongKong),
+			correctJyutping: useHongKong && correctItem.hongkong_jyutping ? correctItem.hongkong_jyutping : correctItem.jyutping,
 			options,
-			optionsPinyin,
+			optionsJyutping,
+			optionIsHK,
+			correctIsHK: isHongKongVariantDisplay(correctItem, useHongKong),
+			optionHasHK,
+			correctHasHK: !!correctItem.has_hk_variant,
+			baseOptions,
 		};
 
 		return { question, newUsedWords };
@@ -327,13 +349,16 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 
 		// Add result to results array
 		if (currentQuestion) {
+			const idx = currentQuestion.options.indexOf(answer);
 			const result: QuizResult = {
 				question: currentQuestion.swedish,
 				correctAnswer: currentQuestion.correctAnswer,
-				correctPinyin: currentQuestion.correctPinyin,
+				correctJyutping: currentQuestion.correctJyutping,
 				userAnswer: answer,
-				userPinyin: currentQuestion.optionsPinyin[currentQuestion.options.indexOf(answer)] || "",
+				userJyutping: idx >= 0 ? currentQuestion.optionsJyutping[idx] || "" : "",
 				isCorrect: correct,
+				correctIsHK: currentQuestion.correctIsHK,
+				userIsHK: idx >= 0 ? currentQuestion.optionIsHK[idx] || false : false,
 			};
 			setQuizResults((prev) => [...prev, result]);
 		}
@@ -399,6 +424,41 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 	const showResults = () => {
 		setShowDetailedResults(true);
 	};
+
+	// Recompute displayed Cantonese forms when HK variant toggle changes
+	const prevUseHongKong = useRef(useHongKong);
+	useEffect(() => {
+		// Only run when useHongKong actually changes
+		if (prevUseHongKong.current === useHongKong) return;
+		prevUseHongKong.current = useHongKong;
+
+		if (!currentQuestion || !currentQuestion.baseOptions || currentQuestion.baseOptions.length === 0) return;
+
+		// Map old selection index if any
+		const oldSelected = selectedAnswer;
+		const oldIndex = oldSelected ? currentQuestion.options.indexOf(oldSelected) : -1;
+		const newOptions = currentQuestion.baseOptions.map((item) => getDisplayCantonese(item, useHongKong));
+		const newOptionIsHK = currentQuestion.baseOptions.map((item) => isHongKongVariantDisplay(item, useHongKong));
+		const newOptionsJyutping = currentQuestion.baseOptions.map((item) => (useHongKong && item.hongkong_jyutping ? item.hongkong_jyutping : item.jyutping || ""));
+		const newOptionHasHK = currentQuestion.baseOptions.map((item) => !!item.has_hk_variant);
+		const newCorrectItem = currentQuestion.baseOptions.find((item) => item.swedish === currentQuestion.swedish);
+		if (!newCorrectItem) return; // safety
+
+		setCurrentQuestion({
+			...currentQuestion,
+			options: newOptions,
+			optionsJyutping: newOptionsJyutping,
+			optionIsHK: newOptionIsHK,
+			optionHasHK: newOptionHasHK,
+			correctAnswer: getDisplayCantonese(newCorrectItem, useHongKong),
+			correctIsHK: isHongKongVariantDisplay(newCorrectItem, useHongKong),
+		});
+
+		// Preserve selection by index if it still exists
+		if (oldIndex >= 0 && oldIndex < newOptions.length) {
+			setSelectedAnswer(newOptions[oldIndex]);
+		}
+	}, [useHongKong, currentQuestion, selectedAnswer]);
 
 	// Check if we have enough vocabulary for a quiz
 	const allVocabulary = getAllVocabulary();
@@ -524,27 +584,31 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 							</tr>
 						</thead>
 						<tbody>
-							{quizResults.map((result, index) => (
-								<tr key={index} className={result.isCorrect ? "table-row-correct" : "table-row-incorrect"}>
-									<td className="table-cell-number">{index + 1}</td>
-									<td className="table-cell-question">{result.question}</td>
-									<td className="table-cell-answer">
-										<div>
-											{result.userAnswer}
-											{showPinyin && result.userPinyin && <div className="table-pinyin">{result.userPinyin.toLowerCase()}</div>}
-										</div>
-									</td>
-									<td className="table-cell-correct">
-										<div>
-											{result.correctAnswer}
-											{showPinyin && <div className="table-pinyin">{result.correctPinyin.toLowerCase()}</div>}
-										</div>
-									</td>
-									<td className="table-cell-result">
-										<FontAwesomeIcon icon={result.isCorrect ? "check" : "times"} className={`table-result-icon ${result.isCorrect ? "correct" : "incorrect"}`} />
-									</td>
-								</tr>
-							))}
+							{quizResults.map((result, index) => {
+								return (
+									<tr key={index} className={result.isCorrect ? "table-row-correct" : "table-row-incorrect"}>
+										<td className="table-cell-number">{index + 1}</td>
+										<td className="table-cell-question">{result.question}</td>
+										<td className="table-cell-answer">
+											<div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+												<span>{result.userAnswer}</span>
+												{result.userIsHK && <span style={{ background: "#9146ff", color: "white", padding: "2px 6px", borderRadius: 12, fontSize: "0.55rem", fontWeight: 600, letterSpacing: "0.5px" }}>HK</span>}
+											</div>
+											{showJyutping && result.userJyutping && <div className="table-jyutping">{result.userJyutping.toLowerCase()}</div>}
+										</td>
+										<td className="table-cell-correct">
+											<div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+												<span>{result.correctAnswer}</span>
+												{result.correctIsHK && <span style={{ background: "#9146ff", color: "white", padding: "2px 6px", borderRadius: 12, fontSize: "0.55rem", fontWeight: 600, letterSpacing: "0.5px" }}>HK</span>}
+											</div>
+											{showJyutping && <div className="table-jyutping">{result.correctJyutping.toLowerCase()}</div>}
+										</td>
+										<td className="table-cell-result">
+											<FontAwesomeIcon icon={result.isCorrect ? "check" : "times"} className={`table-result-icon ${result.isCorrect ? "correct" : "incorrect"}`} />
+										</td>
+									</tr>
+								);
+							})}
 						</tbody>
 					</Table>
 				</Sheet>
@@ -694,9 +758,11 @@ const Quiz: React.FC<QuizProps> = ({ showPinyin = false }) => {
 							options={currentQuestion.options.map((option, index) => ({
 								value: option,
 								label: option,
-								pinyin: currentQuestion.optionsPinyin[index],
+								jyutping: currentQuestion.optionsJyutping?.[index] || "",
+								isHK: currentQuestion.optionIsHK?.[index] || false,
+								hasHK: currentQuestion.optionHasHK?.[index] || false,
 							}))}
-							showPinyin={showPinyin}
+							showJyutping={showJyutping}
 							disabled={showResult}
 							correctAnswer={currentQuestion.correctAnswer}
 							showResult={showResult}

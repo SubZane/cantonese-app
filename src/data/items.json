@@ -1,692 +1,809 @@
 [
 	{
 		"swedish": "bok",
-		"characters": "书",
-		"pinyin": "syu1",
+		"mainland_cantonese": "书",
+		"hongkong_cantonese": "书",
+		"jyutping": "syu1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "penna",
-		"characters": "笔",
-		"pinyin": "bat1",
+		"mainland_cantonese": "笔",
+		"hongkong_cantonese": "笔",
+		"jyutping": "bat1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "papper",
-		"characters": "纸",
-		"pinyin": "zi2",
+		"mainland_cantonese": "纸",
+		"hongkong_cantonese": "纸",
+		"jyutping": "zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "telefon",
-		"characters": "电话",
-		"pinyin": "din6 waa2",
+		"mainland_cantonese": "电话",
+		"hongkong_cantonese": "电话",
+		"jyutping": "din6 waa2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "dator",
-		"characters": "电脑",
-		"pinyin": "din6 nou5",
+		"mainland_cantonese": "电脑",
+		"hongkong_cantonese": "电脑",
+		"jyutping": "din6 nou5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bil",
-		"characters": "车",
-		"pinyin": "ce1",
+		"mainland_cantonese": "车",
+		"hongkong_cantonese": "车",
+		"jyutping": "ce1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "hus",
-		"characters": "屋",
-		"pinyin": "uk1",
+		"mainland_cantonese": "屋",
+		"hongkong_cantonese": "屋",
+		"jyutping": "uk1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "stol",
-		"characters": "椅子",
-		"pinyin": "ji2 zi2",
+		"mainland_cantonese": "椅子",
+		"hongkong_cantonese": "椅子",
+		"jyutping": "ji2 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bord",
-		"characters": "桌子",
-		"pinyin": "zoek3 zi2",
+		"mainland_cantonese": "桌子",
+		"hongkong_cantonese": "桌子",
+		"jyutping": "zoek3 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "säng",
-		"characters": "床",
-		"pinyin": "cong4",
+		"mainland_cantonese": "床",
+		"hongkong_cantonese": "床",
+		"jyutping": "cong4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "dörr",
-		"characters": "门",
-		"pinyin": "mun4",
+		"mainland_cantonese": "门",
+		"hongkong_cantonese": "门",
+		"jyutping": "mun4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "fönster",
-		"characters": "窗",
-		"pinyin": "coeng1",
+		"mainland_cantonese": "窗",
+		"hongkong_cantonese": "窗",
+		"jyutping": "coeng1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "väska",
-		"characters": "袋",
-		"pinyin": "doi6",
+		"mainland_cantonese": "袋",
+		"hongkong_cantonese": "袋",
+		"jyutping": "doi6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "klocka",
-		"characters": "钟",
-		"pinyin": "zung1",
+		"mainland_cantonese": "钟",
+		"hongkong_cantonese": "钟",
+		"jyutping": "zung1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "nycklar",
-		"characters": "钥匙",
-		"pinyin": "joek6 si4",
+		"mainland_cantonese": "钥匙",
+		"hongkong_cantonese": "钥匙",
+		"jyutping": "joek6 si4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "glasögon",
-		"characters": "眼镜",
-		"pinyin": "ngaan5 geng3",
+		"mainland_cantonese": "眼镜",
+		"hongkong_cantonese": "眼镜",
+		"jyutping": "ngaan5 geng3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kamera",
-		"characters": "相机",
-		"pinyin": "soeng2 gei1",
+		"mainland_cantonese": "相机",
+		"hongkong_cantonese": "相机",
+		"jyutping": "soeng2 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "cykel",
-		"characters": "单车",
-		"pinyin": "daan1 ce1",
+		"mainland_cantonese": "单车",
+		"hongkong_cantonese": "单车",
+		"jyutping": "daan1 ce1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "paraply",
-		"characters": "雨伞",
-		"pinyin": "jyu5 saan3",
+		"mainland_cantonese": "雨伞",
+		"hongkong_cantonese": "雨伞",
+		"jyutping": "jyu5 saan3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kylskåp",
-		"characters": "冰箱",
-		"pinyin": "bing1 soeng1",
+		"mainland_cantonese": "冰箱",
+		"hongkong_cantonese": "冰箱",
+		"jyutping": "bing1 soeng1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "ugn",
-		"characters": "烤箱",
-		"pinyin": "haau1 soeng1",
+		"mainland_cantonese": "烤箱",
+		"hongkong_cantonese": "烤箱",
+		"jyutping": "haau1 soeng1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tvättmaskin",
-		"characters": "洗衣机",
-		"pinyin": "sai2 ji1 gei1",
+		"mainland_cantonese": "洗衣机",
+		"hongkong_cantonese": "洗衣机",
+		"jyutping": "sai2 ji1 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "dammsugare",
-		"characters": "吸尘器",
-		"pinyin": "kap1 can4 hei3",
+		"mainland_cantonese": "吸尘器",
+		"hongkong_cantonese": "吸尘器",
+		"jyutping": "kap1 can4 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "television",
-		"characters": "电视",
-		"pinyin": "din6 si6",
+		"mainland_cantonese": "电视",
+		"hongkong_cantonese": "电视",
+		"jyutping": "din6 si6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "radio",
-		"characters": "收音机",
-		"pinyin": "sau1 jam1 gei1",
+		"mainland_cantonese": "收音机",
+		"hongkong_cantonese": "收音机",
+		"jyutping": "sau1 jam1 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "spegel",
-		"characters": "镜",
-		"pinyin": "geng3",
+		"mainland_cantonese": "镜",
+		"hongkong_cantonese": "镜",
+		"jyutping": "geng3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "handduk",
-		"characters": "毛巾",
-		"pinyin": "mou4 gan1",
+		"mainland_cantonese": "毛巾",
+		"hongkong_cantonese": "毛巾",
+		"jyutping": "mou4 gan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tandborste",
-		"characters": "牙刷",
-		"pinyin": "ngaa4 caat3",
+		"mainland_cantonese": "牙刷",
+		"hongkong_cantonese": "牙刷",
+		"jyutping": "ngaa4 caat3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tvål",
-		"characters": "肥皂",
-		"pinyin": "fei4 zou6",
+		"mainland_cantonese": "肥皂",
+		"hongkong_cantonese": "肥皂",
+		"jyutping": "fei4 zou6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "shampoo",
-		"characters": "洗头水",
-		"pinyin": "sai2 tau4 seoi2",
+		"mainland_cantonese": "洗头水",
+		"hongkong_cantonese": "洗头水",
+		"jyutping": "sai2 tau4 seoi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "skor",
-		"characters": "鞋",
-		"pinyin": "haai4",
+		"mainland_cantonese": "鞋",
+		"hongkong_cantonese": "鞋",
+		"jyutping": "haai4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "strumpor",
-		"characters": "袜子",
-		"pinyin": "mat6 zi2",
+		"mainland_cantonese": "袜子",
+		"hongkong_cantonese": "袜子",
+		"jyutping": "mat6 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "t-shirt",
-		"characters": "T恤",
-		"pinyin": "T seot1",
+		"mainland_cantonese": "T恤",
+		"hongkong_cantonese": "T恤",
+		"jyutping": "T seot1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "byxor",
-		"characters": "裤子",
-		"pinyin": "fu3 zi2",
+		"mainland_cantonese": "裤子",
+		"hongkong_cantonese": "裤子",
+		"jyutping": "fu3 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kjol",
-		"characters": "裙",
-		"pinyin": "kwan4",
+		"mainland_cantonese": "裙",
+		"hongkong_cantonese": "裙",
+		"jyutping": "kwan4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "hatt",
-		"characters": "帽",
-		"pinyin": "mou6",
+		"mainland_cantonese": "帽",
+		"hongkong_cantonese": "帽",
+		"jyutping": "mou6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "handväska",
-		"characters": "手提包",
-		"pinyin": "sau2 tai4 baau1",
+		"mainland_cantonese": "手提包",
+		"hongkong_cantonese": "手提包",
+		"jyutping": "sau2 tai4 baau1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "portfölj",
-		"characters": "公事包",
-		"pinyin": "gung1 si6 baau1",
+		"mainland_cantonese": "公事包",
+		"hongkong_cantonese": "公事包",
+		"jyutping": "gung1 si6 baau1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ryggsäck",
-		"characters": "背包",
-		"pinyin": "bui3 baau1",
+		"mainland_cantonese": "背包",
+		"hongkong_cantonese": "背囊",
+		"has_hk_variant": true,
+		"jyutping": "bui3 baau1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "resväska",
-		"characters": "行李箱",
-		"pinyin": "haang4 lei5 soeng1",
+		"mainland_cantonese": "行李箱",
+		"hongkong_cantonese": "行李箱",
+		"jyutping": "haang4 lei5 soeng1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "plånbok",
-		"characters": "钱包",
-		"pinyin": "cin4 baau1",
+		"mainland_cantonese": "钱包",
+		"hongkong_cantonese": "銀包",
+		"has_hk_variant": true,
+		"jyutping": "cin4 baau1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "armbandsur",
-		"characters": "手表",
-		"pinyin": "sau2 biu2",
+		"mainland_cantonese": "手表",
+		"hongkong_cantonese": "手表",
+		"jyutping": "sau2 biu2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "örhängen",
-		"characters": "耳环",
-		"pinyin": "ji5 waan4",
+		"mainland_cantonese": "耳环",
+		"hongkong_cantonese": "耳环",
+		"jyutping": "ji5 waan4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "halsband",
-		"characters": "项链",
-		"pinyin": "hong6 lin2",
+		"mainland_cantonese": "项链",
+		"hongkong_cantonese": "项链",
+		"jyutping": "hong6 lin2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ring",
-		"characters": "戒指",
-		"pinyin": "gaai3 zi2",
+		"mainland_cantonese": "戒指",
+		"hongkong_cantonese": "戒指",
+		"jyutping": "gaai3 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "armband",
-		"characters": "手镯",
-		"pinyin": "sau2 zuk6",
+		"mainland_cantonese": "手镯",
+		"hongkong_cantonese": "手镯",
+		"jyutping": "sau2 zuk6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "smycken",
-		"characters": "首饰",
-		"pinyin": "sau2 sik1",
+		"mainland_cantonese": "首饰",
+		"hongkong_cantonese": "首饰",
+		"jyutping": "sau2 sik1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "parfym",
-		"characters": "香水",
-		"pinyin": "hoeng1 seoi2",
+		"mainland_cantonese": "香水",
+		"hongkong_cantonese": "香水",
+		"jyutping": "hoeng1 seoi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "solglasögon",
-		"characters": "太阳眼镜",
-		"pinyin": "taai3 joeng4 ngaan5 geng3",
+		"mainland_cantonese": "太阳眼镜",
+		"hongkong_cantonese": "太阳眼镜",
+		"jyutping": "taai3 joeng4 ngaan5 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "lampa",
-		"characters": "灯",
-		"pinyin": "dang1",
+		"mainland_cantonese": "灯",
+		"hongkong_cantonese": "灯",
+		"jyutping": "dang1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "soffa",
-		"characters": "沙发",
-		"pinyin": "saa1 faat3",
+		"mainland_cantonese": "沙发",
+		"hongkong_cantonese": "沙发",
+		"jyutping": "saa1 faat3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "matta",
-		"characters": "地毯",
-		"pinyin": "dei6 taam2",
+		"mainland_cantonese": "地毯",
+		"hongkong_cantonese": "地毯",
+		"jyutping": "dei6 taam2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "gardin",
-		"characters": "窗帘",
-		"pinyin": "coeng1 lim4",
+		"mainland_cantonese": "窗帘",
+		"hongkong_cantonese": "窗帘",
+		"jyutping": "coeng1 lim4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kudde",
-		"characters": "枕头",
-		"pinyin": "zam2 tau4",
+		"mainland_cantonese": "枕头",
+		"hongkong_cantonese": "枕头",
+		"jyutping": "zam2 tau4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "täcke",
-		"characters": "被子",
-		"pinyin": "bei6 zi2",
+		"mainland_cantonese": "被子",
+		"hongkong_cantonese": "被子",
+		"jyutping": "bei6 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "lakan",
-		"characters": "床单",
-		"pinyin": "cong4 daan1",
+		"mainland_cantonese": "床单",
+		"hongkong_cantonese": "床单",
+		"jyutping": "cong4 daan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "byrå",
-		"characters": "抽屉柜",
-		"pinyin": "cau1 tai3 gwai6",
+		"mainland_cantonese": "抽屉柜",
+		"hongkong_cantonese": "抽屉柜",
+		"jyutping": "cau1 tai3 gwai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "garderob",
-		"characters": "衣柜",
-		"pinyin": "ji1 gwai6",
+		"mainland_cantonese": "衣柜",
+		"hongkong_cantonese": "衣柜",
+		"jyutping": "ji1 gwai6",
 		"difficulty": 1
 	},
 	{
 		"swedish": "hyllor",
-		"characters": "书架",
-		"pinyin": "syu1 gaa3",
+		"mainland_cantonese": "书架",
+		"hongkong_cantonese": "书架",
+		"jyutping": "syu1 gaa3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "skrivbord",
-		"characters": "写字台",
-		"pinyin": "se2 zi6 toi4",
+		"mainland_cantonese": "写字台",
+		"hongkong_cantonese": "写字台",
+		"jyutping": "se2 zi6 toi4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kontorsstol",
-		"characters": "办公椅",
-		"pinyin": "baan6 gung1 ji2",
+		"mainland_cantonese": "办公椅",
+		"hongkong_cantonese": "办公椅",
+		"jyutping": "baan6 gung1 ji2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "datormus",
-		"characters": "鼠标",
-		"pinyin": "syu2 biu1",
+		"mainland_cantonese": "鼠标",
+		"hongkong_cantonese": "鼠标",
+		"jyutping": "syu2 biu1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tangentbord",
-		"characters": "键盘",
-		"pinyin": "gin6 pun4",
+		"mainland_cantonese": "键盘",
+		"hongkong_cantonese": "键盘",
+		"jyutping": "gin6 pun4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "skärm",
-		"characters": "屏幕",
-		"pinyin": "ping4 mok6",
+		"mainland_cantonese": "屏幕",
+		"hongkong_cantonese": "屏幕",
+		"jyutping": "ping4 mok6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "högtalare",
-		"characters": "扬声器",
-		"pinyin": "joeng4 sing1 hei3",
+		"mainland_cantonese": "扬声器",
+		"hongkong_cantonese": "扬声器",
+		"jyutping": "joeng4 sing1 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "hörlurar",
-		"characters": "耳机",
-		"pinyin": "ji5 gei1",
+		"mainland_cantonese": "耳机",
+		"hongkong_cantonese": "耳机",
+		"jyutping": "ji5 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "laddare",
-		"characters": "充电器",
-		"pinyin": "cung1 din6 hei3",
+		"mainland_cantonese": "充电器",
+		"hongkong_cantonese": "充电器",
+		"jyutping": "cung1 din6 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "batterier",
-		"characters": "电池",
-		"pinyin": "din6 ci4",
+		"mainland_cantonese": "电池",
+		"hongkong_cantonese": "电池",
+		"jyutping": "din6 ci4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fjärrkontroll",
-		"characters": "遥控器",
-		"pinyin": "jiu4 hung3 hei3",
+		"mainland_cantonese": "遥控器",
+		"hongkong_cantonese": "遥控器",
+		"jyutping": "jiu4 hung3 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mikrovågsugn",
-		"characters": "微波炉",
-		"pinyin": "mei4 bo1 lou4",
+		"mainland_cantonese": "微波炉",
+		"hongkong_cantonese": "微波炉",
+		"jyutping": "mei4 bo1 lou4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "diskmaskin",
-		"characters": "洗碗机",
-		"pinyin": "sai2 wun2 gei1",
+		"mainland_cantonese": "洗碗机",
+		"hongkong_cantonese": "洗碗机",
+		"jyutping": "sai2 wun2 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kaffebryggare",
-		"characters": "咖啡机",
-		"pinyin": "gaa3 fe1 gei1",
+		"mainland_cantonese": "咖啡机",
+		"hongkong_cantonese": "咖啡机",
+		"jyutping": "gaa3 fe1 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "mixer",
-		"characters": "搅拌机",
-		"pinyin": "gaau2 bun6 gei1",
+		"mainland_cantonese": "搅拌机",
+		"hongkong_cantonese": "搅拌机",
+		"jyutping": "gaau2 bun6 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "toaster",
-		"characters": "烤面包机",
-		"pinyin": "haau1 min6 baau1 gei1",
+		"mainland_cantonese": "烤面包机",
+		"hongkong_cantonese": "烤面包机",
+		"jyutping": "haau1 min6 baau1 gei1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "juicer",
-		"characters": "榨汁机",
-		"pinyin": "zaa3 zap1 gei1",
+		"mainland_cantonese": "榨汁机",
+		"hongkong_cantonese": "榨汁机",
+		"jyutping": "zaa3 zap1 gei1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tallrik",
-		"characters": "盘子",
-		"pinyin": "pun4 zi2",
+		"mainland_cantonese": "盘子",
+		"hongkong_cantonese": "盘子",
+		"jyutping": "pun4 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "skål",
-		"characters": "碗",
-		"pinyin": "wun2",
+		"mainland_cantonese": "碗",
+		"hongkong_cantonese": "碗",
+		"jyutping": "wun2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kopp",
-		"characters": "杯子",
-		"pinyin": "bui1 zi2",
+		"mainland_cantonese": "杯子",
+		"hongkong_cantonese": "杯子",
+		"jyutping": "bui1 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "glas",
-		"characters": "玻璃杯",
-		"pinyin": "bo1 lei4 bui1",
+		"mainland_cantonese": "玻璃杯",
+		"hongkong_cantonese": "玻璃杯",
+		"jyutping": "bo1 lei4 bui1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kniv",
-		"characters": "刀",
-		"pinyin": "dou1",
+		"mainland_cantonese": "刀",
+		"hongkong_cantonese": "刀",
+		"jyutping": "dou1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "gaffel",
-		"characters": "叉子",
-		"pinyin": "caa1 zi2",
+		"mainland_cantonese": "叉子",
+		"hongkong_cantonese": "叉子",
+		"jyutping": "caa1 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "sked",
-		"characters": "勺子",
-		"pinyin": "sok3 zi2",
+		"mainland_cantonese": "勺子",
+		"hongkong_cantonese": "勺子",
+		"jyutping": "sok3 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "pinnar",
-		"characters": "筷子",
-		"pinyin": "faai3 zi2",
+		"mainland_cantonese": "筷子",
+		"hongkong_cantonese": "筷子",
+		"jyutping": "faai3 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kastrull",
-		"characters": "锅",
-		"pinyin": "wo1",
+		"mainland_cantonese": "锅",
+		"hongkong_cantonese": "锅",
+		"jyutping": "wo1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "stekpanna",
-		"characters": "平底锅",
-		"pinyin": "ping4 dai2 wo1",
+		"mainland_cantonese": "平底锅",
+		"hongkong_cantonese": "平底锅",
+		"jyutping": "ping4 dai2 wo1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "skärbräda",
-		"characters": "砧板",
-		"pinyin": "zam1 baan2",
+		"mainland_cantonese": "砧板",
+		"hongkong_cantonese": "砧板",
+		"jyutping": "zam1 baan2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "konservöppnare",
-		"characters": "开罐器",
-		"pinyin": "hoi1 gun3 hei3",
+		"mainland_cantonese": "开罐器",
+		"hongkong_cantonese": "开罐器",
+		"jyutping": "hoi1 gun3 hei3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "skoffel",
-		"characters": "铲子",
-		"pinyin": "caan2 zi2",
+		"mainland_cantonese": "铲子",
+		"hongkong_cantonese": "铲子",
+		"jyutping": "caan2 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "visp",
-		"characters": "打蛋器",
-		"pinyin": "daa2 daan6 hei3",
+		"mainland_cantonese": "打蛋器",
+		"hongkong_cantonese": "打蛋器",
+		"jyutping": "daa2 daan6 hei3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "handskar",
-		"characters": "手套",
-		"pinyin": "sau2 tou3",
+		"mainland_cantonese": "手套",
+		"hongkong_cantonese": "手套",
+		"jyutping": "sau2 tou3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "halsduk",
-		"characters": "围巾",
-		"pinyin": "wai4 gan1",
+		"mainland_cantonese": "围巾",
+		"hongkong_cantonese": "围巾",
+		"jyutping": "wai4 gan1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bälte",
-		"characters": "腰带",
-		"pinyin": "jiu1 daai3",
+		"mainland_cantonese": "腰带",
+		"hongkong_cantonese": "腰带",
+		"jyutping": "jiu1 daai3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "tröja",
-		"characters": "毛衣",
-		"pinyin": "mou4 ji1",
+		"mainland_cantonese": "毛衣",
+		"hongkong_cantonese": "毛衣",
+		"jyutping": "mou4 ji1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "jacka",
-		"characters": "夹克",
-		"pinyin": "gaap3 hak1",
+		"mainland_cantonese": "夹克",
+		"hongkong_cantonese": "夹克",
+		"jyutping": "gaap3 hak1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kappa",
-		"characters": "大衣",
-		"pinyin": "daai6 ji1",
+		"mainland_cantonese": "大衣",
+		"hongkong_cantonese": "大衣",
+		"jyutping": "daai6 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "regnrock",
-		"characters": "雨衣",
-		"pinyin": "jyu5 ji1",
+		"mainland_cantonese": "雨衣",
+		"hongkong_cantonese": "雨衣",
+		"jyutping": "jyu5 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "badkläder",
-		"characters": "泳衣",
-		"pinyin": "wing6 ji1",
+		"mainland_cantonese": "泳衣",
+		"hongkong_cantonese": "泳衣",
+		"jyutping": "wing6 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "pyjamas",
-		"characters": "睡衣",
-		"pinyin": "seoi6 ji1",
+		"mainland_cantonese": "睡衣",
+		"hongkong_cantonese": "睡衣",
+		"jyutping": "seoi6 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "underkläder",
-		"characters": "内衣",
-		"pinyin": "noi6 ji1",
+		"mainland_cantonese": "内衣",
+		"hongkong_cantonese": "内衣",
+		"jyutping": "noi6 ji1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sandaler",
-		"characters": "凉鞋",
-		"pinyin": "loeng4 haai4",
+		"mainland_cantonese": "凉鞋",
+		"hongkong_cantonese": "凉鞋",
+		"jyutping": "loeng4 haai4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "barometer",
-		"characters": "气压计",
-		"pinyin": "hei3 aat3 gai3",
+		"mainland_cantonese": "气压计",
+		"hongkong_cantonese": "气压计",
+		"jyutping": "hei3 aat3 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "seismograf",
-		"characters": "地震仪",
-		"pinyin": "dei6 zan3 ji4",
+		"mainland_cantonese": "地震仪",
+		"hongkong_cantonese": "地震仪",
+		"jyutping": "dei6 zan3 ji4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "stethoskop",
-		"characters": "听诊器",
-		"pinyin": "ting1 zan2 hei3",
+		"mainland_cantonese": "听诊器",
+		"hongkong_cantonese": "听诊器",
+		"jyutping": "ting1 zan2 hei3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "mikroskop",
-		"characters": "显微镜",
-		"pinyin": "hin2 mei4 geng3",
+		"mainland_cantonese": "显微镜",
+		"hongkong_cantonese": "显微镜",
+		"jyutping": "hin2 mei4 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "teleskop",
-		"characters": "望远镜",
-		"pinyin": "mong6 jyun5 geng3",
+		"mainland_cantonese": "望远镜",
+		"hongkong_cantonese": "望远镜",
+		"jyutping": "mong6 jyun5 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kaleidoskop",
-		"characters": "万花筒",
-		"pinyin": "maan6 faa1 tung2",
+		"mainland_cantonese": "万花筒",
+		"hongkong_cantonese": "万花筒",
+		"jyutping": "maan6 faa1 tung2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kikarsikte",
-		"characters": "瞄准镜",
-		"pinyin": "miu4 zeon2 geng3",
+		"mainland_cantonese": "瞄准镜",
+		"hongkong_cantonese": "瞄准镜",
+		"jyutping": "miu4 zeon2 geng3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "metronom",
-		"characters": "节拍器",
-		"pinyin": "zit3 paak3 hei3",
+		"mainland_cantonese": "节拍器",
+		"hongkong_cantonese": "节拍器",
+		"jyutping": "zit3 paak3 hei3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tuningaffel",
-		"characters": "音叉",
-		"pinyin": "jam1 caa1",
+		"mainland_cantonese": "音叉",
+		"hongkong_cantonese": "音叉",
+		"jyutping": "jam1 caa1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "astrolabium",
-		"characters": "星盘",
-		"pinyin": "sing1 pun4",
+		"mainland_cantonese": "星盘",
+		"hongkong_cantonese": "星盘",
+		"jyutping": "sing1 pun4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "kompass",
-		"characters": "指南针",
-		"pinyin": "zi2 naam4 zam1",
+		"mainland_cantonese": "指南针",
+		"hongkong_cantonese": "指南针",
+		"jyutping": "zi2 naam4 zam1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "sextant",
-		"characters": "六分仪",
-		"pinyin": "luk6 fan1 ji4",
+		"mainland_cantonese": "六分仪",
+		"hongkong_cantonese": "六分仪",
+		"jyutping": "luk6 fan1 ji4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "altimeter",
-		"characters": "高度计",
-		"pinyin": "gou1 dou6 gai3",
+		"mainland_cantonese": "高度计",
+		"hongkong_cantonese": "高度计",
+		"jyutping": "gou1 dou6 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "anemometer",
-		"characters": "风速计",
-		"pinyin": "fung1 cuk1 gai3",
+		"mainland_cantonese": "风速计",
+		"hongkong_cantonese": "风速计",
+		"jyutping": "fung1 cuk1 gai3",
 		"difficulty": 3
 	},
 	{
 		"swedish": "hydrometer",
-		"characters": "比重计",
-		"pinyin": "bei2 zung6 gai3",
+		"mainland_cantonese": "比重计",
+		"hongkong_cantonese": "比重计",
+		"jyutping": "bei2 zung6 gai3",
 		"difficulty": 3
 	}
 ]

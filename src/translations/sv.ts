@@ -1,8 +1,8 @@
 export const sv = {
 	// Header
 	appName: "Kantonesiska Appen",
-	pinyin: "Pinyin",
-	showPinyin: "Visa Uttal",
+	jyutping: "Jyutping",
+	showJyutping: "Visa Uttal",
 	difficulty: "Svårighet",
 	category: "Kategori",
 
@@ -11,8 +11,10 @@ export const sv = {
 		home: "Hem",
 		lessons: "Lektioner",
 		quiz: "Quiz",
+		vocabulary: "Ordförråd",
 		profile: "Profil",
 		settings: "Inställningar",
+		menu: "Meny",
 	},
 
 	// Home page
@@ -119,6 +121,21 @@ export const sv = {
 	general: {
 		comingSoon: "Kommer snart",
 		underDevelopment: "Den här funktionen är under utveckling",
+	},
+
+	// Vocabulary page
+	vocabulary: {
+		title: "Ordförråd",
+		filterByCategory: "Filtrera efter kategori",
+		searchPlaceholder: "Sök ord",
+		searchDescription: "Sök på svenska, kinesiska eller jyutping...",
+		showingResults: "Visar {count} ord",
+		noResults: "Inga ord hittades med de valda filtren.",
+		swedish: "Svenska",
+		cantonese: "Kantonesiska",
+		pronunciation: "Uttal",
+		difficulty: "Svårighet",
+		category: "Kategori",
 	},
 };
 

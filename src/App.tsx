@@ -9,10 +9,12 @@ import { CssVarsProvider, extendTheme } from "@mui/joy/styles";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Quiz from "./components/Quiz";
+import VocabularyList from "./components/VocabularyList";
+import { CantoneseVariantProvider } from "./context/CantoneseVariantContext";
 import { TranslationProvider, useT } from "./translations";
 
 function AppContent() {
-	// Load saved pinyin setting from localStorage
+	// Load saved jyutping setting from localStorage
 	const getSavedSetting = (key: string, defaultValue: any) => {
 		try {
 			const saved = localStorage.getItem(`cantonese-quiz-${key}`);
@@ -31,14 +33,14 @@ function AppContent() {
 		}
 	};
 
-	const [showPinyin, setShowPinyin] = useState<boolean>(getSavedSetting("showPinyin", false));
+	const [showJyutping, setShowJyutping] = useState<boolean>(getSavedSetting("showJyutping", false));
 	const { t } = useT();
 	const location = useLocation();
 
-	const handlePinyinToggle = () => {
-		const newValue = !showPinyin;
-		setShowPinyin(newValue);
-		saveSetting("showPinyin", newValue); // Save the setting when it changes
+	const handleJyutpingToggle = () => {
+		const newValue = !showJyutping;
+		setShowJyutping(newValue);
+		saveSetting("showJyutping", newValue); // Save the setting when it changes
 	};
 
 	// Determine current view from URL path
@@ -48,6 +50,8 @@ function AppContent() {
 				return "home";
 			case "/quiz":
 				return "quiz";
+			case "/vocabulary":
+				return "vocabulary";
 			case "/lessons":
 				return "lessons";
 			case "/profile":
@@ -71,12 +75,13 @@ function AppContent() {
 	return (
 		<div className="app-layout-container">
 			<div className="sticky-header">
-				<Header showPinyin={showPinyin} onPinyinToggle={handlePinyinToggle} showToggle={currentView === "quiz"} />
+				<Header showJyutping={showJyutping} onJyutpingToggle={handleJyutpingToggle} showToggle={currentView === "quiz" || currentView === "vocabulary"} />
 			</div>
 			<main className="main-content-area">
 				<Routes>
 					<Route path="/" element={<Home />} />
-					<Route path="/quiz" element={<Quiz showPinyin={showPinyin} />} />
+					<Route path="/quiz" element={<Quiz showJyutping={showJyutping} />} />
+					<Route path="/vocabulary" element={<VocabularyList showJyutping={showJyutping} />} />
 					<Route path="/lessons" element={renderComingSoon("Lessons")} />
 					<Route path="/profile" element={renderComingSoon("Profile")} />
 					<Route path="/settings" element={renderComingSoon("Settings")} />
@@ -131,7 +136,9 @@ function App() {
 			<CssBaseline />
 			<Router>
 				<TranslationProvider defaultLanguage="sv">
-					<AppContent />
+					<CantoneseVariantProvider>
+						<AppContent />
+					</CantoneseVariantProvider>
 				</TranslationProvider>
 			</Router>
 		</CssVarsProvider>

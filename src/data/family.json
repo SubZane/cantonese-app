@@ -1,590 +1,688 @@
 [
 	{
 		"swedish": "familj",
-		"characters": "家庭",
-		"pinyin": "gaa1 ting4",
+		"mainland_cantonese": "家庭",
+    "hongkong_cantonese": "家庭",
+		"jyutping": "gaa1 ting4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "pappa",
-		"characters": "爸爸",
-		"pinyin": "baa4 baa1",
+		"mainland_cantonese": "爸爸",
+    "hongkong_cantonese": "爸爸",
+		"jyutping": "baa4 baa1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mamma",
-		"characters": "妈妈",
-		"pinyin": "maa4 maa1",
+		"mainland_cantonese": "妈妈",
+    "hongkong_cantonese": "妈妈",
+		"jyutping": "maa4 maa1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "son",
-		"characters": "儿子",
-		"pinyin": "ji4 zi2",
+		"mainland_cantonese": "儿子",
+    "hongkong_cantonese": "儿子",
+		"jyutping": "ji4 zi2",
 		"difficulty": 1
 	},
 	{
 		"swedish": "dotter",
-		"characters": "女儿",
-		"pinyin": "neoi5 ji4",
+		"mainland_cantonese": "女儿",
+    "hongkong_cantonese": "女儿",
+		"jyutping": "neoi5 ji4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "bror",
-		"characters": "哥哥",
-		"pinyin": "go4 go1",
+		"mainland_cantonese": "哥哥",
+    "hongkong_cantonese": "哥哥",
+		"jyutping": "go4 go1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "syster",
-		"characters": "姐姐",
-		"pinyin": "ze2 ze1",
+		"mainland_cantonese": "姐姐",
+    "hongkong_cantonese": "姐姐",
+		"jyutping": "ze2 ze1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "morfar",
-		"characters": "外公",
-		"pinyin": "ngoi6 gung1",
+		"mainland_cantonese": "外公",
+    "hongkong_cantonese": "外公",
+		"jyutping": "ngoi6 gung1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mormor",
-		"characters": "外婆",
-		"pinyin": "ngoi6 po4",
+		"mainland_cantonese": "外婆",
+    "hongkong_cantonese": "外婆",
+		"jyutping": "ngoi6 po4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "farfar",
-		"characters": "爷爷",
-		"pinyin": "je4 je1",
+		"mainland_cantonese": "爷爷",
+    "hongkong_cantonese": "爷爷",
+		"jyutping": "je4 je1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "farmor",
-		"characters": "奶奶",
-		"pinyin": "naai5 naai1",
+		"mainland_cantonese": "奶奶",
+    "hongkong_cantonese": "奶奶",
+		"jyutping": "naai5 naai1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "farbror",
-		"characters": "叔叔",
-		"pinyin": "suk1 suk1",
+		"mainland_cantonese": "叔叔",
+    "hongkong_cantonese": "叔叔",
+		"jyutping": "suk1 suk1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "faster",
-		"characters": "姑姑",
-		"pinyin": "gu1 gu1",
+		"mainland_cantonese": "姑姑",
+    "hongkong_cantonese": "姑姑",
+		"jyutping": "gu1 gu1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "morbror",
-		"characters": "舅舅",
-		"pinyin": "kau5 kau1",
+		"mainland_cantonese": "舅舅",
+    "hongkong_cantonese": "舅舅",
+		"jyutping": "kau5 kau1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "moster",
-		"characters": "姨妈",
-		"pinyin": "ji4 maa1",
+		"mainland_cantonese": "姨妈",
+    "hongkong_cantonese": "姨妈",
+		"jyutping": "ji4 maa1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "kusin",
-		"characters": "表兄弟",
-		"pinyin": "biu2 hing1 dai6",
+		"mainland_cantonese": "表兄弟",
+    "hongkong_cantonese": "表兄弟",
+		"jyutping": "biu2 hing1 dai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kusiner",
-		"characters": "表姐妹",
-		"pinyin": "biu2 ze2 mui6",
+		"mainland_cantonese": "表姐妹",
+    "hongkong_cantonese": "表姐妹",
+		"jyutping": "biu2 ze2 mui6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "make",
-		"characters": "丈夫",
-		"pinyin": "zoeng6 fu1",
+		"mainland_cantonese": "丈夫",
+    "hongkong_cantonese": "丈夫",
+		"jyutping": "zoeng6 fu1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "hustru",
-		"characters": "妻子",
-		"pinyin": "cai1 zi2",
+		"mainland_cantonese": "妻子",
+    "hongkong_cantonese": "妻子",
+		"jyutping": "cai1 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svärmor",
-		"characters": "岳母",
-		"pinyin": "ngok6 mou5",
+		"mainland_cantonese": "岳母",
+    "hongkong_cantonese": "岳母",
+		"jyutping": "ngok6 mou5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svärfar",
-		"characters": "岳父",
-		"pinyin": "ngok6 fu6",
+		"mainland_cantonese": "岳父",
+    "hongkong_cantonese": "岳父",
+		"jyutping": "ngok6 fu6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svåger",
-		"characters": "姐夫",
-		"pinyin": "ze2 fu1",
+		"mainland_cantonese": "姐夫",
+    "hongkong_cantonese": "姐夫",
+		"jyutping": "ze2 fu1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svägerska",
-		"characters": "嫂嫂",
-		"pinyin": "sou2 sou1",
+		"mainland_cantonese": "嫂嫂",
+    "hongkong_cantonese": "嫂嫂",
+		"jyutping": "sou2 sou1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sonson",
-		"characters": "孙子",
-		"pinyin": "syun1 zi2",
+		"mainland_cantonese": "孙子",
+    "hongkong_cantonese": "孙子",
+		"jyutping": "syun1 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sondotter",
-		"characters": "孙女",
-		"pinyin": "syun1 neoi5",
+		"mainland_cantonese": "孙女",
+    "hongkong_cantonese": "孙女",
+		"jyutping": "syun1 neoi5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "barnbarn",
-		"characters": "孙儿",
-		"pinyin": "syun1 ji4",
+		"mainland_cantonese": "孙儿",
+    "hongkong_cantonese": "孙儿",
+		"jyutping": "syun1 ji4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "barn",
-		"characters": "小孩",
-		"pinyin": "siu2 haai4",
+		"mainland_cantonese": "小孩",
+    "hongkong_cantonese": "小孩",
+		"jyutping": "siu2 haai4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "baby",
-		"characters": "婴儿",
-		"pinyin": "jing1 ji4",
+		"mainland_cantonese": "婴儿",
+    "hongkong_cantonese": "婴儿",
+		"jyutping": "jing1 ji4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "tonåring",
-		"characters": "青少年",
-		"pinyin": "ceng1 siu2 nin4",
+		"mainland_cantonese": "青少年",
+    "hongkong_cantonese": "青少年",
+		"jyutping": "ceng1 siu2 nin4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "vuxen",
-		"characters": "成人",
-		"pinyin": "sing4 jan4",
+		"mainland_cantonese": "成人",
+    "hongkong_cantonese": "成人",
+		"jyutping": "sing4 jan4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "äldre",
-		"characters": "长者",
-		"pinyin": "coeng4 ze2",
+		"mainland_cantonese": "长者",
+    "hongkong_cantonese": "长者",
+		"jyutping": "coeng4 ze2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fru",
-		"characters": "太太",
-		"pinyin": "taai3 taai2",
+		"mainland_cantonese": "太太",
+    "hongkong_cantonese": "太太",
+		"jyutping": "taai3 taai2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "man",
-		"characters": "先生",
-		"pinyin": "sin1 saang1",
+		"mainland_cantonese": "先生",
+    "hongkong_cantonese": "先生",
+		"jyutping": "sin1 saang1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "pojke",
-		"characters": "男孩",
-		"pinyin": "naam4 haai4",
+		"mainland_cantonese": "男孩",
+    "hongkong_cantonese": "男孩",
+		"jyutping": "naam4 haai4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "flicka",
-		"characters": "女孩",
-		"pinyin": "neoi5 haai4",
+		"mainland_cantonese": "女孩",
+    "hongkong_cantonese": "女孩",
+		"jyutping": "neoi5 haai4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "föräldrar",
-		"characters": "父母",
-		"pinyin": "fu6 mou5",
+		"mainland_cantonese": "父母",
+    "hongkong_cantonese": "父母",
+		"jyutping": "fu6 mou5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "fästman",
-		"characters": "未婚夫",
-		"pinyin": "mei6 fan1 fu1",
+		"mainland_cantonese": "未婚夫",
+    "hongkong_cantonese": "未婚夫",
+		"jyutping": "mei6 fan1 fu1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "fästmö",
-		"characters": "未婚妻",
-		"pinyin": "mei6 fan1 cai1",
+		"mainland_cantonese": "未婚妻",
+    "hongkong_cantonese": "未婚妻",
+		"jyutping": "mei6 fan1 cai1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "styvfar",
-		"characters": "继父",
-		"pinyin": "gai3 fu6",
+		"mainland_cantonese": "继父",
+    "hongkong_cantonese": "继父",
+		"jyutping": "gai3 fu6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "styvmor",
-		"characters": "继母",
-		"pinyin": "gai3 mou5",
+		"mainland_cantonese": "继母",
+    "hongkong_cantonese": "继母",
+		"jyutping": "gai3 mou5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "halvbror",
-		"characters": "同父异母兄弟",
-		"pinyin": "tung4 fu6 ji6 mou5 hing1 dai6",
+		"mainland_cantonese": "同父异母兄弟",
+    "hongkong_cantonese": "同父异母兄弟",
+		"jyutping": "tung4 fu6 ji6 mou5 hing1 dai6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "halvsyster",
-		"characters": "同父异母姐妹",
-		"pinyin": "tung4 fu6 ji6 mou5 ze2 mui6",
+		"mainland_cantonese": "同父异母姐妹",
+    "hongkong_cantonese": "同父异母姐妹",
+		"jyutping": "tung4 fu6 ji6 mou5 ze2 mui6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "adoptivbarn",
-		"characters": "养子",
-		"pinyin": "joeng5 zi2",
+		"mainland_cantonese": "养子",
+    "hongkong_cantonese": "养子",
+		"jyutping": "joeng5 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "plebarn",
-		"characters": "继子",
-		"pinyin": "gai3 zi2",
+		"mainland_cantonese": "继子",
+    "hongkong_cantonese": "继子",
+		"jyutping": "gai3 zi2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ensamstående",
-		"characters": "单身",
-		"pinyin": "daan1 san1",
+		"mainland_cantonese": "单身",
+    "hongkong_cantonese": "单身",
+		"jyutping": "daan1 san1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "änka",
-		"characters": "寡妇",
-		"pinyin": "gwaa2 fu5",
+		"mainland_cantonese": "寡妇",
+    "hongkong_cantonese": "寡妇",
+		"jyutping": "gwaa2 fu5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "änkling",
-		"characters": "鳏夫",
-		"pinyin": "gwaan1 fu1",
+		"mainland_cantonese": "鳏夫",
+    "hongkong_cantonese": "鳏夫",
+		"jyutping": "gwaan1 fu1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "tvillingar",
-		"characters": "双胞胎",
-		"pinyin": "soeng1 baau1 toi1",
+		"mainland_cantonese": "双胞胎",
+    "hongkong_cantonese": "双胞胎",
+		"jyutping": "soeng1 baau1 toi1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "trillingar",
-		"characters": "三胞胎",
-		"pinyin": "saam1 baau1 toi1",
+		"mainland_cantonese": "三胞胎",
+    "hongkong_cantonese": "三胞胎",
+		"jyutping": "saam1 baau1 toi1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "släktingar",
-		"characters": "亲戚",
-		"pinyin": "can1 cik1",
+		"mainland_cantonese": "亲戚",
+    "hongkong_cantonese": "亲戚",
+		"jyutping": "can1 cik1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "mormors syster",
-		"characters": "姨婆",
-		"pinyin": "ji4 po4",
+		"mainland_cantonese": "姨婆",
+    "hongkong_cantonese": "姨婆",
+		"jyutping": "ji4 po4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "morfars bror",
-		"characters": "舅公",
-		"pinyin": "kau5 gung1",
+		"mainland_cantonese": "舅公",
+    "hongkong_cantonese": "舅公",
+		"jyutping": "kau5 gung1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "farmors syster",
-		"characters": "姑婆",
-		"pinyin": "gu1 po4",
+		"mainland_cantonese": "姑婆",
+    "hongkong_cantonese": "姑婆",
+		"jyutping": "gu1 po4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "farfars bror",
-		"characters": "伯公",
-		"pinyin": "baak3 gung1",
+		"mainland_cantonese": "伯公",
+    "hongkong_cantonese": "伯公",
+		"jyutping": "baak3 gung1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "brorsdotter",
-		"characters": "侄女",
-		"pinyin": "zat6 neoi5",
+		"mainland_cantonese": "侄女",
+    "hongkong_cantonese": "侄女",
+		"jyutping": "zat6 neoi5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "brorsson",
-		"characters": "侄子",
-		"pinyin": "zat6 zi2",
+		"mainland_cantonese": "侄子",
+    "hongkong_cantonese": "侄子",
+		"jyutping": "zat6 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "systerdotter",
-		"characters": "外甥女",
-		"pinyin": "ngoi6 saang1 neoi5",
+		"mainland_cantonese": "外甥女",
+    "hongkong_cantonese": "外甥女",
+		"jyutping": "ngoi6 saang1 neoi5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "systerson",
-		"characters": "外甥",
-		"pinyin": "ngoi6 saang1",
+		"mainland_cantonese": "外甥",
+    "hongkong_cantonese": "外甥",
+		"jyutping": "ngoi6 saang1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kusin (manlig)",
-		"characters": "堂兄弟",
-		"pinyin": "tong4 hing1 dai6",
+		"mainland_cantonese": "堂兄弟",
+    "hongkong_cantonese": "堂兄弟",
+		"jyutping": "tong4 hing1 dai6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kusin (kvinnlig)",
-		"characters": "堂姐妹",
-		"pinyin": "tong4 ze2 mui6",
+		"mainland_cantonese": "堂姐妹",
+    "hongkong_cantonese": "堂姐妹",
+		"jyutping": "tong4 ze2 mui6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "äldre bror",
-		"characters": "哥哥",
-		"pinyin": "go4 go1",
+		"mainland_cantonese": "哥哥",
+    "hongkong_cantonese": "哥哥",
+		"jyutping": "go4 go1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "yngre bror",
-		"characters": "弟弟",
-		"pinyin": "dai6 dai1",
+		"mainland_cantonese": "弟弟",
+    "hongkong_cantonese": "弟弟",
+		"jyutping": "dai6 dai1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "äldre syster",
-		"characters": "姐姐",
-		"pinyin": "ze2 ze1",
+		"mainland_cantonese": "姐姐",
+    "hongkong_cantonese": "姐姐",
+		"jyutping": "ze2 ze1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "yngre syster",
-		"characters": "妹妹",
-		"pinyin": "mui6 mui1",
+		"mainland_cantonese": "妹妹",
+    "hongkong_cantonese": "妹妹",
+		"jyutping": "mui6 mui1",
 		"difficulty": 1
 	},
 	{
 		"swedish": "svärmor (farmor)",
-		"characters": "奶奶",
-		"pinyin": "naai5 naai1",
+		"mainland_cantonese": "奶奶",
+    "hongkong_cantonese": "奶奶",
+		"jyutping": "naai5 naai1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "svägerskan",
-		"characters": "嫂子",
-		"pinyin": "sou2 zi2",
+		"mainland_cantonese": "嫂子",
+    "hongkong_cantonese": "嫂子",
+		"jyutping": "sou2 zi2",
 		"difficulty": 2
 	},
 	{
 		"swedish": "sväger",
-		"characters": "姐夫",
-		"pinyin": "ze2 fu1",
+		"mainland_cantonese": "姐夫",
+    "hongkong_cantonese": "姐夫",
+		"jyutping": "ze2 fu1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "brors fru",
-		"characters": "弟媳",
-		"pinyin": "dai6 sam6",
+		"mainland_cantonese": "弟媳",
+    "hongkong_cantonese": "弟媳",
+		"jyutping": "dai6 sam6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "systers man",
-		"characters": "妹夫",
-		"pinyin": "mui6 fu1",
+		"mainland_cantonese": "妹夫",
+    "hongkong_cantonese": "妹夫",
+		"jyutping": "mui6 fu1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "svärmors mor",
-		"characters": "太婆",
-		"pinyin": "taai3 po4",
+		"mainland_cantonese": "太婆",
+    "hongkong_cantonese": "太婆",
+		"jyutping": "taai3 po4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "svärmors far",
-		"characters": "太公",
-		"pinyin": "taai3 gung1",
+		"mainland_cantonese": "太公",
+    "hongkong_cantonese": "太公",
+		"jyutping": "taai3 gung1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "barnbarnsbarn",
-		"characters": "曾孙",
-		"pinyin": "zang1 syun1",
+		"mainland_cantonese": "曾孙",
+    "hongkong_cantonese": "曾孙",
+		"jyutping": "zang1 syun1",
 		"difficulty": 3
 	},
 	{
 		"swedish": "familjemedlem",
-		"characters": "家人",
-		"pinyin": "gaa1 jan4",
+		"mainland_cantonese": "家人",
+    "hongkong_cantonese": "家人",
+		"jyutping": "gaa1 jan4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "förälder",
-		"characters": "父母",
-		"pinyin": "fu6 mou5",
+		"mainland_cantonese": "父母",
+    "hongkong_cantonese": "父母",
+		"jyutping": "fu6 mou5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "mor- och farföräldrar",
-		"characters": "祖父母",
-		"pinyin": "zou2 fu6 mou5",
+		"mainland_cantonese": "祖父母",
+    "hongkong_cantonese": "祖父母",
+		"jyutping": "zou2 fu6 mou5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "generation",
-		"characters": "一代",
-		"pinyin": "jat1 doi6",
+		"mainland_cantonese": "一代",
+    "hongkong_cantonese": "一代",
+		"jyutping": "jat1 doi6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "blodsband",
-		"characters": "血缘",
-		"pinyin": "hyut3 jyun4",
+		"mainland_cantonese": "血缘",
+    "hongkong_cantonese": "血缘",
+		"jyutping": "hyut3 jyun4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "efternamn",
-		"characters": "姓",
-		"pinyin": "sing3",
+		"mainland_cantonese": "姓",
+    "hongkong_cantonese": "姓",
+		"jyutping": "sing3",
 		"difficulty": 1
 	},
 	{
 		"swedish": "förnamn",
-		"characters": "名",
-		"pinyin": "ming4",
+		"mainland_cantonese": "名",
+    "hongkong_cantonese": "名",
+		"jyutping": "ming4",
 		"difficulty": 1
 	},
 	{
 		"swedish": "familjenamn",
-		"characters": "家族姓氏",
-		"pinyin": "gaa1 zuk6 sing3 si6",
+		"mainland_cantonese": "家族姓氏",
+    "hongkong_cantonese": "家族姓氏",
+		"jyutping": "gaa1 zuk6 sing3 si6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "familjetradition",
-		"characters": "家族传统",
-		"pinyin": "gaa1 zuk6 cyun4 tung2",
+		"mainland_cantonese": "家族传统",
+    "hongkong_cantonese": "家族传统",
+		"jyutping": "gaa1 zuk6 cyun4 tung2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "familjeträd",
-		"characters": "族谱",
-		"pinyin": "zuk6 pou2",
+		"mainland_cantonese": "族谱",
+    "hongkong_cantonese": "族谱",
+		"jyutping": "zuk6 pou2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "arv",
-		"characters": "遗产",
-		"pinyin": "wai4 caan2",
+		"mainland_cantonese": "遗产",
+    "hongkong_cantonese": "遗产",
+		"jyutping": "wai4 caan2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "arvtagare",
-		"characters": "继承人",
-		"pinyin": "gai3 sing4 jan4",
+		"mainland_cantonese": "继承人",
+    "hongkong_cantonese": "继承人",
+		"jyutping": "gai3 sing4 jan4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "familjeföretag",
-		"characters": "家族企业",
-		"pinyin": "gaa1 zuk6 kei5 jip6",
+		"mainland_cantonese": "家族企业",
+    "hongkong_cantonese": "家族企业",
+		"jyutping": "gaa1 zuk6 kei5 jip6",
 		"difficulty": 3
 	},
 	{
 		"swedish": "barnbarn (allmänt)",
-		"characters": "孙辈",
-		"pinyin": "syun1 bui3",
+		"mainland_cantonese": "孙辈",
+    "hongkong_cantonese": "孙辈",
+		"jyutping": "syun1 bui3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "barn (allmänt)",
-		"characters": "子女",
-		"pinyin": "zi2 neoi5",
+		"mainland_cantonese": "子女",
+    "hongkong_cantonese": "子女",
+		"jyutping": "zi2 neoi5",
 		"difficulty": 1
 	},
 	{
 		"swedish": "vuxna barn",
-		"characters": "成年子女",
-		"pinyin": "sing4 nin4 zi2 neoi5",
+		"mainland_cantonese": "成年子女",
+    "hongkong_cantonese": "成年子女",
+		"jyutping": "sing4 nin4 zi2 neoi5",
 		"difficulty": 2
 	},
 	{
 		"swedish": "minderåriga barn",
-		"characters": "未成年子女",
-		"pinyin": "mei6 sing4 nin4 zi2 neoi5",
+		"mainland_cantonese": "未成年子女",
+    "hongkong_cantonese": "未成年子女",
+		"jyutping": "mei6 sing4 nin4 zi2 neoi5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "ensamstående förälder",
-		"characters": "单亲家长",
-		"pinyin": "daan1 can1 gaa1 zoeng2",
+		"mainland_cantonese": "单亲家长",
+    "hongkong_cantonese": "单亲家长",
+		"jyutping": "daan1 can1 gaa1 zoeng2",
 		"difficulty": 3
 	},
 	{
 		"swedish": "adoptivföräldrar",
-		"characters": "养父母",
-		"pinyin": "joeng5 fu6 mou5",
+		"mainland_cantonese": "养父母",
+    "hongkong_cantonese": "养父母",
+		"jyutping": "joeng5 fu6 mou5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "biologiska föräldrar",
-		"characters": "亲生父母",
-		"pinyin": "can1 sang1 fu6 mou5",
+		"mainland_cantonese": "亲生父母",
+    "hongkong_cantonese": "亲生父母",
+		"jyutping": "can1 sang1 fu6 mou5",
 		"difficulty": 3
 	},
 	{
 		"swedish": "storfamilj",
-		"characters": "大家庭",
-		"pinyin": "daai6 gaa1 ting4",
+		"mainland_cantonese": "大家庭",
+    "hongkong_cantonese": "大家庭",
+		"jyutping": "daai6 gaa1 ting4",
 		"difficulty": 2
 	},
 	{
 		"swedish": "kärnfamilj",
-		"characters": "核心家庭",
-		"pinyin": "hat6 sam1 gaa1 ting4",
+		"mainland_cantonese": "核心家庭",
+    "hongkong_cantonese": "核心家庭",
+		"jyutping": "hat6 sam1 gaa1 ting4",
 		"difficulty": 3
 	},
 	{
 		"swedish": "familjesammankomst",
-		"characters": "家庭聚会",
-		"pinyin": "gaa1 ting4 zeoi6 wui6",
+		"mainland_cantonese": "家庭聚会",
+    "hongkong_cantonese": "家庭聚会",
+		"jyutping": "gaa1 ting4 zeoi6 wui6",
 		"difficulty": 2
 	},
 	{
 		"swedish": "familjemiddag",
-		"characters": "家庭晚餐",
-		"pinyin": "gaa1 ting4 maan5 caan1",
+		"mainland_cantonese": "家庭晚餐",
+    "hongkong_cantonese": "家庭晚餐",
+		"jyutping": "gaa1 ting4 maan5 caan1",
 		"difficulty": 2
 	},
 	{
 		"swedish": "familjesemester",
-		"characters": "家庭度假",
-		"pinyin": "gaa1 ting4 dou6 gaa3",
+		"mainland_cantonese": "家庭度假",
+    "hongkong_cantonese": "家庭度假",
+		"jyutping": "gaa1 ting4 dou6 gaa3",
 		"difficulty": 2
 	},
 	{
 		"swedish": "familjeporträtt",
-		"characters": "全家福",
-		"pinyin": "cyun4 gaa1 fuk1",
+		"mainland_cantonese": "全家福",
+    "hongkong_cantonese": "全家福",
+		"jyutping": "cyun4 gaa1 fuk1",
 		"difficulty": 2
 	}
 ]

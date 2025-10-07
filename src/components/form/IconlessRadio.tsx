@@ -10,16 +10,18 @@ interface IconlessRadioProps {
 	options: Array<{
 		value: string;
 		label: string;
-		pinyin?: string;
+		jyutping?: string;
+		isHK?: boolean;
+		hasHK?: boolean; // available variant even if not displayed
 	}>;
-	showPinyin?: boolean;
+	showJyutping?: boolean;
 	disabled?: boolean;
 	title?: string;
 	correctAnswer?: string;
 	showResult?: boolean;
 }
 
-export default function IconlessRadio({ value, onChange, options, showPinyin = false, disabled = false, title, correctAnswer, showResult = false }: IconlessRadioProps) {
+export default function IconlessRadio({ value, onChange, options, showJyutping = false, disabled = false, title, correctAnswer, showResult = false }: IconlessRadioProps) {
 	const getSheetStyles = (optionValue: string, checked: boolean) => {
 		let styles: any = {
 			p: 2,
@@ -35,7 +37,7 @@ export default function IconlessRadio({ value, onChange, options, showPinyin = f
 		if (showResult && correctAnswer) {
 			if (optionValue === correctAnswer) {
 				// Correct answer - green
-				styles.backgroundColor = "#c7e1a7";
+				styles.backgroundColor = "#b5d191";
 				styles.borderColor = "#c7e1a7";
 				styles.border = "2px solid #c7e1a7";
 			} else if (checked && optionValue !== correctAnswer) {
@@ -88,15 +90,40 @@ export default function IconlessRadio({ value, onChange, options, showPinyin = f
 									<div>
 										<div
 											style={{
-												fontSize: "2.5rem",
-												lineHeight: "3rem",
-												fontWeight: "normal",
-												color: getLabelColor(option.value, checked),
+												display: "flex",
+												alignItems: "center",
+												gap: "8px",
 											}}
 										>
-											{option.label}
+											<span
+												style={{
+													fontSize: "2.5rem",
+													lineHeight: "3rem",
+													fontWeight: "normal",
+													color: getLabelColor(option.value, checked),
+												}}
+											>
+												{option.label}
+											</span>
+											{(option.isHK || option.hasHK) && (
+												<span
+													style={{
+														background: option.isHK ? "#9146ff" : "transparent",
+														color: option.isHK ? "white" : "#9146ff",
+														padding: "2px 6px",
+														borderRadius: "12px",
+														fontSize: "0.65rem",
+														letterSpacing: "0.5px",
+														fontWeight: 600,
+														lineHeight: 1.2,
+														border: option.isHK ? "none" : "1px solid #9146ff",
+													}}
+												>
+													HK
+												</span>
+											)}
 										</div>
-										{showPinyin && option.pinyin && (
+										{showJyutping && option.jyutping && (
 											<div
 												style={{
 													fontSize: "1rem",
@@ -104,7 +131,7 @@ export default function IconlessRadio({ value, onChange, options, showPinyin = f
 													color: showResult && correctAnswer && (option.value === correctAnswer || checked) ? "white" : "#666",
 												}}
 											>
-												({option.pinyin.toLowerCase()})
+												({option.jyutping.toLowerCase()})
 											</div>
 										)}
 									</div>
