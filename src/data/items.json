@@ -611,7 +611,7 @@
 		"difficulty": 3
 	},
 	{
-		"swedish": "skoffel",
+		"swedish": "skyffel",
 		"mainland_cantonese": "铲子",
 		"hongkong_cantonese": "铲子",
 		"jyutping": "caan2 zi2",
@@ -702,108 +702,80 @@
 		"difficulty": 2
 	},
 	{
-		"swedish": "barometer",
-		"mainland_cantonese": "气压计",
-		"hongkong_cantonese": "气压计",
-		"jyutping": "hei3 aat3 gai3",
-		"difficulty": 3
+		"swedish": "toalett",
+		"mainland_cantonese": "厕所",
+		"hongkong_cantonese": "厕所",
+		"jyutping": "ci3 so2",
+		"difficulty": 1
 	},
 	{
-		"swedish": "seismograf",
-		"mainland_cantonese": "地震仪",
-		"hongkong_cantonese": "地震仪",
-		"jyutping": "dei6 zan3 ji4",
-		"difficulty": 3
+		"swedish": "dusch",
+		"mainland_cantonese": "淋浴",
+		"hongkong_cantonese": "淋浴",
+		"jyutping": "lam4 juk6",
+		"difficulty": 2
 	},
 	{
-		"swedish": "stethoskop",
-		"mainland_cantonese": "听诊器",
-		"hongkong_cantonese": "听诊器",
-		"jyutping": "ting1 zan2 hei3",
-		"difficulty": 3
+		"swedish": "handfat",
+		"mainland_cantonese": "洗手盆",
+		"hongkong_cantonese": "洗手盆",
+		"jyutping": "sai2 sau2 pun4",
+		"difficulty": 2
 	},
 	{
-		"swedish": "mikroskop",
-		"mainland_cantonese": "显微镜",
-		"hongkong_cantonese": "显微镜",
-		"jyutping": "hin2 mei4 geng3",
-		"difficulty": 3
+		"swedish": "spis",
+		"mainland_cantonese": "炉灶",
+		"hongkong_cantonese": "炉灶",
+		"jyutping": "lou4 zou3",
+		"difficulty": 2
 	},
 	{
-		"swedish": "teleskop",
-		"mainland_cantonese": "望远镜",
-		"hongkong_cantonese": "望远镜",
-		"jyutping": "mong6 jyun5 geng3",
-		"difficulty": 3
+		"swedish": "frys",
+		"mainland_cantonese": "冰柜",
+		"hongkong_cantonese": "冰柜",
+		"jyutping": "bing1 gwai6",
+		"difficulty": 2
 	},
 	{
-		"swedish": "kaleidoskop",
-		"mainland_cantonese": "万花筒",
-		"hongkong_cantonese": "万花筒",
-		"jyutping": "maan6 faa1 tung2",
-		"difficulty": 3
+		"swedish": "filt",
+		"mainland_cantonese": "毛毯",
+		"hongkong_cantonese": "毛毯",
+		"jyutping": "mou4 taan2",
+		"difficulty": 1
 	},
 	{
-		"swedish": "kikarsikte",
-		"mainland_cantonese": "瞄准镜",
-		"hongkong_cantonese": "瞄准镜",
-		"jyutping": "miu4 zeon2 geng3",
-		"difficulty": 3
+		"swedish": "mugg",
+		"mainland_cantonese": "马克杯",
+		"hongkong_cantonese": "马克杯",
+		"jyutping": "maak3 hak1 bui1",
+		"difficulty": 2
 	},
 	{
-		"swedish": "metronom",
-		"mainland_cantonese": "节拍器",
-		"hongkong_cantonese": "节拍器",
-		"jyutping": "zit3 paak3 hei3",
-		"difficulty": 3
+		"swedish": "soptunna",
+		"mainland_cantonese": "垃圾桶",
+		"hongkong_cantonese": "垃圾桶",
+		"jyutping": "laap6 saap3 tung2",
+		"difficulty": 2
 	},
 	{
-		"swedish": "tuningaffel",
-		"mainland_cantonese": "音叉",
-		"hongkong_cantonese": "音叉",
-		"jyutping": "jam1 caa1",
-		"difficulty": 3
+		"swedish": "nyckelring",
+		"mainland_cantonese": "钥匙扣",
+		"hongkong_cantonese": "钥匙扣",
+		"jyutping": "joek6 si4 kau3",
+		"difficulty": 2
 	},
 	{
-		"swedish": "astrolabium",
-		"mainland_cantonese": "星盘",
-		"hongkong_cantonese": "星盘",
-		"jyutping": "sing1 pun4",
-		"difficulty": 3
+		"swedish": "mobil",
+		"mainland_cantonese": "手机",
+		"hongkong_cantonese": "手机",
+		"jyutping": "sau2 gei1",
+		"difficulty": 1
 	},
 	{
-		"swedish": "kompass",
-		"mainland_cantonese": "指南针",
-		"hongkong_cantonese": "指南针",
-		"jyutping": "zi2 naam4 zam1",
-		"difficulty": 3
-	},
-	{
-		"swedish": "sextant",
-		"mainland_cantonese": "六分仪",
-		"hongkong_cantonese": "六分仪",
-		"jyutping": "luk6 fan1 ji4",
-		"difficulty": 3
-	},
-	{
-		"swedish": "altimeter",
-		"mainland_cantonese": "高度计",
-		"hongkong_cantonese": "高度计",
-		"jyutping": "gou1 dou6 gai3",
-		"difficulty": 3
-	},
-	{
-		"swedish": "anemometer",
-		"mainland_cantonese": "风速计",
-		"hongkong_cantonese": "风速计",
-		"jyutping": "fung1 cuk1 gai3",
-		"difficulty": 3
-	},
-	{
-		"swedish": "hydrometer",
-		"mainland_cantonese": "比重计",
-		"hongkong_cantonese": "比重计",
-		"jyutping": "bei2 zung6 gai3",
+		"swedish": "surfplatta",
+		"mainland_cantonese": "平板电脑",
+		"hongkong_cantonese": "平板电脑",
+		"jyutping": "ping4 baan2 din6 nou5",
 		"difficulty": 3
 	}
 ]
