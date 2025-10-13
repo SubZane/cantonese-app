@@ -1,59 +1,20 @@
 import "../styles/components/Quiz.scss";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, Chip, FormControl, LinearProgress, Sheet, Table, Typography } from "@mui/joy";
 
-import { getDisplayCantonese, isHongKongVariantDisplay, useCantoneseVariant } from "../context/CantoneseVariantContext";
-import actionsData from "../data/actions.json";
-import animalsData from "../data/animals.json";
-import familyData from "../data/family.json";
-import foodData from "../data/food.json";
-import funPlayData from "../data/fun-play.json";
-import itemsData from "../data/items.json";
-import movementDirectionsData from "../data/movement-directions.json";
-import timeData from "../data/time.json";
+import { useCantoneseVariant } from "../context/CantoneseVariantContext";
 import { useT } from "../translations";
+import { useQuizState } from "../hooks/useQuizState";
+import { createCategoryOptions } from "../constants/quiz";
+import { generateQuestion, updateQuestionForVariant } from "../utils/quizLogic";
+import { QuizResult } from "../types/quiz";
 import DifficultyRadio from "./form/DifficultyRadio";
 import IconlessRadio from "./form/IconlessRadio";
 import IconsRadio from "./form/IconsRadio";
 import QuestionCountRadio from "./form/QuestionCountRadio";
-
-interface VocabularyItem {
-	swedish: string;
-	mainland_cantonese: string;
-	hongkong_cantonese: string;
-	jyutping: string;
-	hongkong_jyutping?: string;
-	difficulty: number;
-	has_hk_variant?: boolean;
-}
-
-interface QuizQuestion {
-	swedish: string;
-	correctAnswer: string;
-	correctJyutping: string;
-	options: string[];
-	optionsJyutping: string[];
-	optionIsHK: boolean[]; // parallel to options
-	correctIsHK: boolean;
-	optionHasHK: boolean[]; // availability regardless of toggle
-	correctHasHK: boolean;
-	// Stored raw vocabulary items for dynamic recomputation when HK toggle changes
-	baseOptions: VocabularyItem[];
-}
-
-interface QuizResult {
-	question: string;
-	correctAnswer: string;
-	correctJyutping: string;
-	userAnswer: string;
-	userJyutping: string;
-	isCorrect: boolean;
-	correctIsHK: boolean;
-	userIsHK: boolean;
-}
 
 interface QuizProps {
 	showJyutping?: boolean;
@@ -61,48 +22,28 @@ interface QuizProps {
 
 const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 	const { useHongKong } = useCantoneseVariant();
-	// Load saved settings from localStorage
-	const getSavedSetting = (key: string, defaultValue: any) => {
-		try {
-			const saved = localStorage.getItem(`cantonese-quiz-${key}`);
-			return saved ? JSON.parse(saved) : defaultValue;
-		} catch {
-			return defaultValue;
-		}
-	};
-
-	// Quiz setup state
-	const [quizStarted, setQuizStarted] = useState(false);
-	const [configStep, setConfigStep] = useState<number>(1); // 1: Category, 2: Difficulty, 3: Question Count
-	const [difficulty, setDifficulty] = useState<string>(getSavedSetting("difficulty", "all"));
-	const [category, setCategory] = useState<string>(getSavedSetting("category", "all"));
-	const [questionCount, setQuestionCount] = useState<number>(getSavedSetting("questionCount", 10));
-
-	// Quiz state
-	const [currentQuestion, setCurrentQuestion] = useState<QuizQuestion | null>(null);
-	const [score, setScore] = useState(0);
-	const [questionNumber, setQuestionNumber] = useState(1);
-	const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
-	const [showResult, setShowResult] = useState(false);
-	const [quizComplete, setQuizComplete] = useState(false);
-	const [showDetailedResults, setShowDetailedResults] = useState(false);
-	const [quizResults, setQuizResults] = useState<QuizResult[]>([]);
-	const [usedWords, setUsedWords] = useState<Set<string>>(new Set());
-	const [isRestoring, setIsRestoring] = useState(false);
 	const { t, translate } = useT();
+	
+	const {
+		quizStarted, setQuizStarted,
+		configStep, setConfigStep,
+		difficulty, setDifficulty,
+		category, setCategory,
+		questionCount, setQuestionCount,
+		currentQuestion, setCurrentQuestion,
+		score, setScore,
+		questionNumber, setQuestionNumber,
+		selectedAnswer, setSelectedAnswer,
+		showResult, setShowResult,
+		quizComplete, setQuizComplete,
+		showDetailedResults, setShowDetailedResults,
+		quizResults, setQuizResults,
+		usedWords, setUsedWords,
+		isRestoring,
+		resetQuiz,
+	} = useQuizState();
 
-	// Category options with icons
-	const categoryOptions = [
-		{ value: "all", label: t.filters.category.all, icon: "globe" },
-		{ value: "animals", label: t.filters.category.animals, icon: "dog" },
-		{ value: "food", label: t.filters.category.food, icon: "utensils" },
-		{ value: "family", label: t.filters.category.family, icon: "users" },
-		{ value: "actions", label: t.filters.category.actions, icon: "running" },
-		{ value: "items", label: t.filters.category.items, icon: "cube" },
-		{ value: "fun-play", label: t.filters.category.funPlay, icon: "gamepad" },
-		{ value: "time", label: t.filters.category.time, icon: "clock" },
-		{ value: "movement-directions", label: t.filters.category.movementDirections, icon: "compass" },
-	];
+	const categoryOptions = createCategoryOptions(t);
 
 	// Save settings to localStorage
 	const saveSetting = (key: string, value: any) => {
@@ -381,28 +322,7 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 		setUsedWords(result.newUsedWords);
 	};
 
-	const resetQuiz = () => {
-		clearQuizState(); // Clear saved state
-		setQuizStarted(false);
-		setConfigStep(1); // Reset to first configuration step
-		setCurrentQuestion(null);
-		setScore(0);
-		setQuestionNumber(1);
-		setSelectedAnswer(null);
-		setShowResult(false);
-		setQuizComplete(false);
-		setShowDetailedResults(false);
-		setQuizResults([]);
-		setUsedWords(new Set()); // Clear used words when resetting
-	};
-
 	const startQuiz = () => {
-		// Clear any previous quiz state when starting a new quiz
-		clearQuizState();
-		// Save current settings to localStorage
-		saveSetting("difficulty", difficulty);
-		saveSetting("category", category);
-		saveSetting("questionCount", questionCount);
 		setQuizStarted(true);
 	};
 

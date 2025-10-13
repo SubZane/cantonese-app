@@ -20,3 +20,31 @@
 	width: 100%;
 	z-index: 1002;
 }
+
+/* Mobile-first responsive utilities */
+@media (max-width: 768px) {
+	/* Prevent horizontal overflow */
+	* {
+		max-width: 100%;
+		box-sizing: border-box;
+	}
+
+	html,
+	body {
+		overflow-x: hidden;
+		width: 100%;
+	}
+}
+
+/* Ensure proper mobile viewport handling */
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-x: hidden;
+}

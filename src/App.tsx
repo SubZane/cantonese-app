@@ -66,9 +66,9 @@ function AppContent() {
 	const currentView = getCurrentView();
 
 	const renderComingSoon = (title: string) => (
-		<div className="p-4 text-center">
-			<h2 className="mb-3">{t.general.comingSoon}</h2>
-			<p className="text-muted">{t.general.underDevelopment}</p>
+		<div className="coming-soon-container">
+			<h2>{t.general.comingSoon}</h2>
+			<p>{t.general.underDevelopment}</p>
 		</div>
 	);
 

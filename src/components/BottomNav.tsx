@@ -28,12 +28,13 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView }) => {
 				borderColor: "var(--border-color)",
 				boxShadow: "sm",
 				zIndex: 1000,
-				height: "70px",
-				py: "6px",
-				px: 1,
+				height: { xs: "60px", sm: "70px" },
+				py: { xs: "4px", sm: "6px" },
+				px: { xs: 0.5, sm: 1 },
 				display: "flex",
 				justifyContent: "space-around",
 				alignItems: "center",
+				minHeight: { xs: "60px", sm: "70px" },
 			}}
 		>
 			{navItems.map((item) => (
@@ -46,19 +47,41 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView }) => {
 						flexDirection: "column",
 						alignItems: "center",
 						textAlign: "center",
-						px: 2,
+						px: { xs: 1, sm: 2 },
+						py: { xs: 0.5, sm: 1 },
 						textDecoration: "none",
 						color: currentView === item.key ? "primary.500" : "text.secondary",
+						flex: 1,
+						minWidth: 0,
+						transition: "color 0.2s ease",
 						"&:hover": {
 							textDecoration: "none",
 							color: currentView === item.key ? "primary.600" : "text.primary",
 						},
 					}}
 				>
-					<Box sx={{ fontSize: "1.2rem", mb: "2px" }}>
+					<Box
+						sx={{
+							fontSize: { xs: "1.1rem", sm: "1.2rem" },
+							mb: { xs: "1px", sm: "2px" },
+							lineHeight: 1,
+						}}
+					>
 						<FontAwesomeIcon icon={item.icon as any} />
 					</Box>
-					<Typography fontSize="xs">{item.label}</Typography>
+					<Typography
+						fontSize="xs"
+						sx={{
+							fontSize: { xs: "0.65rem", sm: "0.75rem" },
+							lineHeight: 1,
+							whiteSpace: "nowrap",
+							overflow: "hidden",
+							textOverflow: "ellipsis",
+							maxWidth: "100%",
+						}}
+					>
+						{item.label}
+					</Typography>
 				</Box>
 			))}
 		</Box>

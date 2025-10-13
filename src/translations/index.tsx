@@ -33,8 +33,37 @@ interface TranslationProviderProps {
 	defaultLanguage?: Language;
 }
 
+const LANGUAGE_STORAGE_KEY = "cantonese-quiz-language";
+
 export const TranslationProvider: React.FC<TranslationProviderProps> = ({ children, defaultLanguage = "sv" }) => {
-	const [language, setLanguage] = useState<Language>(defaultLanguage);
+	// Load saved language from localStorage or use default
+	const getSavedLanguage = (): Language => {
+		try {
+			const saved = localStorage.getItem(LANGUAGE_STORAGE_KEY);
+			if (saved) {
+				const parsedLanguage = JSON.parse(saved) as Language;
+				// Validate that it's a valid language
+				if (parsedLanguage === "sv" || parsedLanguage === "en") {
+					return parsedLanguage;
+				}
+			}
+		} catch {
+			// If there's any error reading from localStorage, fall back to default
+		}
+		return defaultLanguage;
+	};
+
+	const [language, setLanguageState] = useState<Language>(getSavedLanguage);
+
+	// Save language to localStorage whenever it changes
+	const setLanguage = (lang: Language) => {
+		try {
+			localStorage.setItem(LANGUAGE_STORAGE_KEY, JSON.stringify(lang));
+		} catch {
+			// Silently ignore localStorage errors
+		}
+		setLanguageState(lang);
+	};
 
 	const currentTranslations = translations[language];
 

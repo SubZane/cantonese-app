@@ -24,33 +24,42 @@ const Header: React.FC<HeaderProps> = ({ showJyutping = false, onJyutpingToggle,
 				display: "flex",
 				alignItems: "center",
 				justifyContent: "space-between",
-				px: 3,
-				py: 2,
+				px: { xs: 2, sm: 3 },
+				py: { xs: 1.5, sm: 2 },
 				backgroundColor: "#292A37",
 				borderBottom: "1px solid var(--joy-palette-divider)",
+				minHeight: { xs: "60px", sm: "70px" },
 			}}
 		>
-			<Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+			<Box sx={{ display: "flex", alignItems: "center", gap: { xs: 1, sm: 2 } }}>
 				{/* Hamburger Menu */}
 				<IconButton
 					onClick={handleDrawerToggle}
 					aria-label="Öppna meny"
+					size="sm"
 					sx={{
 						color: "white",
+						minWidth: { xs: "40px", sm: "44px" },
+						minHeight: { xs: "40px", sm: "44px" },
 						"&:hover": {
 							backgroundColor: "rgba(255, 255, 255, 0.1)",
 						},
 					}}
 				>
 					{/* Force icon color to white to avoid inheriting default grey */}
-					<MenuIcon sx={{ color: "#FFFFFF" }} />
+					<MenuIcon
+						sx={{
+							color: "#FFFFFF",
+							fontSize: { xs: "1.2rem", sm: "1.5rem" },
+						}}
+					/>
 				</IconButton>
 
 				{/* Logo */}
 				<Box
 					sx={{
-						width: 48,
-						height: 48,
+						width: { xs: 40, sm: 48 },
+						height: { xs: 40, sm: 48 },
 						display: "flex",
 						alignItems: "center",
 						justifyContent: "center",
