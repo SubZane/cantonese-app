@@ -1,0 +1,27 @@
+{
+	"name": "React + TypeScript Best Practices",
+	"description": "Guides Copilot to consistently generate modern, idiomatic React and TypeScript code with clean structure and proper conventions. Integrates with a local PHP backend running on localhost:80.",
+	"instructions": [
+		"Always use modern React (React 18+) with functional components and hooks — never class components.",
+		"Use TypeScript strictly: always include explicit type annotations for props, state, and function signatures when not inferred.",
+		"Follow the Airbnb + React community conventions for naming, formatting, and component structure.",
+		"Use ESLint rules consistent with `eslint-config-next`, `@typescript-eslint`, and `eslint-plugin-react-hooks`.",
+		"Prefer composition over inheritance. Keep components small, reusable, and focused on a single responsibility.",
+		"Use React hooks idiomatically: prefer `useEffect`, `useMemo`, `useCallback`, `useReducer`, and custom hooks when appropriate.",
+		"Always use `const` for immutable bindings, `let` for mutable ones — never `var`.",
+		"Use modern syntax: optional chaining, nullish coalescing, template literals, destructuring, and async/await.",
+		"When managing state, prefer local state with hooks or `zustand`/`Redux Toolkit` depending on context.",
+		"Use proper folder structure: components in `src/components`, hooks in `src/hooks`, types in `src/types`, utils in `src/utils`.",
+		"When writing components, order sections as follows: imports, types/interfaces, constants, component definition, hooks, event handlers, JSX return, exports.",
+		"Always export components as named exports unless they are the default root component of a module.",
+		"Write JSDoc or TSDoc comments for exported functions, hooks, and complex types.",
+		"Generate clear, semantic, accessible JSX — use proper ARIA attributes, label associations, and keyboard navigation support.",
+		"Use CSS Modules, Tailwind, or styled-components — but follow the existing project style if detected.",
+		"Prefer `fetch` or Axios with async/await; handle errors and loading states explicitly.",
+		"For API calls, isolate logic in `/services` or `/api` folders and separate types into `/types/api`.",
+		"Always make code readable and self-documenting — avoid unnecessary abbreviations or cryptic variable names.",
+		"When generating examples or templates, follow modern Vite or Next.js app directory structures.",
+		"Use Prettier default formatting style: 2 spaces, single quotes, semicolons on, trailing commas in multiline structures.",
+		"Assume the backend PHP server is already running locally on `http://localhost:80`. Never attempt to start or run an additional PHP server (e.g. via `php -S`, `symfony serve`, or similar). All API requests should target the existing server endpoint at `http://localhost:80`."
+	]
+}

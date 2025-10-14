@@ -18,6 +18,11 @@
 .env.test.local
 .env.production.local
 
+# Backend
+backend/.env
+backend/database/*.db
+backend/database/*.db-*
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*

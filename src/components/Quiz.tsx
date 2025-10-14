@@ -6,14 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Button, Chip, FormControl, LinearProgress, Sheet, Typography } from "@mui/joy";
 
 import { getDisplayCantonese, isHongKongVariantDisplay, useCantoneseVariant } from "../context/CantoneseVariantContext";
-import actionsData from "../data/actions.json";
-import animalsData from "../data/animals.json";
-import familyData from "../data/family.json";
-import foodData from "../data/food.json";
-import funPlayData from "../data/fun-play.json";
-import itemsData from "../data/items.json";
-import movementDirectionsData from "../data/movement-directions.json";
-import timeData from "../data/time.json";
+import { useVocabulary } from "../hooks/useVocabulary";
 import { useT } from "../translations";
 import DifficultyRadio from "./form/DifficultyRadio";
 import IconlessRadio from "./form/IconlessRadio";
@@ -62,6 +55,8 @@ interface QuizProps {
 
 const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 	const { useHongKong } = useCantoneseVariant();
+	const { vocabulary, loading: vocabularyLoading, error: vocabularyError, loadVocabulary, getFilteredVocabulary } = useVocabulary();
+
 	// Load saved settings from localStorage
 	const getSavedSetting = (key: string, defaultValue: any) => {
 		try {
@@ -91,6 +86,11 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 	const [usedWords, setUsedWords] = useState<Set<string>>(new Set());
 	const [isRestoring, setIsRestoring] = useState(false);
 	const { t, translate } = useT();
+
+	// Load vocabulary when component mounts or filters change
+	useEffect(() => {
+		loadVocabulary();
+	}, [loadVocabulary]);
 
 	// Category options with icons
 	const categoryOptions = [
@@ -176,60 +176,31 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 		}
 	};
 
-	// Combine all vocabulary data
+	// Get filtered vocabulary from API data
 	const getAllVocabulary = (): VocabularyItem[] => {
-		let vocabulary: VocabularyItem[] = [];
-
-		// Add vocabulary based on selected category
-		if (category === "all") {
-			vocabulary = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData, ...movementDirectionsData];
-		} else {
-			switch (category) {
-				case "animals":
-					vocabulary = [...animalsData];
-					break;
-				case "food":
-					vocabulary = [...foodData];
-					break;
-				case "family":
-					vocabulary = [...familyData];
-					break;
-				case "actions":
-					vocabulary = [...actionsData];
-					break;
-				case "items":
-					vocabulary = [...itemsData];
-					break;
-				case "fun-play":
-					vocabulary = [...funPlayData];
-					break;
-				case "time":
-					vocabulary = [...timeData];
-					break;
-				case "movement-directions":
-					vocabulary = [...movementDirectionsData];
-					break;
-				default:
-					vocabulary = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData, ...movementDirectionsData];
-			}
+		if (!vocabulary || vocabulary.length === 0) {
+			return [];
 		}
 
-		// Filter by difficulty
-		if (difficulty !== "all") {
-			switch (difficulty) {
-				case "easy":
-					vocabulary = vocabulary.filter((item) => item.difficulty === 1);
-					break;
-				case "medium":
-					vocabulary = vocabulary.filter((item) => item.difficulty === 2);
-					break;
-				case "hard":
-					vocabulary = vocabulary.filter((item) => item.difficulty === 3);
-					break;
-			}
-		}
+		// Filter by category and difficulty using the hook's filter function
+		const difficultyMap: { [key: string]: number } = {
+			easy: 1,
+			medium: 2,
+			hard: 3,
+		};
 
-		return vocabulary;
+		return getFilteredVocabulary({
+			category,
+			difficulty: difficulty === "all" ? undefined : difficultyMap[difficulty] || difficulty,
+		}).map((item) => ({
+			swedish: item.swedish,
+			mainland_cantonese: item.mainland_cantonese,
+			hongkong_cantonese: item.hongkong_cantonese,
+			jyutping: item.jyutping,
+			hongkong_jyutping: item.hongkong_jyutping,
+			difficulty: item.difficulty,
+			has_hk_variant: item.has_hk_variant,
+		}));
 	};
 
 	// Generate a random quiz question without repeating words
@@ -262,7 +233,7 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 			.slice(0, 2);
 
 		// If we don't have enough wrong answers, pad with items from all vocabulary
-		const allItems = [...animalsData, ...foodData, ...familyData, ...actionsData, ...itemsData, ...funPlayData, ...timeData, ...movementDirectionsData] as VocabularyItem[];
+		const allItems = getAllVocabulary() as VocabularyItem[];
 		const additionalWrong = allItems
 			.filter((item) => item.swedish !== correctItem.swedish && !wrongItems.some((wrong) => wrong.swedish === item.swedish))
 			.sort(() => Math.random() - 0.5)
@@ -460,6 +431,34 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 			setSelectedAnswer(newOptions[oldIndex]);
 		}
 	}, [useHongKong, currentQuestion, selectedAnswer]);
+
+	// Show loading state while fetching vocabulary
+	if (vocabularyLoading) {
+		return (
+			<div className="loading-container">
+				<div className="text-center">
+					<h5 className="mb-3">{t.quiz.loading}</h5>
+					<p>{t.quiz.loading}</p>
+				</div>
+			</div>
+		);
+	}
+
+	// Show error state if API call failed
+	if (vocabularyError) {
+		return (
+			<div className="loading-container">
+				<div className="text-center">
+					<h5 className="mb-3">Error Loading Vocabulary</h5>
+					<p className="mb-3">{vocabularyError}</p>
+					<Button variant="solid" color="primary" onClick={() => loadVocabulary()}>
+						<FontAwesomeIcon icon="rotate-right" className="icon-spacing" />
+						Try Again
+					</Button>
+				</div>
+			</div>
+		);
+	}
 
 	// Check if we have enough vocabulary for a quiz
 	const allVocabulary = getAllVocabulary();

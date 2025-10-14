@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Test rule to see if .htaccess is working
+RewriteRule ^test$ index.php [L]
+
+# Handle all API requests - route to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
