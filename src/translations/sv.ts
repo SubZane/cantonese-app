@@ -71,7 +71,7 @@ export const sv = {
 	// Home page
 	home: {
 		welcome: "Välkommen till din kantonesiska språkträning! 🇭🇰",
-		subtitle: "Träna ditt kantonesiska ordförråd med interaktiva quiz",
+		subtitle: "Träna ditt kantonesiska ordförråd med denna interaktiva quiz",
 		quickQuiz: {
 			title: "Snabbquiz",
 			description: "Testa dina kunskaper med frågor där du översätter från svenska till kantonesiska",
@@ -142,15 +142,15 @@ export const sv = {
 			startButton: "Starta quiz",
 		},
 		question: "Fråga",
-		questionNumber: "Fråga {{current}} av {{total}}",
+		questionNumber: "Fråga {current} av {total}",
 		cancelQuiz: "Avbryt quiz",
 		confirmCancel: "Är du säker på att du vill avbryta quizet? Din framsteg kommer att förloras.",
 		nextQuestion: "Nästa fråga",
 		viewResults: "Visa resultat",
 		complete: {
 			title: "Quiz slutfört!",
-			score: "Du fick {{score}} av {{total}} rätt!",
-			percentage: "Det är {{percentage}}%",
+			score: "Du fick {score} av {total} rätt!",
+			percentage: "Det är {percentage}%",
 			excellent: "Utmärkt arbete! Du behärskar verkligen kantonesiska!",
 			good: "Bra jobbat! Du gör stora framsteg.",
 			keepPracticing: "Fortsätt träna, du blir bättre och bättre!",
@@ -159,12 +159,12 @@ export const sv = {
 		},
 		results: {
 			title: "Resultat",
-			summary: "Du fick {{correct}} av {{total}} rätt ({{percentage}}%)",
+			summary: "Du fick {correct} av {total} rätt ({percentage}%)",
 			yourAnswer: "Ditt svar",
 			correctAnswer: "Rätt svar",
 		},
 		errors: {
-			notEnoughWords: "Det finns inte tillräckligt med unika ord. Hittade {{found}} ord men behöver {{needed}}. Välj färre frågor eller ändra dina filter.",
+			notEnoughWords: "Det finns inte tillräckligt med unika ord. Hittade {found} ord men behöver {needed}. Välj färre frågor eller ändra dina filter.",
 			noMatchingFilters: "Det finns inte tillräckligt med ordförråd som matchar dina valda filter. Prova andra inställningar.",
 		},
 		loading: "Laddar ordförråd...",
