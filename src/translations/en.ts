@@ -71,7 +71,7 @@ export const en = {
 	// Home page
 	home: {
 		welcome: "Welcome to Cantonese Learning! 🇭🇰",
-		subtitle: "Practice your Cantonese vocabulary with interactive quizzes",
+		subtitle: "Practice your Cantonese vocabulary with this interactive quiz",
 		quickQuiz: {
 			title: "Quick Quiz",
 			description: "Test your knowledge with Swedish to Cantonese translation questions",
@@ -142,15 +142,15 @@ export const en = {
 			startButton: "Start Quiz",
 		},
 		question: "Question",
-		questionNumber: "Question {{current}} of {{total}}",
+		questionNumber: "Question {current} of {total}",
 		cancelQuiz: "Cancel Quiz",
 		confirmCancel: "Are you sure you want to cancel the quiz? Your progress will be lost.",
 		nextQuestion: "Next Question",
 		viewResults: "View Results",
 		complete: {
 			title: "Quiz Complete!",
-			score: "You scored {{score}} out of {{total}}!",
-			percentage: "That's {{percentage}}%",
+			score: "You scored {score} out of {total}!",
+			percentage: "That's {percentage}%",
 			excellent: "Excellent work! You really know your Cantonese!",
 			good: "Good job! You're making great progress.",
 			keepPracticing: "Keep practicing, you're getting better!",
@@ -159,12 +159,12 @@ export const en = {
 		},
 		results: {
 			title: "Results",
-			summary: "You got {{correct}} out of {{total}} correct ({{percentage}}%)",
+			summary: "You got {correct} out of {total} correct ({percentage}%)",
 			yourAnswer: "Your Answer",
 			correctAnswer: "Correct Answer",
 		},
 		errors: {
-			notEnoughWords: "Not enough unique words available. Found {{found}} words but need {{needed}}. Please select fewer questions or change your filters.",
+			notEnoughWords: "Not enough unique words available. Found {found} words but need {needed}. Please select fewer questions or change your filters.",
 			noMatchingFilters: "Not enough vocabulary items match your selected filters. Please try different settings.",
 		},
 		loading: "Loading vocabulary...",

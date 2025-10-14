@@ -2,6 +2,8 @@
  * API service for Cantonese Vocabulary App
  */
 
+import { getApiUrl } from "../utils/urlUtils";
+
 interface VocabularyItem {
 	id: number;
 	swedish: string;
@@ -58,7 +60,7 @@ class VocabularyAPIService {
 	private baseUrl: string;
 
 	constructor() {
-		this.baseUrl = process.env.REACT_APP_API_BASE_URL || "http://localhost/backend/api";
+		this.baseUrl = getApiUrl();
 	}
 
 	/**

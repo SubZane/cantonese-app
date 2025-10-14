@@ -15,6 +15,7 @@ import movementDirectionsData from "../data/movement-directions.json";
 import timeData from "../data/time.json";
 import { useT } from "../translations";
 import IconsRadio from "./form/IconsRadio";
+import MetaTags from "./MetaTags";
 
 interface VocabularyItem {
 	swedish: string;
@@ -32,7 +33,7 @@ interface VocabularyListProps {
 
 const VocabularyList: React.FC<VocabularyListProps> = ({ showJyutping = false }) => {
 	const { useHongKong } = useCantoneseVariant();
-	const { t } = useT();
+	const { t, translate } = useT();
 	const [selectedCategory, setSelectedCategory] = useState<string>("all");
 	const [searchTerm, setSearchTerm] = useState<string>("");
 
@@ -113,101 +114,104 @@ const VocabularyList: React.FC<VocabularyListProps> = ({ showJyutping = false })
 	};
 
 	return (
-		<Box sx={{ p: 3 }}>
-			<Typography level="h1" sx={{ mb: 3 }}>
-				{t.vocabulary.title}
-			</Typography>
+		<>
+			<MetaTags title="Ordlista" description="Bläddra igenom vårt omfattande ordförråd av kantonesiska ord och fraser" url="/vocabulary" />
+			<Box sx={{ p: 3 }}>
+				<Typography level="h1" sx={{ mb: 3 }}>
+					{t.vocabulary.title}
+				</Typography>
 
-			{/* Category Filter */}
-			<Box sx={{ mb: 3 }}>
-				<FormControl>
-					<FormLabel>{t.vocabulary.filterByCategory}</FormLabel>
-					<IconsRadio value={selectedCategory} onChange={setSelectedCategory} options={categoryOptions} />
-				</FormControl>
-			</Box>
+				{/* Category Filter */}
+				<Box sx={{ mb: 3 }}>
+					<FormControl>
+						<FormLabel>{t.vocabulary.filterByCategory}</FormLabel>
+						<IconsRadio value={selectedCategory} onChange={setSelectedCategory} options={categoryOptions} />
+					</FormControl>
+				</Box>
 
-			{/* Search Filter */}
-			<Box sx={{ mb: 3 }}>
-				<FormControl>
-					<FormLabel>{t.vocabulary.searchPlaceholder}</FormLabel>
-					<Input placeholder={t.vocabulary.searchDescription} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} startDecorator={<FontAwesomeIcon icon="search" />} sx={{ maxWidth: 400 }} />
-				</FormControl>
-			</Box>
+				{/* Search Filter */}
+				<Box sx={{ mb: 3 }}>
+					<FormControl>
+						<FormLabel>{t.vocabulary.searchPlaceholder}</FormLabel>
+						<Input placeholder={t.vocabulary.searchDescription} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} startDecorator={<FontAwesomeIcon icon="search" />} sx={{ maxWidth: 400 }} />
+					</FormControl>
+				</Box>
 
-			{/* Results Count */}
-			<Typography level="body-sm" sx={{ mb: 2, color: "text.secondary" }}>
-				{t.vocabulary.showingResults.replace("{count}", filteredVocabulary.length.toString())}
-			</Typography>
+				{/* Results Count */}
+				<Typography level="body-sm" sx={{ mb: 2, color: "text.secondary" }}>
+					{translate(t.vocabulary.showingResults, { count: filteredVocabulary.length.toString() })}
+				</Typography>
 
-			{/* Vocabulary Table */}
-			<Sheet variant="outlined" sx={{ borderRadius: "sm", overflow: "auto" }}>
-				<Table
-					hoverRow
-					size="md"
-					sx={{
-						"--TableCell-headBackground": "var(--joy-palette-background-level1)",
-						"--Table-headerUnderlineThickness": "1px",
-						"--TableRow-hoverBackground": "var(--joy-palette-background-level1)",
-					}}
-				>
-					<thead>
-						<tr>
-							<th style={{ width: "20%" }}>{t.vocabulary.swedish}</th>
-							<th style={{ width: "25%" }}>{t.vocabulary.cantonese}</th>
-							{showJyutping && <th style={{ width: "20%" }}>{t.vocabulary.pronunciation}</th>}
-							<th style={{ width: "15%" }}>{t.vocabulary.difficulty}</th>
-							<th style={{ width: "20%" }}>{t.vocabulary.category}</th>
-						</tr>
-					</thead>
-					<tbody>
-						{filteredVocabulary.map((item, index) => (
-							<tr key={`${item.category}-${index}`}>
-								<td>
-									<Typography level="body-md" fontWeight="md">
-										{item.swedish}
-									</Typography>
-								</td>
-								<td>
-									<Stack direction="row" spacing={1} alignItems="center">
-										<Typography level="body-md">{getDisplayCantonese(item, useHongKong)}</Typography>
-										{item.has_hk_variant && (
-											<Chip size="sm" variant="soft" color="primary" startDecorator={<FontAwesomeIcon icon="flag" />}>
-												HK
-											</Chip>
-										)}
-									</Stack>
-								</td>
-								{showJyutping && (
+				{/* Vocabulary Table */}
+				<Sheet variant="outlined" sx={{ borderRadius: "sm", overflow: "auto" }}>
+					<Table
+						hoverRow
+						size="md"
+						sx={{
+							"--TableCell-headBackground": "var(--joy-palette-background-level1)",
+							"--Table-headerUnderlineThickness": "1px",
+							"--TableRow-hoverBackground": "var(--joy-palette-background-level1)",
+						}}
+					>
+						<thead>
+							<tr>
+								<th style={{ width: "20%" }}>{t.vocabulary.swedish}</th>
+								<th style={{ width: "25%" }}>{t.vocabulary.cantonese}</th>
+								{showJyutping && <th style={{ width: "20%" }}>{t.vocabulary.pronunciation}</th>}
+								<th style={{ width: "15%" }}>{t.vocabulary.difficulty}</th>
+								<th style={{ width: "20%" }}>{t.vocabulary.category}</th>
+							</tr>
+						</thead>
+						<tbody>
+							{filteredVocabulary.map((item, index) => (
+								<tr key={`${item.category}-${index}`}>
 									<td>
-										<Typography level="body-sm" fontFamily="monospace" sx={{ color: "text.secondary" }}>
-											{item.jyutping}
+										<Typography level="body-md" fontWeight="md">
+											{item.swedish}
 										</Typography>
 									</td>
-								)}
-								<td>
-									<Chip size="sm" variant="soft" color={getDifficultyColor(item.difficulty)}>
-										{getDifficultyLabel(item.difficulty)}
-									</Chip>
-								</td>
-								<td>
-									<Typography level="body-sm" sx={{ color: "text.secondary" }}>
-										{categoryOptions.find((cat) => cat.value === item.category)?.label || item.category}
-									</Typography>
-								</td>
-							</tr>
-						))}
-					</tbody>
-				</Table>
-			</Sheet>
+									<td>
+										<Stack direction="row" spacing={1} alignItems="center">
+											<Typography level="body-md">{getDisplayCantonese(item, useHongKong)}</Typography>
+											{item.has_hk_variant && (
+												<Chip size="sm" variant="soft" color="primary" startDecorator={<FontAwesomeIcon icon="flag" />}>
+													HK
+												</Chip>
+											)}
+										</Stack>
+									</td>
+									{showJyutping && (
+										<td>
+											<Typography level="body-sm" fontFamily="monospace" sx={{ color: "text.secondary" }}>
+												{item.jyutping}
+											</Typography>
+										</td>
+									)}
+									<td>
+										<Chip size="sm" variant="soft" color={getDifficultyColor(item.difficulty)}>
+											{getDifficultyLabel(item.difficulty)}
+										</Chip>
+									</td>
+									<td>
+										<Typography level="body-sm" sx={{ color: "text.secondary" }}>
+											{categoryOptions.find((cat) => cat.value === item.category)?.label || item.category}
+										</Typography>
+									</td>
+								</tr>
+							))}
+						</tbody>
+					</Table>
+				</Sheet>
 
-			{filteredVocabulary.length === 0 && (
-				<Box sx={{ textAlign: "center", py: 4 }}>
-					<Typography level="body-lg" sx={{ color: "text.secondary" }}>
-						{t.vocabulary.noResults}
-					</Typography>
-				</Box>
-			)}
-		</Box>
+				{filteredVocabulary.length === 0 && (
+					<Box sx={{ textAlign: "center", py: 4 }}>
+						<Typography level="body-lg" sx={{ color: "text.secondary" }}>
+							{t.vocabulary.noResults}
+						</Typography>
+					</Box>
+				)}
+			</Box>
+		</>
 	);
 };
 

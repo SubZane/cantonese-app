@@ -12,6 +12,7 @@ import DifficultyRadio from "./form/DifficultyRadio";
 import IconlessRadio from "./form/IconlessRadio";
 import IconsRadio from "./form/IconsRadio";
 import QuestionCountRadio from "./form/QuestionCountRadio";
+import MetaTags from "./MetaTags";
 import QuizResults from "./QuizResults";
 
 interface VocabularyItem {
@@ -595,117 +596,120 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 	};
 
 	return (
-		<div className="quiz-view-wrapper">
-			<Sheet
-				sx={{
-					backgroundColor: "var(--joy-palette-background-surface)",
-					borderRadius: 0,
-					p: { xs: 1.5, sm: 3 },
-					mb: 0,
-					borderBottom: "1px solid var(--joy-palette-divider)",
-					flex: "none",
-				}}
-			>
-				<div className="quiz-header-content">
-					<div className="quiz-header-left">
-						<Typography
-							level="h1"
+		<>
+			<MetaTags title="Quiz" description="Testa dina kunskaper i kantonesiska med vårt interaktiva quiz" url="/quiz" />
+			<div className="quiz-view-wrapper">
+				<Sheet
+					sx={{
+						backgroundColor: "var(--joy-palette-background-surface)",
+						borderRadius: 0,
+						p: { xs: 1.5, sm: 3 },
+						mb: 0,
+						borderBottom: "1px solid var(--joy-palette-divider)",
+						flex: "none",
+					}}
+				>
+					<div className="quiz-header-content">
+						<div className="quiz-header-left">
+							<Typography
+								level="h1"
+								sx={{
+									fontSize: { xs: "1.25rem", sm: "1.5rem" },
+									fontWeight: 700,
+									color: "var(--joy-palette-text-primary)",
+									mb: 0.5,
+								}}
+							>
+								{getCategoryDisplayName()}
+							</Typography>
+							<Typography
+								level="body-sm"
+								sx={{
+									color: "var(--joy-palette-text-secondary)",
+									fontSize: { xs: "0.8rem", sm: "0.875rem" },
+								}}
+							>
+								{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
+							</Typography>
+						</div>
+						<Chip
+							variant="solid"
+							color={difficulty === "easy" ? "success" : difficulty === "medium" ? "warning" : difficulty === "hard" ? "danger" : "neutral"}
+							size="lg"
 							sx={{
-								fontSize: { xs: "1.25rem", sm: "1.5rem" },
-								fontWeight: 700,
-								color: "var(--joy-palette-text-primary)",
-								mb: 0.5,
+								fontWeight: 600,
+								letterSpacing: "0.5px",
+								color: "white",
+								fontSize: { xs: "0.75rem", sm: "0.875rem" },
 							}}
 						>
-							{getCategoryDisplayName()}
-						</Typography>
-						<Typography
-							level="body-sm"
-							sx={{
-								color: "var(--joy-palette-text-secondary)",
-								fontSize: { xs: "0.8rem", sm: "0.875rem" },
-							}}
-						>
-							{translate(t.quiz.questionNumber, { current: questionNumber.toString(), total: questionCount.toString() })}
-						</Typography>
+							{difficulty === "all"
+								? t.filters.difficulty.all
+								: difficulty === "easy"
+								? t.filters.difficulty.easy
+								: difficulty === "medium"
+								? t.filters.difficulty.medium
+								: difficulty === "hard"
+								? t.filters.difficulty.hard
+								: t.filters.difficulty.all}
+						</Chip>
 					</div>
-					<Chip
-						variant="solid"
-						color={difficulty === "easy" ? "success" : difficulty === "medium" ? "warning" : difficulty === "hard" ? "danger" : "neutral"}
-						size="lg"
-						sx={{
-							fontWeight: 600,
-							letterSpacing: "0.5px",
-							color: "white",
-							fontSize: { xs: "0.75rem", sm: "0.875rem" },
-						}}
-					>
-						{difficulty === "all"
-							? t.filters.difficulty.all
-							: difficulty === "easy"
-							? t.filters.difficulty.easy
-							: difficulty === "medium"
-							? t.filters.difficulty.medium
-							: difficulty === "hard"
-							? t.filters.difficulty.hard
-							: t.filters.difficulty.all}
-					</Chip>
-				</div>
-			</Sheet>
-			<div className="quiz-container">
-				{/* Question and Answer options - Grid-like layout */}
-				<div className="quiz-layout">
-					{/* Question */}
-					<div className="question-container">
-						<h3 className="question-text">{currentQuestion.swedish}</h3>
+				</Sheet>
+				<div className="quiz-container">
+					{/* Question and Answer options - Grid-like layout */}
+					<div className="quiz-layout">
+						{/* Question */}
+						<div className="question-container">
+							<h3 className="question-text">{currentQuestion.swedish}</h3>
+						</div>
+
+						{/* Answer options */}
+						<div className="options-container">
+							<IconlessRadio
+								value={selectedAnswer || ""}
+								onChange={handleAnswerSelect}
+								options={currentQuestion.options.map((option, index) => ({
+									value: option,
+									label: option,
+									jyutping: currentQuestion.optionsJyutping?.[index] || "",
+									isHK: currentQuestion.optionIsHK?.[index] || false,
+									hasHK: currentQuestion.optionHasHK?.[index] || false,
+								}))}
+								showJyutping={showJyutping}
+								disabled={showResult}
+								correctAnswer={currentQuestion.correctAnswer}
+								showResult={showResult}
+							/>
+						</div>
 					</div>
 
-					{/* Answer options */}
-					<div className="options-container">
-						<IconlessRadio
-							value={selectedAnswer || ""}
-							onChange={handleAnswerSelect}
-							options={currentQuestion.options.map((option, index) => ({
-								value: option,
-								label: option,
-								jyutping: currentQuestion.optionsJyutping?.[index] || "",
-								isHK: currentQuestion.optionIsHK?.[index] || false,
-								hasHK: currentQuestion.optionHasHK?.[index] || false,
-							}))}
-							showJyutping={showJyutping}
-							disabled={showResult}
-							correctAnswer={currentQuestion.correctAnswer}
-							showResult={showResult}
-						/>
-					</div>
+					{/* Action buttons */}
+					{showResult && (
+						<div className="quiz-actions">
+							<Button
+								variant="outlined"
+								color="danger"
+								onClick={() => {
+									if (window.confirm(t.quiz.confirmCancel)) {
+										resetQuiz();
+									}
+								}}
+							>
+								{t.quiz.cancelQuiz}
+							</Button>
+							<Button variant="solid" color="primary" onClick={handleNextQuestion}>
+								{questionNumber >= questionCount ? t.quiz.viewResults : t.quiz.nextQuestion}
+							</Button>
+						</div>
+					)}
 				</div>
 
-				{/* Action buttons */}
-				{showResult && (
-					<div className="quiz-actions">
-						<Button
-							variant="outlined"
-							color="danger"
-							onClick={() => {
-								if (window.confirm(t.quiz.confirmCancel)) {
-									resetQuiz();
-								}
-							}}
-						>
-							{t.quiz.cancelQuiz}
-						</Button>
-						<Button variant="solid" color="primary" onClick={handleNextQuestion}>
-							{questionNumber >= questionCount ? t.quiz.viewResults : t.quiz.nextQuestion}
-						</Button>
-					</div>
-				)}
+				{/* Progress bar at bottom */}
+				<div className="progress-bottom">
+					<LinearProgress determinate value={(questionNumber / questionCount) * 100} className="progress-bar-bottom" />
+				</div>
 			</div>
-
-			{/* Progress bar at bottom */}
-			<div className="progress-bottom">
-				<LinearProgress determinate value={(questionNumber / questionCount) * 100} className="progress-bar-bottom" />
-			</div>
-		</div>
+		</>
 	);
 };
 
