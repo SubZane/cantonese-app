@@ -1,5 +1,3 @@
-import "./fontawesome";
-
 import React, { useState } from "react";
 import { BrowserRouter as Router, Navigate, Route, Routes, useLocation } from "react-router-dom";
 

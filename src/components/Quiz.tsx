@@ -2,7 +2,10 @@ import "../styles/components/Quiz.scss";
 
 import React, { useEffect, useRef, useState } from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import CloseIcon from "@mui/icons-material/Close";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import RefreshIcon from "@mui/icons-material/Refresh";
 import { Button, Chip, FormControl, LinearProgress, Sheet, Typography } from "@mui/joy";
 
 import { getDisplayCantonese, isHongKongVariantDisplay, useCantoneseVariant } from "../context/CantoneseVariantContext";
@@ -453,7 +456,7 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 					<h5 className="mb-3">Error Loading Vocabulary</h5>
 					<p className="mb-3">{vocabularyError}</p>
 					<Button variant="solid" color="primary" onClick={() => loadVocabulary()}>
-						<FontAwesomeIcon icon="rotate-right" className="icon-spacing" />
+						<RefreshIcon className="icon-spacing" />
 						Try Again
 					</Button>
 				</div>
@@ -476,7 +479,7 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 							: t.quiz.loading}
 					</p>
 					<Button variant="solid" color="primary" onClick={resetQuiz}>
-						<FontAwesomeIcon icon="chevron-left" className="icon-spacing" />
+						<ArrowBackIcon className="icon-spacing" />
 						{t.buttons.backToSetup}
 					</Button>
 				</div>
@@ -530,7 +533,7 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 						{allVocabulary.length < questionCount && (
 							<div className="warning-box">
 								<Typography fontSize="sm" color="warning">
-									<FontAwesomeIcon icon="times" className="icon-spacing" />
+									<CloseIcon className="icon-spacing" />
 									{translate(t.quiz.errors.notEnoughWords, { found: allVocabulary.length.toString(), needed: questionCount.toString() })}
 								</Typography>
 							</div>
@@ -538,11 +541,11 @@ const Quiz: React.FC<QuizProps> = ({ showJyutping = false }) => {
 
 						<div className="step-navigation">
 							<Button variant="outlined" color="neutral" onClick={prevConfigStep}>
-								<FontAwesomeIcon icon="chevron-left" className="icon-spacing" />
+								<ArrowBackIcon className="icon-spacing" />
 								{t.buttons.back}
 							</Button>
 							<Button variant="solid" color="primary" onClick={nextConfigStep} disabled={allVocabulary.length < questionCount}>
-								<FontAwesomeIcon icon="play" className="icon-spacing" />
+								<PlayArrowIcon className="icon-spacing" />
 								{t.quiz.setup.startButton}
 							</Button>
 						</div>

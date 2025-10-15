@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FlagIcon from "@mui/icons-material/Flag";
+import SearchIcon from "@mui/icons-material/Search";
 import { Box, Chip, FormControl, FormLabel, Input, Sheet, Stack, Table, Typography } from "@mui/joy";
 
 import { getDisplayCantonese, useCantoneseVariant } from "../context/CantoneseVariantContext";
@@ -120,7 +121,6 @@ const VocabularyList: React.FC<VocabularyListProps> = ({ showJyutping = false })
 				<Typography level="h1" sx={{ mb: 3 }}>
 					{t.vocabulary.title}
 				</Typography>
-
 				{/* Category Filter */}
 				<Box sx={{ mb: 3 }}>
 					<FormControl>
@@ -128,20 +128,17 @@ const VocabularyList: React.FC<VocabularyListProps> = ({ showJyutping = false })
 						<IconsRadio value={selectedCategory} onChange={setSelectedCategory} options={categoryOptions} />
 					</FormControl>
 				</Box>
-
 				{/* Search Filter */}
 				<Box sx={{ mb: 3 }}>
 					<FormControl>
 						<FormLabel>{t.vocabulary.searchPlaceholder}</FormLabel>
-						<Input placeholder={t.vocabulary.searchDescription} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} startDecorator={<FontAwesomeIcon icon="search" />} sx={{ maxWidth: 400 }} />
+						<Input placeholder={t.vocabulary.searchDescription} value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} startDecorator={<SearchIcon />} sx={{ maxWidth: 400 }} />
 					</FormControl>
-				</Box>
-
+				</Box>{" "}
 				{/* Results Count */}
 				<Typography level="body-sm" sx={{ mb: 2, color: "text.secondary" }}>
 					{translate(t.vocabulary.showingResults, { count: filteredVocabulary.length.toString() })}
 				</Typography>
-
 				{/* Vocabulary Table */}
 				<Sheet variant="outlined" sx={{ borderRadius: "sm", overflow: "auto" }}>
 					<Table
@@ -174,7 +171,7 @@ const VocabularyList: React.FC<VocabularyListProps> = ({ showJyutping = false })
 										<Stack direction="row" spacing={1} alignItems="center">
 											<Typography level="body-md">{getDisplayCantonese(item, useHongKong)}</Typography>
 											{item.has_hk_variant && (
-												<Chip size="sm" variant="soft" color="primary" startDecorator={<FontAwesomeIcon icon="flag" />}>
+												<Chip size="sm" variant="soft" color="primary" startDecorator={<FlagIcon />}>
 													HK
 												</Chip>
 											)}
@@ -202,7 +199,6 @@ const VocabularyList: React.FC<VocabularyListProps> = ({ showJyutping = false })
 						</tbody>
 					</Table>
 				</Sheet>
-
 				{filteredVocabulary.length === 0 && (
 					<Box sx={{ textAlign: "center", py: 4 }}>
 						<Typography level="body-lg" sx={{ color: "text.secondary" }}>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import QuizIcon from "@mui/icons-material/Quiz";
 import { Box, Button, Card, Container, Typography } from "@mui/joy";
 
 import { useT } from "../translations";
@@ -41,7 +41,7 @@ const Home: React.FC = () => {
 						>
 							<Box sx={{ flexGrow: 1, p: 3 }}>
 								<Box sx={{ color: "primary.500", mb: 3, fontSize: "3rem" }}>
-									<FontAwesomeIcon icon="clipboard-question" />
+									<QuizIcon fontSize="inherit" />
 								</Box>
 								<Typography level="title-lg" sx={{ mb: 2 }}>
 									{t.home.quickQuiz.title}
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
 							</Box>
 							<Box sx={{ p: 3, pt: 0 }}>
 								<Button variant="solid" color="primary" onClick={handleNavigateToQuiz}>
-									<FontAwesomeIcon icon="clipboard-question" style={{ marginRight: "8px" }} />
+									<QuizIcon style={{ marginRight: "8px" }} />
 									{t.home.quickQuiz.button}
 								</Button>
 							</Box>

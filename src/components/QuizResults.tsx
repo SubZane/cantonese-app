@@ -2,7 +2,10 @@ import "../styles/components/Quiz.scss";
 
 import React, { useEffect, useRef } from "react";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import CheckIcon from "@mui/icons-material/Check";
+import CloseIcon from "@mui/icons-material/Close";
+import RefreshIcon from "@mui/icons-material/Refresh";
+import VisibilityIcon from "@mui/icons-material/Visibility";
 import { Button, Sheet, Table } from "@mui/joy";
 
 import { useT } from "../translations";
@@ -94,9 +97,7 @@ const QuizResults: React.FC<QuizResultsProps> = ({ score, questionCount, results
 											</div>
 											{showJyutping && <div className="table-jyutping">{result.correctJyutping.toLowerCase()}</div>}
 										</td>
-										<td className="table-cell-result">
-											<FontAwesomeIcon icon={result.isCorrect ? "check" : "times"} className={`table-result-icon ${result.isCorrect ? "correct" : "incorrect"}`} />
-										</td>
+										<td className="table-cell-result">{result.isCorrect ? <CheckIcon className="table-result-icon correct" /> : <CloseIcon className="table-result-icon incorrect" />}</td>
 									</tr>
 								);
 							})}
@@ -106,7 +107,7 @@ const QuizResults: React.FC<QuizResultsProps> = ({ score, questionCount, results
 
 				<div className="text-center">
 					<Button variant="solid" color="primary" onClick={onRestart}>
-						<FontAwesomeIcon icon="rotate-right" className="icon-spacing" />
+						<RefreshIcon className="icon-spacing" />
 						{t.quiz.complete.restartButton}
 					</Button>
 				</div>
@@ -124,12 +125,12 @@ const QuizResults: React.FC<QuizResultsProps> = ({ score, questionCount, results
 			<div className="completion-actions">
 				{onShowDetailedResults && (
 					<Button variant="outlined" color="primary" onClick={onShowDetailedResults}>
-						<FontAwesomeIcon icon="eye" className="icon-spacing" />
+						<VisibilityIcon className="icon-spacing" />
 						{t.quiz.results.title}
 					</Button>
 				)}
 				<Button variant="solid" color="primary" onClick={onRestart}>
-					<FontAwesomeIcon icon="rotate-right" className="icon-spacing" />
+					<RefreshIcon className="icon-spacing" />
 					{t.quiz.complete.restartButton}
 				</Button>
 			</div>

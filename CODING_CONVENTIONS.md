@@ -68,13 +68,14 @@ export default Quiz;
 3. **Component function**
 4. **Export statement**
 
+````tsx
 ```tsx
 // 1. React imports first
 import React, { useState, useEffect } from "react";
 
 // 2. Third-party library imports
 import { Button, Form } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 // 3. Local imports (absolute paths preferred)
 import { VocabularyItem } from "../types/quiz.types";
@@ -83,17 +84,21 @@ import "./Quiz.scss";
 
 // 4. Type definitions
 interface QuizProps {
-	// props here
+````
+
+    // props here
+
 }
 
 // 5. Component
 const Quiz: React.FC<QuizProps> = () => {
-	// implementation
+// implementation
 };
 
 // 6. Export
 export default Quiz;
-```
+
+````
 
 ### Props Guidelines
 
@@ -117,7 +122,7 @@ interface BadProps {
 	data: any; // Use specific types instead
 	onClick: (event: any) => void; // Use React.MouseEvent
 }
-```
+````
 
 ## TypeScript Standards
 
@@ -348,19 +353,24 @@ function useLocalStorage<T>(key: string, initialValue: T) {
 
 ### Import Order
 
+````tsx
+### Import Order
+
 ```tsx
 // 1. React and React-related
 import React, { useState, useEffect, useCallback } from "react";
 
 // 2. Third-party libraries (alphabetical)
 import { Button, Form, Container } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 // 3. Internal imports - Types first
 import type { VocabularyItem, QuizQuestion } from "../types/quiz.types";
 
 // 4. Internal imports - Hooks
 import { useTranslation } from "../hooks/useTranslation";
+````
+
 import { useLocalStorage } from "../hooks/useLocalStorage";
 
 // 5. Internal imports - Components
@@ -372,7 +382,8 @@ import { shuffleArray, validateAnswer } from "../utils/quiz.utils";
 
 // 7. Styles (last)
 import "./Quiz.scss";
-```
+
+````
 
 ### Export Standards
 
@@ -393,7 +404,7 @@ export { validateAnswer, shuffleArray };
 export { default as Quiz } from "./Quiz";
 export { default as Header } from "./Header";
 export { default as BottomNav } from "./BottomNav";
-```
+````
 
 ## Performance Best Practices
 

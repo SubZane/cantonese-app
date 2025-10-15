@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import BookIcon from "@mui/icons-material/Book";
+import HomeIcon from "@mui/icons-material/Home";
+import QuizIcon from "@mui/icons-material/Quiz";
 import { Box, Typography } from "@mui/joy";
 
 import { useT } from "../translations";
@@ -14,9 +16,9 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView }) => {
 	const { t } = useT();
 
 	const navItems = [
-		{ key: "home", label: t.navigation.home, icon: "home", path: "/" },
-		{ key: "vocabulary", label: t.navigation.vocabulary, icon: "book", path: "/vocabulary" },
-		{ key: "quiz", label: t.navigation.quiz, icon: "clipboard-question", path: "/quiz" },
+		{ key: "home", label: t.navigation.home, icon: <HomeIcon />, path: "/" },
+		{ key: "vocabulary", label: t.navigation.vocabulary, icon: <BookIcon />, path: "/vocabulary" },
+		{ key: "quiz", label: t.navigation.quiz, icon: <QuizIcon />, path: "/quiz" },
 	];
 
 	return (
@@ -67,7 +69,7 @@ const BottomNav: React.FC<BottomNavProps> = ({ currentView }) => {
 							lineHeight: 1,
 						}}
 					>
-						<FontAwesomeIcon icon={item.icon as any} />
+						{item.icon}
 					</Box>
 					<Typography
 						fontSize="xs"
